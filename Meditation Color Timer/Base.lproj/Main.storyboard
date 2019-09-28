@@ -1,293 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
+        <deployment version="4864" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Meditation View Controller-->
-        <scene sceneID="JP3-C5-Y0q">
-            <objects>
-                <viewController id="pgb-B9-ksK" customClass="MeditationViewController" customModule="Meditation_Color_Timer" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="QVF-b8-USv">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pzs-SG-v3I">
-                                <rect key="frame" x="16" y="93" width="343" height="512"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Meditation is a practice where an individual uses a technique like mindfulness or focusing their mind on a particular object or a thought or an activity to cultivate attention and awareness, and achieve a mentally clear and emotionally serene state.
-One could argue that meditation in some form has been practiced since Human Beings developed self awareness and started to contemplate their place in relationship to everything else around them. Numerous religions and belief systems use meditation, often as part of the path toward liberation, awakening and Nirvana. Since the 19th century, it has spread from its origins to other cultures where it is commonly practiced in private and business life.
-Meditation may be used with the aim of reducing stress, anxiety, depression, and pain, and increasing peace, self perception and well being. It is currently being researched to test its possible health benefits in psychology, neurology and the cardiovascular systems.  
-
-Etymology
-The English meditation is derived from the Latin word meditatio from a verb meditation, meaning to think, contemplate, devise, ponder.
-In the Old Testament hāgâ (Hebrew: הגה) means to sigh or murmur, and also, to meditate. When the Hebrew Bible was translated into Greek, hāgâ became the Greek melete. The Latin Bible then translated hāgâ/melete into meditatio.
-In addition within specific contexts more precise meanings are not uncommonly given the word meditation. For example, meditation is sometimes the translation of meditatio in Latin. Meditatio is the second of four steps of Lectio Divina, an ancient form of Christian prayer. Meditation also refers to the seventh of the eight limbs of Yoga in Patanjali's Yoga Sutras, a step called dhyāna in Sanskrit. Meditation refers to a mental or spiritual state that may be attained by such practices and also refers to the practice of that state.
-Apart from its historical usage, the term meditation was introduced as a translation for Eastern spiritual practices, referred to as dhyāna in Hinduism and Buddhism and which comes from the Sanskrit root dhyai, meaning to contemplate or meditate. The term meditation in English may also refer to practices from Islamic Sufism or other traditions such as Jewish Kabbalah and Christian Hesychasm. A book about meditation, published in 2003, included chapter contributions by authors describing Hindu, Buddhist, Taoist, Jewish, Christian, and Islamic traditions. Scholars noted that the term 'meditation' as it has entered contemporary usage is parallel to the term 'contemplation' in Christianity, but in many cases, practices similar to modern forms of meditation were simply called 'prayer'. Christian, Judaic, and Islamic forms of meditation are typically devotional, scriptural or thematic, while Asian forms of meditation are often more purely technical.
-
-Definitions
-In popular usage, the word meditation and the phrase 'meditative practice' are often used imprecisely to designate broadly similar practices, or sets of practices, that are found across many cultures and traditions. What is considered meditation can include almost any practice that cultivates attention or teaches tranquility, compassion or deeper understanding and empathy.
-
-Dictionary definitions
-Definitions in the Oxford and Cambridge living dictionaries and Merriam-Webster include both the original Latin meaning of "think[ing] deeply about (something)"; as well as the popular usage of "to focus one's mind for a period of time", "the act of giving your attention to only one thing"' and "to engage in mental exercise (such as concentration on one's breathing or repetition of a mantra) for the purpose of reaching a heightened level of self/spiritual awareness".
-
-Scholarly definitions
-The criteria for defining a practice as meditation for use in a comprehensive systematic review of the therapeutic use of meditation were identified by 'Bond et al.(2009)' using a 5-round Delphi study with a panel of 7 experts in meditation research who were also trained in diverse but empirically highly studied (clinical or Eastern-derived) forms of meditation. The three main criteria essential to any meditation practice are the use of a defined technique, the relaxation of logic and a self-induced altered state.
-Other criteria deemed important, but not essential, involve a state of psychophysical relaxation, the use of a self-focus skill or anchor, the presence of a state of suspension of logical thought processes, a religious/spiritual/philosophical context, or a state of mental silence.
-
-In modern psychological research, meditation has been defined and characterised in a variety of ways. Many of these emphasise the role of attention. Scientific reviews have proposed that researchers should attempt to more clearly define the type of meditation being practiced in order that the results of their studies can be made clearer. One review of the field provides a detailed set of questions as a starting point in reaching this goal.
-The practitioner of meditation attempts to get beyond the reflexive 'thinking' mind (sometimes called 'discursive thinking' or 'logic'). This may be to achieve a deeper, more devout, or more relaxed state.
-
-Separation of technique from tradition
-Some of the difficulty in precisely defining meditation has been the difficulty in recognising the particularities of the many various traditions. There may be differences between the theories of one tradition of meditation as to what it means to practice meditation. The differences between the various traditions themselves, which have grown apart from each other, may be even starker. Taylor noted that to refer only to meditation from a particular faith such as 'Hindu' or 'Buddhist' is not enough, since the cultural traditions from which a particular kind of meditation comes from are quite different and even within a single tradition differ in complex ways. The specific name of a school of thought or a teacher or the title of a specific text is often quite important for identifying a particular type of meditation.
-Ornstein noted that "Most techniques of meditation do not exist as solitary practices but are only artificially separable from an entire system of practice and belief. For example, while monks engage in meditation as a part of their everyday lives, they also engage the codified rules and live together in monasteries in specific cultural settings that go along with their meditative practices. These meditative practices sometimes have similarities (often noticed by Westerners), for instance concentration on the breath is practiced in Zen, Tibetan and Theravaden contexts. These similarities or 'types' are observed and noted.
-
-Forms of meditation
-Focused vs open monitoring meditation
-In the West, meditation techniques have sometimes been thought of in two broad categories: focused, or concentrative meditation and open monitoring, or mindfulness meditation.
-One style, Focused Attention (FA) meditation, entails the voluntary focusing-of-attention on a chosen object, breathing, image, or words. The other style, Open Monitoring (OM) meditation, involves non-reactive monitoring of the content of experience from moment to moment.
-Direction of mental attention... A practitioner can focus intensively on one particular object (so-called concentrative meditation), on all mental events that enter the field of awareness (so-called mindfulness meditation), or both specific focal points and the field of awareness.
-Focused attention methods
-These include paying attention to the breath, to an idea or feeling (such as metta (loving kindness) to a koan or to a mantra, such as in transcendental meditation and single point meditation.
-Open monitoring methods
-These include mindfulness, shikantaza and other awareness states.
-Practices using both methods
-Some practices use both techniques, including vipassana (which uses anapanasati as a preparation), samatha/calm-abiding and Headspace.
-No thought
-In these methods, the practitioner is fully alert, aware, and in control of their faculties but does not experience any unwanted thought activity. This is in contrast to the common meditative approaches of being detached from, and non-judgmental of, thoughts, but not of aiming for thoughts to cease. In the meditation practice of the Sahara yoga spiritual movement, the focus is on thoughts ceasing. Clear light yoga also aims at a state of no mental content, as does the no thought (wu nian) state taught by Huineng and the teaching of Yaoshan Weiyan.
-Automatic self-transcending
-One proposal is that transcendental meditation and possibly other techniques be grouped as an 'automatic self-transcending' set of techniques.
-Other types
-Other types include dividing meditation into concentrative, generative, receptive and reflective practices.
-
-Meditation practice
-Common practice timings
-The transcendental mediation technique recommends practice of 20 minutes twice per day. Some techniques suggest less time, especially when starting meditation, with some researchers saying benefits can be achieved with a practice of only 8 minutes per day. Some meditators practice for much longer, particularly when on a course or retreat. Some meditators recommend practice is best performed in the hours before dawn.
-Physical postures and techniques
-Whilst asanas and positions such as the full-lotus, half-lotus, Burmese, Seiza and kneeling positions are popular in Buddhism, Jainism and Hinduism, other postures such as sitting, supine(lying) and standing are also used. Meditation is also sometimes done while walking, known as kinhin, or while doing a simple task mindfully, known as sama.
-Use of prayer beads
-Some ancient religions of the world have a tradition of using prayer beads as tools in devotional meditation. Most prayer beads and Christian rosaries consist of pearls or beads linked together by a thread. The Roman Catholic Rosary is a string of beads containing five sets with ten small beads. The Hindu Japa mala has 108 beads (the figure 108 in itself having spiritual significance, as well as those used in Jainism and Buddhist prayer beads such as juzu beads. Each bead is counted once as a person recites a mantra until the person has gone all the way around the mala. The Muslim misbaha has 99 beads.
-Possible benefits of supporting meditation practice with a narrative[edit]
-Richie Davidson has expressed the view that having a narrative can help maintenance of daily practice.[68] For instance he himself prostrates to the teachings, and meditates "not primarily for my benefit, but for the benefit of others."[68]
-Religious and spiritual meditation[edit]
-Indian religions[edit]
-Jainism[edit]
-Main article: Jain meditation
-￼
-
-Mahavira in meditative posture
-In Jainism, meditation has been a core spiritual practice, one that Jains believe people have undertaken since the teaching of the Tirthankara, Rishabha.[79] All the twenty-four Tirthankaras practiced deep meditation and attained enlightenment.[80] They are all shown in meditative postures in the images or idols. Mahavirapracticed deep meditation for twelve years and attained enlightenment.[81] The Acaranga Sutra dating to 500 BCE, addresses the meditation system of Jainism in detail.[82] Acharya Bhadrabahu of the 4th century BCE practiced deep Mahaprana meditation for twelve years.[83] Kundakunda of 1st century BCE, opened new dimensions of meditation in Jain tradition through his books Samayasāra, Pravachansar and others.[84] The 8th century Jain philosopher Haribhadra also contributed to the development of Jain yoga through his Yogadṛṣṭisamuccaya, which compares and analyzes various systems of yoga, including Hindu, Buddhist and Jain systems.
-Jain meditation and spiritual practices system were referred to as salvation-path. It has three important parts called the Ratnatraya "Three Jewels": right perception and faith, right knowledge and right conduct.[85] Meditation in Jainism aims at realizing the self, attaining salvation, take the soul to complete freedom.[86] It aims to reach and to remain in the pure state of soul which is believed to be pure consciousness, beyond any attachment or aversion. The practitioner strives to be just a knower-seer (Gyata-Drashta). Jain meditation can be broadly categorized to Dharmya Dhyana and Shukla Dhyana.
-There exists a number of meditation techniques such as pindāstha-dhyāna, padāstha-dhyāna, rūpāstha-dhyāna, rūpātita-dhyāna, savīrya-dhyāna, etc. In padāstha dhyāna one focuses on Mantra.[87] A Mantra could be either a combination of core letters or words on deity or themes. There is a rich tradition of Mantra in Jainism. All Jain followers irrespective of their sect, whether Digambara or Svetambara, practice mantra. Mantra chanting is an important part of daily lives of Jain monks and followers. Mantra chanting can be done either loudly or silently in mind. Yogasana and Pranayama has been an important practice undertaken since ages. Pranayama – breathing exercises – are performed to strengthen the five Pranas or vital energy.[88]Yogasana and Pranayama balances the functioning of neuro-endocrine system of body and helps in achieving good physical, mental and emotional health.[89]
-Contemplation is a very old and important meditation technique. The practitioner meditates deeply on subtle facts. In agnya vichāya, one contemplates on seven facts – life and non-life, the inflow, bondage, stoppage and removal of karmas, and the final accomplishment of liberation. In apaya vichāya, one contemplates on the incorrect insights one indulges, which eventually develops right insight. In vipaka vichāya, one reflects on the eight causes or basic types of karma. In sansathan vichāya, one thinks about the vastness of the universe and the loneliness of the soul.[87]
-Acharya Mahapragya formulated Preksha meditation in the 1970s and presented a well-organised system of meditation. Asana and Pranayama, meditation, contemplation, mantra and therapy are its integral parts.[90] Numerous Preksha meditation centers came into existence around the world and numerous meditations camps are being organized to impart training in it.
-Buddhism[edit]
-Main article: Buddhist meditation
-￼
-
-Bodhidharma practicing zazen.
-Buddhist meditation refers to the meditative practices associated with the religion and philosophy of Buddhism. Core meditation techniques have been preserved in ancient Buddhist texts and have proliferated and diversified through teacher-student transmissions. Buddhists pursue meditation as part of the path toward awakening and nirvana.[91] The closest words for meditation in the classical languages of Buddhism are bhāvanā,[92] jhāna/dhyāna,[93] and vipassana.
-Buddhist meditation techniques have become increasingly popular in the wider world, with many non-Buddhists taking them up for a variety of reasons. There is considerable homogeneity across meditative practices – such as breath meditation and various recollections (anussati) – that are used across Buddhist schools, as well as significant diversity. In the Theravāda tradition alone, there are over fifty methods for developing mindfulness and forty for developing concentration, while in the Tibetan tradition there are thousands of visualization meditations.[94] Most classical and contemporary Buddhist meditation guides are school-specific.[95]
-According to the Theravada and Sarvastivada commentatorial tradition, and also the Tibetan tradition,[96] the Buddha is said to have identified two paramount mental qualities that arise from wholesome meditative practice:
-* "serenity" or "tranquility" (Pali: samatha) which steadies, composes, unifies and concentrates the mind;
-* "insight" (Pali: vipassana) which enables one to see, explore and discern "formations" (conditioned phenomena based on the five aggregates).[97]
-Through the meditative development of serenity, one is able to weaken the obscuring hindrances and bring the mind to a collected, pliant and still state (samadhi). This quality of mind then supports the development of insight and wisdom (Prajñā) which is the quality of mind that can "clearly see" (vi-passana) the nature of phenomena. What exactly is to be seen various withing the Buddhist traditions.[96] In Theravada, all phenomena are to be seen as impermanent, suffering, not-selfand empty. When this happens, one develops dispassion (viraga) for all phenomena, including all negative qualities and hindrances and lets them go. It is through the release of the hindrances and ending of craving through the meditative development of insight that one gains liberation.[98]
-In the modern era, Buddhist meditation saw increasing popularity due to the influence of Buddhist modernism on Asian Buddhism, and western lay interest in Zen and the Vipassana movement. The spread of Buddhist meditation to the Western world paralleled the spread of Buddhism in the West. Buddhist meditation has also influenced Western Psychology, especially through the work of Jon Kabat-Zinn who founded the Mindfulness-Based Stress Reduction (MBSR) in 1979.[99] The modernized concept of mindfulness (based on the Buddhist term sati) and related meditative practices has in turn led to several mindfulness based therapies.
-Hinduism[edit]
-See also: Dhyana in Hinduism and Yoga
-There are many schools and styles of meditation within Hinduism.[100]
-Traditional[edit]
-￼
-
-A statue of Patañjali practicing dhyana in the Padma-asana at Patanjali Yogpeeth.
-￼
-
-Kundalini chakra diagram
-In pre-modern and traditional Hindu religions, Yoga and Dhyana are done to realize union of one's eternal self or soul, one's ātman. In some Hindu traditions, such as Advaita Vedanta this is equated with the omnipresent and non-dual Brahman. In others, such as the dualistic the Yoga school and Samkhya, the Self is referred to as Purusha, a pure consciousness which is separate from matter. Depending on the tradition, this liberative event is referred to as moksha, vimukti or kaivalya.
-The earliest clear references to meditation in Hindu literature are in the middle Upanishads and the Mahabharata, the latter of which includes the Bhagavad Gita.[101][102] According to Gavin Flood, the earlier Brihadaranyaka Upanishad refers to meditation when it states that "having become calm and concentrated, one perceives the self (ātman) within oneself".[100]
-One of the most influential texts of classical Hindu Yoga is Patañjali's Yoga sutras (c. 400 CE), a text associated with Yoga and Samkhya, which outlines eight limbs leading to kaivalya ("aloneness"). These are ethical discipline (yamas), rules (niyamas), physical postures (āsanas), breath control (prāṇāyama), withdrawal from the senses (pratyāhāra), one-pointedness of mind (dhāraṇā), meditation (dhyāna), and finally samādhi.
-Later developments in Hind meditation include the compilation of Hatha Yoga (forceful yoga) compendiums like the Hatha Yoga Pradipika, the development of Bhakti yoga as a major form of meditation and Tantra. Another important Hindu yoga text is the Yoga Yajnavalkya, which makes use of Hatha Yoga and Vedanta Philosophy.
-In the sixth chapter of Bhāvārthadipikā[103] commentary on the Bhagavad-Gita by Sri Jñāneśvar (Dnyaneshwar)[104] meditation in yoga is described as a state caused by the spontaneous awakening of the sacred energy Kundalini (not Prana or Chi), which creates a connection of the individual soul Ātman with universal Spirit – Paramātman.
-Modern[edit]
-Meditation is used in modern Hindu religious movements.
-See also: Hindu new religious movements
-Sikhism[edit]
-Main article: Nām Japō
-￼
-
-
-Sikhs gather in Gurdwara's and recite Shabad Kirtan, a vocal meditation
-In Sikhism, simran (meditation) and good deeds are both necessary to achieve the devotee's Spiritual goals;[105] without good deeds meditation is futile. When Sikhs meditate, they aim to feel God's presence and immerge in the divine light.[106] It is only God's divine will or order that allows a devotee to desire to begin to meditate. Guru Nanak in the Japji Sahib daily Sikh scripture explains:
-Visits to temples, penance, compassion and charity gain you but a sesame seed of credit. It is hearkening to His Name, accepting and adoring Him that obtains emancipation by bathing in the shrine of soul. All virtues are Yours, O Lord! I have none; Without good deeds one can't even meditate.[107]
-Nām Japnā involves focusing one's attention on the names or great attributes of God.[108]
-East Asian religions[edit]
-Taoism[edit]
-Main article: Daoist meditation
-￼
-
-"Gathering the Light", Taoist meditation from The Secret of the Golden Flower
-Taoist or Daoist meditation has a long history, and has developed various techniques including concentration, visualization, qi cultivation, contemplation, and mindfulness meditations. Traditional Daoist meditative practices were influenced by Chinese Buddhism beginning around the 5th century, and later had influence upon Traditional Chinese medicine and the Chinese martial arts.
-Livia Kohn distinguishes three basic types of Daoist meditation: "concentrative", "insight", and "visualization".[109] Ding 定 (literally means "decide; settle; stabilize") refers to "deep concentration", "intent contemplation", or "perfect absorption". Guan 觀 (lit. "watch; observe; view") meditation seeks to merge and attain unity with the Dao. It was developed by Tang Dynasty (618–907) Daoist masters based upon the Tiantai Buddhist practice of Vipassanā "insight" or "wisdom" meditation. Cun存 (lit. "exist; be present; survive") has a sense of "to cause to exist; to make present" in the meditation techniques popularized by the Daoist Shangqing and Lingbao Schools. A meditator visualizes or actualizes solar and lunar essences, lights, and deities within his/her body, which supposedly results in health and longevity, even xian 仙/仚/僊, "immortality".
-The (late 4th century BCE) Guanzi essay Neiye "Inward training" is the oldest received writing on the subject of qi cultivation and breath-control meditation techniques.[110] For instance, "When you enlarge your mind and let go of it, when you relax your vital breath and expand it, when your body is calm and unmoving: And you can maintain the One and discard the myriad disturbances. ... This is called "revolving the vital breath": Your thoughts and deeds seem heavenly."[111]
-The (c. 3rd century BCE) Daoist Zhuangzi records zuowang or "sitting forgetting" meditation. Confucius asked his disciple Yan Hui to explain what "sit and forget" means: "I slough off my limbs and trunk, dim my intelligence, depart from my form, leave knowledge behind, and become identical with the Transformational Thoroughfare."[112]
-Daoist meditation practices are central to Chinese martial arts (and some Japanese martial arts), especially the qi-related neijia "internal martial arts". Some well-known examples are daoyin"guiding and pulling", qigong "life-energy exercises", neigong "internal exercises", neidan "internal alchemy", and taijiquan "great ultimate boxing", which is thought of as moving meditation. One common explanation contrasts "movement in stillness" referring to energetic visualization of qi circulation in qigong and zuochan "seated meditation",[45] versus "stillness in movement" referring to a state of meditative calm in taijiquan forms.
-Iranian religions[edit]
-Bahá'í Faith[edit]
-In the teachings of the Bahá'í Faith, meditation along with prayer are both primary tools for spiritual development[113] and mainly refer to one's reflection on the words of God.[114] While prayer and meditation are linked, where meditation happens generally in a prayerful attitude, prayer is seen specifically as turning toward God,[115] and meditation is seen as a communion with one's self where one focuses on the divine.[114]
-The Bahá'í teachings note that the purpose of meditation is to strengthen one's understanding of the words of God, and to make one's soul more susceptible to their potentially transformative power,[114] more receptive to the need for both prayer and meditation to bring about and maintain a spiritual communion with God.[116]
-Bahá'u'lláh, the founder of the religion, never specified any particular form of meditation, and thus each person is free to choose their own form.[113] However, he specifically did state that Bahá'ís should read a passage of the Bahá'í writings twice a day, once in the morning, and once in the evening, and meditate on it. He also encouraged people to reflect on one's actions and worth at the end of each day.[114] During the Nineteen Day Fast, a period of the year during which Bahá'ís adhere to a sunrise-to-sunset fast, they meditate and pray to reinvigorate their spiritual forces.[117]
-Abrahamic religions[edit]
-Judaism[edit]
-Main article: Jewish meditation
-There is evidence that Judaism has had meditative practices that go back thousands of years.[118][119] For instance, in the Torah, the patriarch Isaac is described as going "לשוח" (lasuach) in the field – a term understood by all commentators as some type of meditative practice (Genesis 24:63).[120]
-Similarly, there are indications throughout the Tanakh (the Hebrew Bible) that meditation was used by the prophets.[121] In the Old Testament, there are two Hebrew words for meditation: hāgâ(Hebrew: הגה‎), which means to sigh or murmur, but also to meditate, and sîḥâ (Hebrew: שיחה‎), which means to muse, or rehearse in one's mind.[122]
-Some meditative traditions have been encouraged in the school of Judaism known as Kabbalah, and some Jews have described Kabbalah as an inherently meditative field of study.[123][124][125]Aryeh Kaplan has argued that, for the Kabbalist, the ultimate purpose of meditative practice is to understand and cleave to the Divine.[122] Classic methods include the mental visualisation of the supernal realms the soul navigates through to achieve certain ends. One of the best known types of meditation in early Jewish mysticism was the work of the Merkabah, from the root /R-K-B/ meaning "chariot" (of God).[122]
-Meditation has been of interest to a wide variety of modern Jews. In modern Jewish practice, one of the best known meditative practices is called "hitbodedut" (התבודדות, alternatively transliterated as "hisbodedus"), and is explained in Kabbalistic, Hasidic, and Mussar writings, especially the Hasidic method of Rabbi Nachman of Breslav. The word derives from the Hebrew word "boded" (בודד), meaning the state of being alone.[126] Another Hasidic system is the Habad method of "hisbonenus", related to the Sephirah of "Binah", Hebrew for understanding.[127] This practice is the analytical reflective process of making oneself understand a mystical concept well, that follows and internalises its study in Hasidic writings.
-The Musar Movement, founded by Rabbi Israel Salanter in the middle of the nineteenth-century, emphasized meditative practices of introspection and visualization that could help to improve moral character.[128]
-Jewish Buddhists have adopted Buddhist styles of meditation.[129]
-Christianity[edit]
-￼
-
-A strong believer in Christian meditation, Saint Pio of Pietrelcinastated: "Through the study of books one seeks God; by meditation one finds him."[130]
-Main articles: Christian meditation, Aspects of Christian meditation, Contemplative prayer, Hesychasm, Theoria, and Ophaloskepsis
-Christian meditation is a term for a form of prayer in which a structured attempt is made to get in touch with and deliberately reflect upon the revelations of God.[131] The word meditation comes from the Latin word meditari, which means to concentrate. Christian meditation is the process of deliberately focusing on specific thoughts (e.g. a biblical scene involving Jesus and the Virgin Mary) and reflecting on their meaning in the context of the love of God.[132]
-The Rosary is a devotion for the meditation of the mysteries of Jesus and Mary.[133][134]“The gentle repetition of its prayers makes it an excellent means to moving into deeper meditation. It gives us an opportunity to open ourselves to God’s word, to refine our interior gaze by turning our minds to the life of Christ. The first principle is that meditation is learned through practice. Many people who practice rosary meditation begin very simply and gradually develop a more sophisticated meditation. The meditator learns to hear an interior voice, the voice of God”.[135]
-Christian meditation contrasts with Eastern forms of meditation as radically as the portrayal of God the Father in the Bible contrasts with depictions of Krishna or Brahman in Indian teachings.[136] Unlike Eastern meditations, most styles of Christian meditations do not rely on the repeated use of mantras, and yet are also intended to stimulate thought and deepen meaning. Christian meditation aims to heighten the personal relationship based on the love of God that marks Christian communion.[137][138]
-In Aspects of Christian meditation, the Catholic Church warned of potential incompatibilities in mixing Christian and Eastern styles of meditation.[139] In 2003, in A Christian reflection on the New Age the Vatican announced that the "Church avoids any concept that is close to those of the New Age".[140][141][142]
-Christian meditation is sometimes taken to mean the middle level in a broad three stage characterization of prayer: it then involves more reflection than first level vocal prayer, but is more structured than the multiple layers of contemplation in Christianity.[143]
-In Frankfurt, Germany in 2007 the Centre for Christian Meditation and Spirituality in the Holy Cross Church, Frankfurt-Bornheim was founded by the Roman Catholic Diocese of Limburg. In and by the centre different kinds of church services are offered like for example with elements such as expressionist dance, moreover days of exercises of Christian mysticism, contemplative prayer, meditative singing, meditation courses, Zen-meditation courses, days of reflection, spiritual exercises and retreats[144]
-Early studies on states of consciousness conducted by Roland Fischer [145] found evidence of mystical experience description in the writings of Saint Teresa of Avila. In her autobiography she describes that, at the peak of a praying experience "... the soul neither hears nor sees nor feels. While it lasts, none of the senses perceives or knows what is taking place".[146] This corresponds to the fourth stage described by Saint Teresa, "Devotion of Ecstasy", where the consciousness of being in the body disappears, as an effect of deep transcendent meditation in prayer.
-Islam[edit]
-Main articles: Sufi, Muraqaba, Sema, and Dhikr § Sufi view
-Salah is a mandatory act of devotion performed by Muslims five times per day. The body goes through sets of different postures, as the mind attains a level of concentration called khushu'.
-A second optional type of meditation, called dhikr, meaning remembering and mentioning God, is interpreted in different meditative techniques in Sufism or Islamic mysticism.[147][148] This became one of the essential elements of Sufism as it was systematized traditionally. It is juxtaposed with fikr (thinking) which leads to knowledge.[149] By the 12th century, the practice of Sufism included specific meditative techniques, and its followers practiced breathing controls and the repetition of holy words.[150]
-Numerous Sufi traditions place emphasis upon a meditative procedure which comes from the cognitive aspect to one of the two principal approaches to be found in the Buddhist traditions: that of the concentration technique, involving high-intensity and sharply focused introspection. In the Oveyssi-Shahmaghsoudi Sufi order, for example, this is particularly evident, where muraqaba takes the form of tamarkoz, the latter being a Persian term that means "concentration".[151]
-Tafakkur or tadabbur in Sufism literally means reflection upon the universe: this is considered to permit access to a form of cognitive and emotional development that can emanate only from the higher level, i.e. from God. The sensation of receiving divine inspiration awakens and liberates both heart and intellect, permitting such inner growth that the apparently mundane actually takes on the quality of the infinite. Muslim teachings embrace life as a test of one's submission to God.[152]
-Pagan and occult religions[edit]
-Religions and religious movements which use magic, such as Wicca, Thelema, Neopaganism, occultism etc., often require their adherents to meditate as a preliminary to the magical work. This is because magic is often thought to require a particular state of mind in order to make contact with spirits, or because one has to visualize one's goal or otherwise keep intent focused for a long period during the ritual in order to see the desired outcome. Meditation practice in these religions usually revolves around visualization, absorbing energy from the universe or higher self, directing one's internal energy, and inducing various trance states. Meditation and magic practice often overlap in these religions as meditation is often seen as merely a stepping stone to supernatural power, and the meditation sessions may be peppered with various chants and spells.
-Modern spirituality[edit]
-Mantra meditation, with the use of a japa mala and especially with focus on the Hare Krishna maha-mantra, is a central practice of the Gaudiya Vaishnava faith tradition and the International Society for Krishna Consciousness (ISKCON), also known as the Hare Krishna movement. Other popular New Religious Movements include the Ramakrishna Mission, Vedanta Society, Divine Light Mission, Chinmaya Mission, Osho, Sahaja Yoga, Transcendental Meditation, Oneness University, Brahma Kumaris and Vihangam Yoga.
-New Age[edit]
-Main article: New Age
-New Age meditations are often influenced by Eastern philosophy, mysticism, yoga, Hinduism and Buddhism, yet may contain some degree of Western influence. In the West, meditation found its mainstream roots through the social revolution of the 1960s and 1970s, when many of the youth of the day rebelled against traditional religion as a reaction against what some perceived as the failure of Christianity to provide spiritual and ethical guidance.[153] New Age meditation as practised by the early hippies is regarded for its techniques of blanking out the mind and releasing oneself from conscious thinking. This is often aided by repetitive chanting of a mantra, or focusing on an object.[154] New Age meditation evolved into a range of purposes and practices, from serenity and balance to access to other realms of consciousness to the concentration of energy in group meditation to the supreme goal of samadhi, as in the ancient yogic practice of meditation.[155]
-Mindfulness[edit]
-Main article: Mindfulness
-Over the past 20 years, mindfulness and mindfulness-based programs have been used to assist people, whether they be clinically sick or healthy.[156] Jon Kabat-Zinn, who founded the Mindfulness-Based Stress Reduction program in 1979, has defined mindfulness as 'moment to moment non-judgmental awareness.'[157] Several methods are used during time set aside specifically for mindfulness meditation, such as body scan techniques or letting thought arise and pass, and also during our daily lives, such as being aware of the taste and texture of the food that we eat.[158] Some studies offer evidence that mindfulness practices are beneficial for the brain's self-regulation by increasing activity in the anterior cingulate cortex.[159] A shift from using the right prefrontal cortex is claimed to be associated with a trend away from depression and anxiety, and towards happiness, relaxation, and emotional balance.[160]
-Secular applications[edit]
-As stated by the National Center for Complementary and Alternative Medicine, a US government entity within the National Institutes of Health that advocates various forms of Alternative Medicine, "Meditation may be practiced for many reasons, such as to increase calmness and physical relaxation, to improve psychological balance, to cope with illness, or to enhance overall health and well-being."[161][10]
-Meditation techniques have also been used by Western theories of counseling and psychotherapy. Relaxation training works toward achieving mental and muscle relaxation to reduce daily stresses. Sahaja (mental silence) meditators scored above control group for emotional well-being and mental health measures on SF-36 ratings.[162][163]
-Jacobson's Progressive Muscle Relaxation was developed by American physician Edmund Jacobson in the early 1920s. In this practice one tenses and then relaxes muscle groups in a sequential pattern whilst concentrating on how they feel. The method has been seen to help people with many conditions, especially extreme anxiety.[164] Jacobson is credited with developing the initial progressive relaxation procedure. These techniques are used in conjunction with other behavioral techniques. Originally used with systematic desensitization, relaxation techniques are now used with other clinical problems. Meditation, hypnosis and biofeedback-induced relaxation are a few of the techniques used with relaxation training.
-One of the eight essential phases of EMDR (developed by Francine Shapiro), bringing adequate closure to the end of each session, also entails the use of relaxation techniques, including meditation. Multimodal therapy, a technically eclectic approach to behavioral therapy, also employs the use of meditation as a technique used in individual therapy.[165]
-￼
-
-A collective meditation in Sri Lanka
-From the point of view of psychology and physiology, meditation can induce an altered state of consciousness.[166] Such altered states of consciousness may correspond to altered neuro-physiologic states.[167]
-Today, there are many different types of meditation practiced in western culture. Mindful breathing, progressive muscle relaxation, and loving kindness meditations for instance have been found to provide cognitive benefits such as relaxation and decentering. With training in meditation, depressive rumination can be decreased and overall peace of mind can flourish. Different techniques have shown to work better for different people.[168]
-Sound-based meditation[edit]
-Herbert Benson of Harvard Medical School conducted a series of clinical tests on meditators from various disciplines, including the Transcendental Meditation technique and Tibetan Buddhism. In 1975, Benson published a book titled The Relaxation Response where he outlined his own version of meditation for relaxation.[169] Also in the 1970s, the American psychologist Patricia Carrington developed a similar technique called Clinically Standardized Meditation (CSM).[170] In Norway, another sound-based method called Acem Meditation developed a psychology of meditation and has been the subject of several scientific studies.[171]
-Biofeedback has been used by many researchers since the 1950s in an effort to enter deeper states of mind.[172]
-History[edit]
-Main article: History of meditation
-￼
-
-Man Meditating in a Garden Setting
-The history of meditation is intimately bound up with the religious context within which it was practiced.[173][clarification needed] Some authors have even suggested the hypothesis that the emergence of the capacity for focused attention, an element of many methods of meditation,[174] may have contributed to the latest phases of human biological evolution.[175] Some of the earliest references to meditation are found in the Hindu Vedas of India.[173] Wilson translates the most famous Vedic mantra "Gayatri" as: "We meditate on that desirable light of the divine Savitri, who influences our pious rites" (Rigveda : Mandala-3, Sukta-62, Rcha-10). Around the 6th to 5th centuries BCE, other forms of meditation developed via Confucianism and Taoism in China as well as Hinduism, Jainism, and early Buddhism in Nepal and India.[173]
-In the Roman Empire, by 20 BCE Philo of Alexandria had written on some form of "spiritual exercises" involving attention (prosoche) and concentration[176]and by the 3rd century Plotinus had developed meditative techniques.
-The Pāli Canon, which dates to 1st century BCE considers Buddhist meditation as a step towards liberation.[177] By the time Buddhism was spreading in China, the Vimalakirti Sutra which dates to 100 CE included a number of passages on meditation, clearly pointing to Zen (known as Chan in China, Thiền in Vietnam, and Seon in Korea).[178] The Silk Road transmission of Buddhism introduced meditation to other Asian countries, and in 653 the first meditation hall was opened in Singapore.[179] Returning from China around 1227, Dōgen wrote the instructions for zazen.[180][181]
-The Islamic practice of Dhikr had involved the repetition of the 99 Names of God since the 8th or 9th century.[147][148] By the 12th century, the practice of Sufism included specific meditative techniques, and its followers practiced breathing controls and the repetition of holy words.[150] Interactions with Indians, Nepalese or the Sufis may have influenced the Eastern Christian meditation approach to hesychasm, but this can not be proved.[182][183] Between the 10th and 14th centuries, hesychasm was developed, particularly on Mount Athos in Greece, and involves the repetition of the Jesus prayer.[184]
-Western Christian meditation contrasts with most other approaches in that it does not involve the repetition of any phrase or action and requires no specific posture. Western Christian meditationprogressed from the 6th century practice of Bible reading among Benedictine monks called Lectio Divina, i.e. divine reading. Its four formal steps as a "ladder" were defined by the monk Guigo II in the 12th century with the Latin terms lectio, meditatio, oratio, and contemplatio (i.e. read, ponder, pray, contemplate). Western Christian meditation was further developed by saints such as Ignatius of Loyola and Teresa of Avila in the 16th century.[185][186][187][188]
-Secular forms of meditation were introduced in India in the 1950s as a modern form of Hindu meditative techniques and arrived in Australia in the late 1950s[189] and, the United States and Europe in the 1960s. Rather than focusing on spiritual growth, secular meditation emphasizes stress reduction, relaxation and self-improvement.[173][190] Both spiritual and secular forms of meditation have been subjects of scientific analyses. Research on meditation began in 1931, with scientific research increasing dramatically during the 1970s and 1980s.[191] Since the beginning of the '70s more than a thousand studies of meditation in English have been reported.[191] However, after 60 years of scientific study, the exact mechanism at work in meditation remains unclear.[173]
-Modern dissemination in the west[edit]
-Methods of meditation have been cross-culturally disseminated at various times throughout history, such as Buddhism going to East Asia, and Sufi practices going to many Islamic societies. Of special relevance to the modern world is the dissemination of meditative practices since the late 19th century, accompanying increased travel and communication among cultures worldwide. Most prominent has been the transmission of numerous Asian-derived practices to the West. In addition, interest in some Western-based meditative practices has also been revived,[192] and these have been disseminated to a limited extent to Asian countries.[193] Also evident is some extent of influence over Enlightenment thinking through Denis Diderot's Encyclopédie, although he states, "I find that a meditation practitioner is often quite useless and that a contemplation practitioner is always insane".[194]
-Ideas about Eastern meditation had begun "seeping into American popular culture even before the American Revolution through the various sects of European occult Christianity",[36]:3 and such ideas "came pouring in [to America] during the era of the transcendentalists, especially between the 1840s and the 1880s."[36]:3 The following decades saw further spread of these ideas to America:
-The World Parliament of Religions, held in Chicago in 1893, was the landmark event that increased Western awareness of meditation. This was the first time that Western audiences on American soil received Asian spiritual teachings from Asians themselves. Thereafter, Swami Vivekananda... [founded] various Vedanta ashrams... Anagarika Dharmapala lectured at Harvard on Theravada Buddhist meditation in 1904; Abdul Baha ... [toured] the US teaching the principles of Bahai, and Soyen Shaku toured in 1907 teaching Zen...[36]:4
-￼
-
-Meditating in Madison Square Park, New York City
-More recently, in the 1960s, another surge in Western interest in meditative practices began. Observers have suggested many types of explanations for this interest in Eastern meditation and revived Western contemplation. Thomas Keating, a founder of Contemplative Outreach, wrote that "the rush to the East is a symptom of what is lacking in the West. There is a deep spiritual hunger that is not being satisfied in the West."[195]:31 Daniel Goleman, a scholar of meditation, suggested that the shift in interest from "established religions" to meditative practices "is caused by the scarcity of the personal experience of these [meditation-derived] transcendental states – the living spirit at the common core of all religions."[4]:xxiv
-Another suggested contributing factor is the rise of communist political power in Asia, which "set the stage for an influx of Asian spiritual teachers to the West",[36]:7 oftentimes as refugees.[196]
-Meditation in the workplace[edit]
-A 2010 review of the literature on spirituality and performance in organizations found an increase in corporate meditation programs.[197]
-As of 2016 around a quarter of U.S. employers were using stress reduction initiatives.[198][199] The goal was to help reduce stress and improve reactions to stress. Aetna now offers its program to its customers. Google also implements mindfulness, offering more than a dozen meditation courses, with the most prominent one, "Search Inside Yourself", having been implemented since 2007.[199] General Mills offers the Mindful Leadership Program Series, a course which uses a combination of mindfulness meditation, yoga and dialog with the intention of developing the mind's capacity to pay attention.[199]
-Research on meditation[edit]
-Main article: Research on meditation
-Research on the processes and effects of meditation is a subfield of neurological research.[9] Modern scientific techniques, such as fMRI and EEG, were used to observe neurological responses during meditation.[200] Since the 1950s, hundreds of studies on meditation have been conducted, though the overall methological quality of meditation research is poor, yielding unreliable results.[201]
-Since the 1970s, clinical psychology and psychiatry have developed meditation techniques for numerous psychological conditions.[202] Mindfulness practice is employed in psychology to alleviate mental and physical conditions, such as reducing depression, stress, and anxiety.[9][203][204] Mindfulness is also used in the treatment of drug addiction.[205] Studies demonstrate that meditation has a moderate effect to reduce pain.[9] There is insufficient evidence for any effect of meditation on positive mood, attention, eating habits, sleep, or body weight.[9]
-A 2017 systematic review and meta-analysis of the effects of meditation on empathy, compassion, and prosocial behaviors found that meditation practices had small to medium effects on self-reported and observable outcomes, concluding that such practices can "improve positive prosocial emotions and behaviors".[206]
-Preliminary studies showed a potential relationship between meditation and job performance, resulting from cognitive and social effects.[207][208]
-Concerns have been raised on the quality of much meditation research,[209][210] including the particular characteristics of individuals who tend to participate.[211]
-Differences in effects of different methods[edit]
-Evidence from neuroimaging studies suggests that the categories of meditation, as defined by how they direct attention, appear to generate different brainwave patterns.[38][53] Evidence also suggests that using different focus objects during meditation may generate different brainwave patterns.[212]
-Prevalence of meditation[edit]
-The 2012 US National Health Interview Survey (NHIS) (n = 34,525), found 8.0% of US adults used meditation,[213] with lifetime and 12-month prevalence of meditation use of 5.2% and 4.1% respectively.[214] In the 2017 survey meditation use among workers was 9.9% (up from 8.0% in 2002).[215]
-</string>
-                                <color key="textColor" red="0.80248147250000001" green="0.49211525919999999" blue="0.13590013980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C3Q-SI-uVD">
-                                <rect key="frame" x="153" y="615" width="69" height="34"/>
-                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
-                                <state key="normal" title="Dismiss">
-                                    <color key="titleColor" red="0.80248147250000001" green="0.49211525919999999" blue="0.13590013980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="homeButtonTapped:" destination="pgb-B9-ksK" eventType="touchUpInside" id="vuI-0L-sCY"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.76565754409999998" green="0.001094937325" blue="0.085418157280000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="rZO-2R-qUo" firstAttribute="bottom" secondItem="C3Q-SI-uVD" secondAttribute="bottom" constant="18" id="2b6-eP-fCk"/>
-                            <constraint firstItem="pzs-SG-v3I" firstAttribute="top" secondItem="QVF-b8-USv" secondAttribute="top" constant="93" id="IgS-mW-Jeo"/>
-                            <constraint firstItem="C3Q-SI-uVD" firstAttribute="centerX" secondItem="QVF-b8-USv" secondAttribute="centerX" id="Lfl-JF-O2d"/>
-                            <constraint firstItem="pzs-SG-v3I" firstAttribute="leading" secondItem="QVF-b8-USv" secondAttribute="leadingMargin" id="gb3-r9-kCj"/>
-                            <constraint firstItem="C3Q-SI-uVD" firstAttribute="top" secondItem="pzs-SG-v3I" secondAttribute="bottom" constant="10" id="kou-SS-h2u"/>
-                            <constraint firstItem="pzs-SG-v3I" firstAttribute="centerX" secondItem="C3Q-SI-uVD" secondAttribute="centerX" id="zbF-Na-41C"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="rZO-2R-qUo"/>
-                    </view>
-                    <connections>
-                        <outlet property="homeButton" destination="C3Q-SI-uVD" id="9jV-gg-m9l"/>
-                        <outlet property="text" destination="pzs-SG-v3I" id="R85-Mn-EQA"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HZ0-aK-sa8" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1380" y="111.99400299850076"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Meditation_Color_Timer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Take_1_Minute" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="sRe-2j-uJJ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="five minute color meditation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t5r-Yq-yWS">
-                                <rect key="frame" x="35" y="21.5" width="305" height="24"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clouds" translatesAutoresizingMaskIntoConstraints="NO" id="BpN-Eo-U9K">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="T a k e    1    M i n u t e" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t5r-Yq-yWS">
+                                <rect key="frame" x="73.5" y="24" width="173" height="22.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="18"/>
-                                <color key="textColor" red="0.80392156859999997" green="0.49019607840000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="1" height="-1"/>
                             </label>
                             <button hidden="YES" opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffS-d7-flZ">
-                                <rect key="frame" x="58.5" y="84" width="33" height="32"/>
+                                <rect key="frame" x="48.5" y="56" width="31" height="32"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="  10  ">
-                                    <color key="titleColor" red="0.80248147250000001" green="0.49211525919999999" blue="0.13590013980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.80392156859999997" green="0.49019607840000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -295,7 +43,7 @@ The 2012 US National Health Interview Survey (NHIS) (n = 34,525), found 8.0%
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wBh-X3-Ha2">
-                                <rect key="frame" x="133.5" y="84" width="33" height="32"/>
+                                <rect key="frame" x="112.5" y="56" width="31" height="32"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -308,7 +56,7 @@ The 2012 US National Health Interview Survey (NHIS) (n = 34,525), found 8.0%
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8F3-N3-hq0">
-                                <rect key="frame" x="207.5" y="84" width="35" height="32"/>
+                                <rect key="frame" x="175" y="56" width="34" height="32"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -321,7 +69,7 @@ The 2012 US National Health Interview Survey (NHIS) (n = 34,525), found 8.0%
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ouU-dz-YNS" userLabel="Thirty Minutes">
-                                <rect key="frame" x="282" y="84" width="36" height="32"/>
+                                <rect key="frame" x="239" y="56" width="34" height="32"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -334,7 +82,7 @@ The 2012 US National Health Interview Survey (NHIS) (n = 34,525), found 8.0%
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q8G-9w-CO4" userLabel="Forty Five Minutes">
-                                <rect key="frame" x="57" y="151" width="36" height="32"/>
+                                <rect key="frame" x="46.5" y="104" width="35" height="32"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -347,7 +95,7 @@ The 2012 US National Health Interview Survey (NHIS) (n = 34,525), found 8.0%
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hnS-4c-bfW" userLabel="Sixty Minutes">
-                                <rect key="frame" x="132" y="151" width="36" height="32"/>
+                                <rect key="frame" x="110.5" y="104" width="35" height="32"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -360,7 +108,7 @@ The 2012 US National Health Interview Survey (NHIS) (n = 34,525), found 8.0%
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2XB-Ve-H5y">
-                                <rect key="frame" x="207" y="151" width="36" height="32"/>
+                                <rect key="frame" x="174.5" y="104" width="35" height="32"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -373,7 +121,7 @@ The 2012 US National Health Interview Survey (NHIS) (n = 34,525), found 8.0%
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bvY-aK-der">
-                                <rect key="frame" x="279" y="151" width="42" height="32"/>
+                                <rect key="frame" x="236" y="104" width="40" height="32"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -385,51 +133,43 @@ The 2012 US National Health Interview Survey (NHIS) (n = 34,525), found 8.0%
                                     <action selector="hundredTwentyMinutes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xtd-YC-MdY"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDR-1g-yoF" userLabel="Reset Button">
-                                <rect key="frame" x="153.5" y="115.5" width="68" height="36"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="  Reset  ">
-                                    <color key="titleColor" red="0.80248147250000001" green="0.49211525919999999" blue="0.13590013980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="resetButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KAY-IV-Mxr"/>
-                                </connections>
-                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="l6u-VD-HBT" userLabel="Time Stack View">
-                                <rect key="frame" x="80.5" y="286" width="214.5" height="95.5"/>
+                                <rect key="frame" x="95" y="71.5" width="130" height="97"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="05" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJJ-wa-3Yp">
-                                        <rect key="frame" x="0.0" y="0.0" width="92" height="95.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJJ-wa-3Yp">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="97"/>
                                         <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="80"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
+                                        <color key="shadowColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <size key="shadowOffset" width="1" height="-1"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="50Y-Tg-OdB">
-                                        <rect key="frame" x="122" y="0.0" width="92.5" height="95.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="50Y-Tg-OdB">
+                                        <rect key="frame" x="80" y="0.0" width="50" height="97"/>
                                         <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="80"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
+                                        <color key="shadowColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <size key="shadowOffset" width="1" height="-1"/>
                                     </label>
                                 </subviews>
                             </stackView>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ee-rd-csW">
-                                <rect key="frame" x="158" y="566.5" width="59" height="34"/>
+                                <rect key="frame" x="130.5" y="403" width="59" height="34"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="titleShadowOffset" width="1" height="-1"/>
                                 <state key="normal" title="  Start  ">
-                                    <color key="titleColor" red="0.80248147250000001" green="0.49211525919999999" blue="0.13590013980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="startTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SIV-Bx-BJM"/>
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m82-fp-3QP" userLabel="Time Left">
-                                <rect key="frame" x="0.0" y="316.5" width="375" height="34"/>
+                                <rect key="frame" x="0.0" y="223" width="320" height="34"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal">
@@ -441,7 +181,7 @@ The 2012 US National Health Interview Survey (NHIS) (n = 34,525), found 8.0%
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vp6-gk-DCA" userLabel="Hide Time Left">
-                                <rect key="frame" x="0.0" y="316.5" width="375" height="34"/>
+                                <rect key="frame" x="0.0" y="223" width="320" height="34"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -454,57 +194,59 @@ The 2012 US National Health Interview Survey (NHIS) (n = 34,525), found 8.0%
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qT4-T4-eXl">
-                                <rect key="frame" x="60.5" y="566.5" width="67" height="34"/>
+                                <rect key="frame" x="46.5" y="403" width="67" height="34"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="titleShadowOffset" width="1" height="-1"/>
                                 <state key="normal" title="  Pause  ">
-                                    <color key="titleColor" red="0.80248147250000001" green="0.49211525919999999" blue="0.13590013980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="pauseTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2QS-fw-OYO"/>
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CCv-sH-0sK">
-                                <rect key="frame" x="52.5" y="566.5" width="83" height="34"/>
+                                <rect key="frame" x="38.5" y="403" width="83" height="34"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="titleShadowOffset" width="1" height="-1"/>
                                 <state key="normal" title="  Resume  ">
-                                    <color key="titleColor" red="0.80248147250000001" green="0.49211525919999999" blue="0.13590013980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="resumeTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q4j-Gb-c96"/>
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8B-w7-y4S">
-                                <rect key="frame" x="244.5" y="566.5" width="74" height="34"/>
+                                <rect key="frame" x="203.5" y="403" width="73" height="34"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="titleShadowOffset" width="1" height="-1"/>
                                 <state key="normal" title="  Cancel  ">
-                                    <color key="titleColor" red="0.80248147250000001" green="0.49211525919999999" blue="0.13590013980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="stopTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GZ8-Mt-YtX"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plug in device if battery less than 20%" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HKd-Sa-FSb" userLabel="Warning Label">
-                                <rect key="frame" x="87.5" y="614.5" width="200" height="38.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plug in device if battery is less than 20%" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HKd-Sa-FSb" userLabel="Warning Label">
+                                <rect key="frame" x="74.5" y="426.5" width="171.5" height="39.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="FEV-QE-FEt"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <color key="textColor" name="green2HCT"/>
+                                <color key="textColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="1" height="-1"/>
                             </label>
                             <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0AM-7H-uuq">
-                                <rect key="frame" x="124.5" y="552.5" width="126" height="29"/>
+                                <rect key="frame" x="99" y="393.5" width="122" height="29"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -517,7 +259,7 @@ The 2012 US National Health Interview Survey (NHIS) (n = 34,525), found 8.0%
                                 </connections>
                             </button>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Make In-App Purchase to  access these pre-set times" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J8F-c5-0Jl">
-                                <rect key="frame" x="111.5" y="118.5" width="152.5" height="30"/>
+                                <rect key="frame" x="84" y="81" width="152" height="30"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
@@ -525,33 +267,70 @@ The 2012 US National Health Interview Survey (NHIS) (n = 34,525), found 8.0%
                                 <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="91c-DO-ciJ">
+                                <rect key="frame" x="-3.5" y="97.5" width="327" height="285.5"/>
+                                <string key="text">HOW TO USE   after pressing Start  look at the color and breathe in  breathe out and close your eyes  breathe normally keeping the color in mind  when the bell rings (volume up)  open your eyes and repeat</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="1" height="-1"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDR-1g-yoF" userLabel="Reset Button">
+                                <rect key="frame" x="126" y="402" width="68" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="titleShadowOffset" width="1" height="-1"/>
+                                <state key="normal" title="  Reset  ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KAY-IV-Mxr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3B3-zc-fm0">
+                                <rect key="frame" x="9" y="62.5" width="302.5" height="345"/>
+                                <string key="text">CONGRATULATIONS   You have just completed  1 minute  of focused meditation  thinking only of colors and breathing  while setting aside all other thoughts.  WELL DONE  ENJOY YOUR DAY</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="1" height="-1"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.76565754409999998" green="0.001094937325" blue="0.085418157280000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="CCv-sH-0sK" firstAttribute="centerY" secondItem="9Ee-rd-csW" secondAttribute="centerY" id="1E0-JA-sBk"/>
                             <constraint firstItem="m82-fp-3QP" firstAttribute="bottom" secondItem="vp6-gk-DCA" secondAttribute="bottom" id="3zb-kI-pWd"/>
+                            <constraint firstItem="3B3-zc-fm0" firstAttribute="centerY" secondItem="Zgq-O0-XgI" secondAttribute="centerY" constant="-5" id="4dx-bA-nNc"/>
                             <constraint firstItem="2XB-Ve-H5y" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="0.5" id="6IS-cU-VLh"/>
                             <constraint firstItem="bvY-aK-der" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" multiplier="1.6" id="8D0-iR-VeG"/>
                             <constraint firstItem="q8G-9w-CO4" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" multiplier="0.4" id="8sH-11-ia8"/>
-                            <constraint firstItem="m82-fp-3QP" firstAttribute="centerX" secondItem="l6u-VD-HBT" secondAttribute="centerX" id="BG6-03-ddi"/>
+                            <constraint firstItem="m82-fp-3QP" firstAttribute="centerX" secondItem="Zgq-O0-XgI" secondAttribute="centerX" id="BG6-03-ddi"/>
                             <constraint firstItem="D8B-w7-y4S" firstAttribute="centerY" secondItem="9Ee-rd-csW" secondAttribute="centerY" id="BLz-28-ePR"/>
+                            <constraint firstItem="BpN-Eo-U9K" firstAttribute="leading" secondItem="sRe-2j-uJJ" secondAttribute="leading" id="F1j-Gc-EXi"/>
                             <constraint firstItem="m82-fp-3QP" firstAttribute="top" secondItem="vp6-gk-DCA" secondAttribute="top" id="FBp-ja-cKi"/>
                             <constraint firstItem="9Ee-rd-csW" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="FpH-9O-Mro"/>
+                            <constraint firstItem="l6u-VD-HBT" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="FzH-3N-Ubi"/>
                             <constraint firstItem="qT4-T4-eXl" firstAttribute="centerY" secondItem="9Ee-rd-csW" secondAttribute="centerY" id="G2y-1I-MoJ"/>
                             <constraint firstItem="qT4-T4-eXl" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" multiplier="0.5" id="G9m-o6-oLo"/>
                             <constraint firstItem="bvY-aK-der" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="0.5" id="I6c-uc-3OS"/>
                             <constraint firstItem="vp6-gk-DCA" firstAttribute="leading" secondItem="m82-fp-3QP" secondAttribute="leading" id="IgM-Zp-iIt"/>
+                            <constraint firstItem="BpN-Eo-U9K" firstAttribute="top" secondItem="sRe-2j-uJJ" secondAttribute="top" id="K5V-1j-TD6"/>
                             <constraint firstAttribute="trailing" secondItem="vp6-gk-DCA" secondAttribute="trailing" id="K7R-46-wf4"/>
                             <constraint firstItem="8F3-N3-hq0" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="0.3" id="NzT-eH-9rI"/>
                             <constraint firstItem="9Ee-rd-csW" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="1.75" id="TBz-jk-8NM"/>
                             <constraint firstItem="hnS-4c-bfW" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" multiplier="0.8" id="TKE-CR-97a"/>
                             <constraint firstItem="2XB-Ve-H5y" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" multiplier="1.2" id="UMj-ai-h1P"/>
-                            <constraint firstItem="HKd-Sa-FSb" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="1.9" id="VmA-3b-Xwe"/>
+                            <constraint firstItem="HKd-Sa-FSb" firstAttribute="bottom" secondItem="Zgq-O0-XgI" secondAttribute="centerY" multiplier="1.9" constant="10" id="VmA-3b-Xwe"/>
                             <constraint firstItem="ouU-dz-YNS" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" multiplier="1.6" id="W5G-pW-rFi"/>
                             <constraint firstItem="0AM-7H-uuq" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="1.7" id="WIa-e6-1NX"/>
                             <constraint firstItem="HKd-Sa-FSb" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="aJ0-eF-EDx"/>
                             <constraint firstItem="m82-fp-3QP" firstAttribute="firstBaseline" secondItem="vp6-gk-DCA" secondAttribute="firstBaseline" id="dQ3-kJ-tCt"/>
                             <constraint firstItem="8F3-N3-hq0" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" multiplier="1.2" id="dk5-mZ-dmA"/>
+                            <constraint firstItem="3B3-zc-fm0" firstAttribute="centerX" secondItem="Zgq-O0-XgI" secondAttribute="centerX" id="eas-bt-FnM"/>
                             <constraint firstItem="m82-fp-3QP" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" id="eoO-jN-Szi"/>
                             <constraint firstItem="0AM-7H-uuq" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="f1v-dS-f6s"/>
                             <constraint firstItem="D8B-w7-y4S" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" multiplier="1.5" id="gI8-VE-lFH"/>
@@ -559,28 +338,35 @@ The 2012 US National Health Interview Survey (NHIS) (n = 34,525), found 8.0%
                             <constraint firstItem="ffS-d7-flZ" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" multiplier="0.4" id="gQu-B0-hWr"/>
                             <constraint firstItem="CCv-sH-0sK" firstAttribute="centerX" secondItem="9Ee-rd-csW" secondAttribute="centerX" multiplier="0.5" id="i6Z-lO-T6S"/>
                             <constraint firstItem="t5r-Yq-yWS" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="is0-II-ota"/>
-                            <constraint firstItem="hDR-1g-yoF" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="l7q-74-MJQ"/>
+                            <constraint firstItem="hDR-1g-yoF" firstAttribute="centerX" secondItem="9Ee-rd-csW" secondAttribute="centerX" id="l7q-74-MJQ"/>
                             <constraint firstItem="ffS-d7-flZ" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="0.3" id="lHF-Na-ke2"/>
-                            <constraint firstItem="vp6-gk-DCA" firstAttribute="centerY" secondItem="l6u-VD-HBT" secondAttribute="centerY" id="mgw-3b-RvJ"/>
+                            <constraint firstAttribute="bottom" secondItem="BpN-Eo-U9K" secondAttribute="bottom" id="lwS-kc-KKu"/>
+                            <constraint firstItem="l6u-VD-HBT" firstAttribute="centerY" secondItem="Zgq-O0-XgI" secondAttribute="centerY" multiplier="0.5" id="mgw-3b-RvJ"/>
                             <constraint firstItem="q8G-9w-CO4" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="0.5" id="qAr-D8-M2K"/>
                             <constraint firstItem="J8F-c5-0Jl" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="0.4" id="qsP-EJ-sFo"/>
+                            <constraint firstItem="91c-DO-ciJ" firstAttribute="centerX" secondItem="Zgq-O0-XgI" secondAttribute="centerX" id="sKZ-fx-fao"/>
                             <constraint firstItem="J8F-c5-0Jl" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="t2Q-XW-Xh1"/>
-                            <constraint firstItem="t5r-Yq-yWS" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="0.1" id="ubb-yo-Moy"/>
+                            <constraint firstItem="t5r-Yq-yWS" firstAttribute="top" secondItem="Zgq-O0-XgI" secondAttribute="centerY" multiplier="0.1" id="ubb-yo-Moy"/>
+                            <constraint firstItem="91c-DO-ciJ" firstAttribute="centerY" secondItem="Zgq-O0-XgI" secondAttribute="centerY" id="uq6-9Z-2rS"/>
                             <constraint firstItem="wBh-X3-Ha2" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" multiplier="0.8" id="vTg-5n-dpc"/>
                             <constraint firstItem="hnS-4c-bfW" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="0.5" id="vpn-C5-7vM"/>
                             <constraint firstItem="m82-fp-3QP" firstAttribute="trailing" secondItem="vp6-gk-DCA" secondAttribute="trailing" id="vsn-V7-0ts"/>
+                            <constraint firstAttribute="trailing" secondItem="BpN-Eo-U9K" secondAttribute="trailing" id="w5w-1N-cyg"/>
                             <constraint firstItem="m82-fp-3QP" firstAttribute="baseline" secondItem="vp6-gk-DCA" secondAttribute="baseline" id="wPz-K3-mh2"/>
-                            <constraint firstItem="hDR-1g-yoF" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="0.4" id="wv2-do-Sd5"/>
+                            <constraint firstItem="hDR-1g-yoF" firstAttribute="centerY" secondItem="9Ee-rd-csW" secondAttribute="centerY" id="wv2-do-Sd5"/>
                             <constraint firstItem="m82-fp-3QP" firstAttribute="leading" secondItem="sRe-2j-uJJ" secondAttribute="leading" id="zL9-wW-euJ"/>
                             <constraint firstItem="ouU-dz-YNS" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="0.3" id="ze8-10-xRQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Zgq-O0-XgI"/>
                     </view>
                     <connections>
+                        <outlet property="cloudsView" destination="BpN-Eo-U9K" id="Lid-Wb-Av0"/>
+                        <outlet property="congratulationsLabel" destination="3B3-zc-fm0" id="zVP-6L-Ceq"/>
                         <outlet property="fifteenMinutes" destination="wBh-X3-Ha2" id="f3T-1t-aBe"/>
                         <outlet property="fortyFiveMinutes" destination="q8G-9w-CO4" id="K1E-3S-Kym"/>
                         <outlet property="hideTimeLeft" destination="vp6-gk-DCA" id="Hi6-xR-rOZ"/>
                         <outlet property="homeButton" destination="0AM-7H-uuq" id="SxK-Q3-b0p"/>
+                        <outlet property="howToUseLabel" destination="91c-DO-ciJ" id="ZKV-dH-Yzc"/>
                         <outlet property="hundredTwentyMinutes" destination="bvY-aK-der" id="I2Y-k7-aIY"/>
                         <outlet property="makePurchaseLabel" destination="J8F-c5-0Jl" id="QHE-eF-MrK"/>
                         <outlet property="minutesLabel" destination="IJJ-wa-3Yp" id="TeD-m2-kkJ"/>
@@ -601,366 +387,10 @@ The 2012 US National Health Interview Survey (NHIS) (n = 34,525), found 8.0%
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-610.39999999999998" y="343.17841079460271"/>
-        </scene>
-        <!--Privacy Policy View Controller-->
-        <scene sceneID="YJE-TS-6j2">
-            <objects>
-                <viewController id="pko-MQ-621" customClass="PrivacyPolicyViewController" customModule="Meditation_Color_Timer" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="KR6-v6-rGA">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgc-fb-6bf">
-                                <rect key="frame" x="142" y="616.5" width="91" height="34"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="   Dismiss   ">
-                                    <color key="titleColor" red="0.80248147250000001" green="0.49211525919999999" blue="0.13590013980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="returnToTimerTapped:" destination="pko-MQ-621" eventType="touchUpInside" id="58u-bk-8e1"/>
-                                </connections>
-                            </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ee-Td-5o7">
-                                <rect key="frame" x="15" y="50" width="345" height="556.5"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Privacy Policy
-Effective date: December 29, 2018
-
-Meditation Color Timer ("us", "we", or "our") operates the https://kentishtownnw5.wixsite.com/meditationcolortimer website and the Meditation Color Timer mobile application (hereinafter referred to as the "Service").
-
-This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. Our Privacy Policy for Meditation Color Timer is managed with the help of Privacy Policies.
-
-By using the Service, you agree to the collection and use of information in accordance with this policy.
-
-Information Collection And Use
-
-We collect several different types of information for various purposes to provide and improve our Service to you.
-
-Types of Data Collected
-
-Personal Data
-
-While using our Service, we do not ask you to provide us with any personally identifiable information that can be used or identify you ("Personal Data"). If you contact the developer by email via the Apple App Store your email address will be securely stored by the developer and not transferred to any third parties. You can choose to have your email address deleted by the developer by emailing a request.
-
-Usage Data
-
-We may collect information that your browser sends whenever you visit our Service or when you access the Service by or through a mobile device ("Usage Data").
-
-This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
-
-When you access the Service with a mobile device, this Usage Data may include information such as the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data.
-
-Use of Data
-
-Meditation Color Timer uses the collected data for various purposes:
-
-To provide and maintain the Service
-
-To provide analysis or valuable information so that we can improve the Service
-
-To monitor the usage of the Service
-
-To detect, prevent and address technical issues
-
-Transfer Of Data
-
-Your information may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ from those from within your jurisdiction.
-
-If you are located outside United Kingdom please note that we transfer the data to United States and process it there.
-
-Meditation Color Timer will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Data will take place to an organisation or a country unless there are adequate controls in place to secure your data.
-
-Service Providers
-
-We employ third party companies to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analysing how our Service is used.
-
-These third parties have access to your Usage Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.
-
-Website
-
-The website is created on and hosted by Wix.com
-
-Please visit their website to view their privacy policy at: https://www.wix.com/about/privacy 
-
-Links To Other Sites
-
-Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.
-
-We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
-
-Changes To This Privacy Policy
-
-We may update our Privacy Policy from time to time. Any changes will be posted on this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</string>
-                                <color key="textColor" red="0.80248147250000001" green="0.49211525919999999" blue="0.13590013980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.76565754409999998" green="0.001094937325" blue="0.085418157280000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="2ee-Td-5o7" firstAttribute="top" secondItem="D8G-Hf-8P5" secondAttribute="top" constant="30" id="7h4-fB-edu"/>
-                            <constraint firstItem="dgc-fb-6bf" firstAttribute="centerY" secondItem="KR6-v6-rGA" secondAttribute="centerY" multiplier="1.9" id="8bb-Wk-xgm"/>
-                            <constraint firstItem="D8G-Hf-8P5" firstAttribute="trailing" secondItem="2ee-Td-5o7" secondAttribute="trailing" constant="15" id="ScI-GH-TZd"/>
-                            <constraint firstItem="dgc-fb-6bf" firstAttribute="centerX" secondItem="KR6-v6-rGA" secondAttribute="centerX" id="feG-5P-xmH"/>
-                            <constraint firstItem="dgc-fb-6bf" firstAttribute="top" secondItem="2ee-Td-5o7" secondAttribute="bottom" constant="10" id="jIc-Qu-qgL"/>
-                            <constraint firstItem="2ee-Td-5o7" firstAttribute="leading" secondItem="D8G-Hf-8P5" secondAttribute="leading" constant="15" id="zyh-8j-15X"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="D8G-Hf-8P5"/>
-                    </view>
-                    <connections>
-                        <outlet property="returnToTimer" destination="dgc-fb-6bf" id="Lhe-yN-WDG"/>
-                        <outlet property="textView" destination="2ee-Td-5o7" id="VFZ-Qg-8JJ"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ptx-lN-Q1q" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="390" y="550"/>
-        </scene>
-        <!--Initial View Controller-->
-        <scene sceneID="dEZ-xa-1tc">
-            <objects>
-                <viewController id="H9m-9S-mqT" customClass="InitialViewController" customModule="Meditation_Color_Timer" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ek6-NM-W8S">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HlL-7E-8RX">
-                                <rect key="frame" x="114" y="445.5" width="147" height="43"/>
-                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="24"/>
-                                <state key="normal" title="Meditation">
-                                    <color key="titleColor" red="0.80248147250000001" green="0.49211525919999999" blue="0.13590013980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="meditationButtonTapped:" destination="H9m-9S-mqT" eventType="touchUpInside" id="adi-nP-HVO"/>
-                                    <segue destination="pgb-B9-ksK" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="HQ3-t5-VMQ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TpT-R8-iPw">
-                                <rect key="frame" x="116" y="582.5" width="143" height="36"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
-                                <state key="normal" title="In-App Purchase">
-                                    <color key="titleColor" red="0.80392156859999997" green="0.49019607840000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="inAppPurchaseButtonTapped:" destination="H9m-9S-mqT" eventType="touchUpInside" id="d8k-T6-2b0"/>
-                                    <segue destination="Ab1-HB-o5U" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="7Lx-x8-udk"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uae-8x-8ay">
-                                <rect key="frame" x="138.5" y="617.5" width="98" height="32"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
-                                <state key="normal" title="Privacy Policy">
-                                    <color key="titleColor" red="0.80392156859999997" green="0.49019607840000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="privacyPolicyButtonTapped:" destination="H9m-9S-mqT" eventType="touchUpInside" id="Y3m-QW-TOK"/>
-                                    <segue destination="pko-MQ-621" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="uIE-Um-Sf2"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meditation Color Timer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="25w-p8-Srg">
-                                <rect key="frame" x="37.5" y="36" width="300" height="28"/>
-                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="22"/>
-                                <color key="textColor" red="0.80392156859999997" green="0.49019607840000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pile of stones 2" translatesAutoresizingMaskIntoConstraints="NO" id="hBQ-Jj-8d0">
-                                <rect key="frame" x="16" y="84" width="343" height="341.5"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MkW-89-fAd">
-                                <rect key="frame" x="142.5" y="543.5" width="90" height="47"/>
-                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="27"/>
-                                <state key="normal" title="Timer">
-                                    <color key="titleColor" red="0.80248147250000001" green="0.49211525919999999" blue="0.13590013980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="timerButtonTapped:" destination="H9m-9S-mqT" eventType="touchUpInside" id="JMp-Wj-ffW"/>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="WYp-Bx-jS9"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.76565754409999998" green="0.001094937325" blue="0.085418157280000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="aUS-sw-pem" firstAttribute="trailing" secondItem="hBQ-Jj-8d0" secondAttribute="trailing" constant="16" id="1an-3v-RrK"/>
-                            <constraint firstItem="uae-8x-8ay" firstAttribute="centerX" secondItem="ek6-NM-W8S" secondAttribute="centerX" id="5DI-sp-4M3"/>
-                            <constraint firstItem="HlL-7E-8RX" firstAttribute="centerY" secondItem="ek6-NM-W8S" secondAttribute="centerY" multiplier="1.4" id="6gm-m9-z1g"/>
-                            <constraint firstItem="TpT-R8-iPw" firstAttribute="centerX" secondItem="ek6-NM-W8S" secondAttribute="centerX" id="FLe-OV-eLM"/>
-                            <constraint firstItem="25w-p8-Srg" firstAttribute="centerX" secondItem="ek6-NM-W8S" secondAttribute="centerX" id="YrA-Ju-uKf"/>
-                            <constraint firstItem="MkW-89-fAd" firstAttribute="centerX" secondItem="ek6-NM-W8S" secondAttribute="centerX" id="cDM-ln-M31"/>
-                            <constraint firstItem="TpT-R8-iPw" firstAttribute="centerY" secondItem="ek6-NM-W8S" secondAttribute="centerY" multiplier="1.8" id="d2V-gL-aZq"/>
-                            <constraint firstItem="25w-p8-Srg" firstAttribute="centerY" secondItem="ek6-NM-W8S" secondAttribute="centerY" multiplier="0.15" id="emK-66-gO7"/>
-                            <constraint firstItem="HlL-7E-8RX" firstAttribute="top" secondItem="hBQ-Jj-8d0" secondAttribute="bottom" constant="20" id="gXZ-se-xjQ"/>
-                            <constraint firstItem="HlL-7E-8RX" firstAttribute="centerX" secondItem="ek6-NM-W8S" secondAttribute="centerX" id="l6X-Cu-ItH"/>
-                            <constraint firstItem="hBQ-Jj-8d0" firstAttribute="leading" secondItem="aUS-sw-pem" secondAttribute="leading" constant="16" id="lGP-S0-1wD"/>
-                            <constraint firstItem="uae-8x-8ay" firstAttribute="centerY" secondItem="ek6-NM-W8S" secondAttribute="centerY" multiplier="1.9" id="p2T-dR-wbi"/>
-                            <constraint firstItem="MkW-89-fAd" firstAttribute="centerY" secondItem="ek6-NM-W8S" secondAttribute="centerY" multiplier="1.7" id="rCN-OS-CHO"/>
-                            <constraint firstItem="hBQ-Jj-8d0" firstAttribute="top" secondItem="25w-p8-Srg" secondAttribute="bottom" constant="20" id="x4k-iF-WUh"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="aUS-sw-pem"/>
-                    </view>
-                    <connections>
-                        <outlet property="inAppPurchaseButton" destination="TpT-R8-iPw" id="GrQ-45-SS0"/>
-                        <outlet property="logo" destination="hBQ-Jj-8d0" id="Nlt-hL-32z"/>
-                        <outlet property="meditationButton" destination="HlL-7E-8RX" id="d9M-Og-3hM"/>
-                        <outlet property="meditationColorTimerLabel" destination="25w-p8-Srg" id="wky-DN-RTF"/>
-                        <outlet property="privacyPolicyButton" destination="uae-8x-8ay" id="9Rh-Ju-4h2"/>
-                        <outlet property="timerButton" destination="MkW-89-fAd" id="LuS-08-bOa"/>
-                        <outlet property="yogaColorTimerLabel" destination="25w-p8-Srg" id="qNe-ol-sq9"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="oGs-gF-uo8" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-236" y="-557"/>
-        </scene>
-        <!--Store View Controller-->
-        <scene sceneID="ZG6-xQ-U2N">
-            <objects>
-                <viewController id="Ab1-HB-o5U" customClass="StoreViewController" customModule="Meditation_Color_Timer" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="NGc-5P-WWh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pile of stones 2" translatesAutoresizingMaskIntoConstraints="NO" id="41d-7k-dt1">
-                                <rect key="frame" x="0.0" y="113.5" width="375" height="440"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   In-App Purchase   " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Enr-zz-NnZ" userLabel="inAppPurchaseLabel">
-                                <rect key="frame" x="0.0" y="20" width="375" height="30"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="Mc1-zU-lkb"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" red="0.80248147250000001" green="0.49211525919999999" blue="0.13590013980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                                <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cWS-Op-7rV" userLabel="productTitle" propertyAccessControl="none">
-                                <rect key="frame" x="0.0" y="105" width="375" height="30"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
-                                </accessibility>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="wxG-Sk-E7F"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
-                                <color key="textColor" red="0.80248147250000001" green="0.49211525919999999" blue="0.13590013980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView opaque="NO" multipleTouchEnabled="YES" contentMode="top" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ig9-RB-7oT" userLabel="productDescription">
-                                <rect key="frame" x="0.0" y="135" width="375" height="60"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="IKs-wV-NGf"/>
-                                </constraints>
-                                <color key="textColor" red="0.80248147250000001" green="0.49211525919999999" blue="0.13590013980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Muf-iV-EaM" userLabel="purchaseButton">
-                                <rect key="frame" x="0.0" y="485.5" width="375" height="30"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="7o3-BE-fnN"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="   Purchase Now   ">
-                                    <color key="titleColor" red="0.80248147250000001" green="0.49211525919999999" blue="0.13590013980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="purchase:" destination="Ab1-HB-o5U" eventType="touchUpInside" id="qls-iC-yps"/>
-                                </connections>
-                            </button>
-                            <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SPH-sb-Fdh" userLabel="restoreButton">
-                                <rect key="frame" x="0.0" y="518.5" width="375" height="30"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="4Li-Cl-fjM"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="   Restore   ">
-                                    <color key="titleColor" red="0.80248147250000001" green="0.49211525919999999" blue="0.13590013980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="restore:" destination="Ab1-HB-o5U" eventType="touchUpInside" id="N3v-qx-WHz"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5eB-6Z-xCw" userLabel="dismissButton">
-                                <rect key="frame" x="0.0" y="583.5" width="375" height="34"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="   Dismiss   ">
-                                    <color key="titleColor" red="0.80248147250000001" green="0.49211525919999999" blue="0.13590013980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="dismissView:" destination="Ab1-HB-o5U" eventType="touchUpInside" id="Nws-Dx-gkc"/>
-                                    <segue destination="H9m-9S-mqT" kind="presentation" id="T3a-1V-dS1"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.76565754409999998" green="0.001094937325" blue="0.085418157280000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="cWS-Op-7rV" firstAttribute="leading" secondItem="yaB-i3-jle" secondAttribute="leading" id="03A-fm-Ha9"/>
-                            <constraint firstItem="yaB-i3-jle" firstAttribute="trailing" secondItem="Ig9-RB-7oT" secondAttribute="trailing" id="3Kl-Mr-3cb"/>
-                            <constraint firstItem="SPH-sb-Fdh" firstAttribute="leading" secondItem="yaB-i3-jle" secondAttribute="leading" id="9N3-Gg-F89"/>
-                            <constraint firstAttribute="trailing" secondItem="41d-7k-dt1" secondAttribute="trailing" id="GW6-dw-aEp"/>
-                            <constraint firstItem="cWS-Op-7rV" firstAttribute="trailing" secondItem="yaB-i3-jle" secondAttribute="trailing" id="JBa-Cf-mWD"/>
-                            <constraint firstItem="Ig9-RB-7oT" firstAttribute="leading" secondItem="yaB-i3-jle" secondAttribute="leading" id="Jv9-z3-bKX"/>
-                            <constraint firstItem="41d-7k-dt1" firstAttribute="centerY" secondItem="NGc-5P-WWh" secondAttribute="centerY" id="O67-Qd-m7J"/>
-                            <constraint firstItem="SPH-sb-Fdh" firstAttribute="centerX" secondItem="NGc-5P-WWh" secondAttribute="centerX" id="Onp-L7-uNf"/>
-                            <constraint firstItem="Muf-iV-EaM" firstAttribute="centerX" secondItem="NGc-5P-WWh" secondAttribute="centerX" id="Or7-ib-4Os"/>
-                            <constraint firstItem="5eB-6Z-xCw" firstAttribute="centerY" secondItem="NGc-5P-WWh" secondAttribute="centerY" multiplier="1.8" id="Qag-dU-azs"/>
-                            <constraint firstItem="yaB-i3-jle" firstAttribute="trailing" secondItem="Enr-zz-NnZ" secondAttribute="trailing" id="SGY-pX-Gld"/>
-                            <constraint firstItem="SPH-sb-Fdh" firstAttribute="centerY" secondItem="NGc-5P-WWh" secondAttribute="centerY" multiplier="1.6" id="Ubf-R2-Jyh"/>
-                            <constraint firstItem="Ig9-RB-7oT" firstAttribute="top" secondItem="cWS-Op-7rV" secondAttribute="bottom" id="Wrj-RX-sag"/>
-                            <constraint firstItem="5eB-6Z-xCw" firstAttribute="leading" secondItem="yaB-i3-jle" secondAttribute="leading" id="a9h-Cg-cyP"/>
-                            <constraint firstItem="cWS-Op-7rV" firstAttribute="centerY" secondItem="yaB-i3-jle" secondAttribute="centerY" multiplier="0.35" id="aEm-7H-ohL"/>
-                            <constraint firstItem="41d-7k-dt1" firstAttribute="leading" secondItem="NGc-5P-WWh" secondAttribute="leading" id="aoJ-5e-g3p"/>
-                            <constraint firstItem="Enr-zz-NnZ" firstAttribute="top" secondItem="yaB-i3-jle" secondAttribute="top" id="cbZ-bR-RBO"/>
-                            <constraint firstItem="Muf-iV-EaM" firstAttribute="leading" secondItem="yaB-i3-jle" secondAttribute="leading" id="dt9-v9-Zua"/>
-                            <constraint firstItem="yaB-i3-jle" firstAttribute="trailing" secondItem="5eB-6Z-xCw" secondAttribute="trailing" id="gVw-il-vLV"/>
-                            <constraint firstItem="Enr-zz-NnZ" firstAttribute="leading" secondItem="yaB-i3-jle" secondAttribute="leading" id="hb2-Oc-4ZL"/>
-                            <constraint firstItem="Muf-iV-EaM" firstAttribute="centerY" secondItem="NGc-5P-WWh" secondAttribute="centerY" multiplier="1.5" id="jif-KT-97Q"/>
-                            <constraint firstItem="41d-7k-dt1" firstAttribute="centerX" secondItem="NGc-5P-WWh" secondAttribute="centerX" id="mS7-Sv-fNW"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="yaB-i3-jle"/>
-                    </view>
-                    <connections>
-                        <outlet property="dismissButton" destination="5eB-6Z-xCw" id="EEm-W4-0rY"/>
-                        <outlet property="inAppPurchaseLabel" destination="Enr-zz-NnZ" id="VkX-bo-buY"/>
-                        <outlet property="productDescription" destination="Ig9-RB-7oT" id="4G1-F9-soi"/>
-                        <outlet property="productTitle" destination="cWS-Op-7rV" id="VoM-zx-6vW"/>
-                        <outlet property="purchaseButton" destination="Muf-iV-EaM" id="kiR-t7-kVP"/>
-                        <outlet property="purchaseScreenLogo" destination="41d-7k-dt1" id="fDP-xM-zsg"/>
-                        <outlet property="restoreButton" destination="SPH-sb-Fdh" id="cwY-vX-uLR"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SCQ-YW-2WV" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="542" y="-176"/>
+            <point key="canvasLocation" x="-612" y="387.25637181409297"/>
         </scene>
     </scenes>
     <resources>
-        <image name="pile of stones 2" width="660" height="440"/>
-        <namedColor name="green2HCT">
-            <color red="0.0" green="0.97699999809265137" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
+        <image name="clouds" width="640" height="480"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="T3a-1V-dS1"/>
-    </inferredMetricsTieBreakers>
 </document>

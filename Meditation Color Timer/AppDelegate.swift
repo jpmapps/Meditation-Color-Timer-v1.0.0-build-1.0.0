@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Meditation Color Timer
 //
-//  Created by Joe Martin on 24/11/2018.
-//  Copyright © 2018 Joe Martin. All rights reserved.
+//  Created by Joe Martin on 11/08/2019.
+//  Copyright © 2019 Joe Martin. All rights reserved.
 //
 
 import UIKit
