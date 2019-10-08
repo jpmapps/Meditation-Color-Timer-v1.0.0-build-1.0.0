@@ -5,11 +5,18 @@
 //  Created by Joe Martin on 11/08/2019.
 //  Copyright © 2019 Joe Martin. All rights reserved.
 //
-
+        
 import UIKit
 import AVFoundation
+//import CoreHaptics
+//import AudioToolbox
 
-class ViewController: UIViewController{
+class ViewController: UIViewController {
+    
+  
+
+    
+    
 
 	var audioPlayer: AVAudioPlayer?
 
@@ -20,7 +27,7 @@ class ViewController: UIViewController{
 		return true
 	}
 
-	let save = UserDefaults.standard
+	//let save = UserDefaults.standard
 
 	// Set timer variables
 	var stopWatchTimer = Timer()
@@ -52,6 +59,7 @@ class ViewController: UIViewController{
     @IBOutlet weak var congratulationsLabel: UILabel!
     @IBOutlet weak var cloudsView: UIImageView!
     
+    @IBOutlet weak var take1MinuteLabel: UILabel!
     
     
 
@@ -232,6 +240,8 @@ class ViewController: UIViewController{
 			makePurchaseLabel.isHidden = true
 		}*/
 
+        take1MinuteLabel.alpha = 1
+        
 		warningLabel.isHidden = false
 		warningLabel.alpha = 0.4
 
@@ -260,16 +270,20 @@ class ViewController: UIViewController{
         howToUseLabel.isHidden = false
         howToUseLabel.alpha = 1
 		resetButton.isHidden = true
+        resetButton.isEnabled = false
+        resetButton.alpha = 0
 		startButton.isHidden = false
+        startButton.alpha = 1
+        startButton.isEnabled = true
 
 		stopWatchTimer = Timer()
 		currentTime = 60
 		y = 60
-		minutesLabel.text = ""
-		secondsLabel.text = ""
+		minutesLabel.text = "01"
+		secondsLabel.text = "00"
         
-        minutesLabel.alpha = 1
-        secondsLabel.alpha = 1
+        minutesLabel.alpha = 0
+        secondsLabel.alpha = 0
 
 
 
@@ -279,11 +293,17 @@ class ViewController: UIViewController{
 	@IBAction func screenButtonTapped(_ sender: Any) {
 
 		screenButton.isHidden = true
+        screenButton.isEnabled = false
+       // screenButton.alpha = 0
 		hideTimeLeft.isHidden = false
+        hideTimeLeft.isEnabled = true
+       // hideTimeLeft.alpha = 1
 		pauseButton.isHidden = false
 		pauseButton.isEnabled = true
 		stopButton.isHidden = false
 		stopButton.isEnabled = true
+       // minutesLabel.isHidden = false
+       // secondsLabel.isHidden = false
 
 		UIView.animate(withDuration: 0.5, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
 			self.pauseButton.alpha = 1
@@ -306,7 +326,11 @@ class ViewController: UIViewController{
 	@IBAction func hideTapped(_ sender: Any) {
 
 		hideTimeLeft.isHidden = true
+        hideTimeLeft.isEnabled = false
+       // hideTimeLeft.alpha = 0
 		screenButton.isHidden = false
+        screenButton.isEnabled = true
+       // screenButton.alpha = 1
 		//pauseButton.isHidden = true
 		pauseButton.isEnabled = false
 		//stopButton.isHidden = true
@@ -332,8 +356,16 @@ class ViewController: UIViewController{
 	// Connect and code the start button action
 	@IBAction func startTapped(_ sender: Any) {
 
-		audioPlayer?.numberOfLoops = 0
-		audioPlayer?.play()
+		//audioPlayer?.numberOfLoops = 0
+		//audioPlayer?.play()
+        
+        // AudioServices
+             AudioServicesPlayAlertSound(SystemSoundID(1008))
+            AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+
+       // Haptic Feedback
+      // UIImpactFeedbackGenerator(style: .heavy).impactOccurred()
+        
         
         UIView.animate(withDuration: 3, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve,
             animations: {
@@ -341,20 +373,25 @@ class ViewController: UIViewController{
             }, completion: nil)
         
 
-
 		screenButton.isHidden = false
-		resetButton.isHidden = true
+        screenButton.isEnabled = true
+       // screenButton.alpha = 1
+		//resetButton.isHidden = true
 		startButton.isHidden = true
-		tenMinutes.isHidden = true
+		/*tenMinutes.isHidden = true
 		fifteenMinutes.isHidden = true
 		twentyMinutes.isHidden = true
 		thirtyMinutes.isHidden = true
 		fortyFiveMinutes.isHidden = true
 		sixtyMinutes.isHidden = true
 		ninetyMinutes.isHidden = true
-		hundredTwentyMinutes.isHidden = true
-		homeButton.isHidden = true
+		hundredTwentyMinutes.isHidden = true*/
+		//homeButton.isHidden = true
         
+        UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
+                   self.take1MinuteLabel.alpha = 0.3
+            }, completion: nil)
+
         UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
             self.cloudsView.alpha = 0.3
             
@@ -370,15 +407,15 @@ class ViewController: UIViewController{
         }, completion: nil)
 
 
-		makePurchaseLabel.isHidden = true
+		//makePurchaseLabel.isHidden = true
 
-		UIView.animate(withDuration: 1.5, delay: 3.0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
-			self.minutesLabel.alpha = 0.0
-		}, completion: nil)
+		//UIView.animate(withDuration: 1.5, delay: 3.0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
+		//	self.minutesLabel.alpha = 0
+		//}, completion: nil)
 
-		UIView.animate(withDuration: 1.5, delay: 3.0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
-			self.secondsLabel.alpha = 0.0
-		}, completion: nil)
+		//UIView.animate(withDuration: 1.5, delay: 3.0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
+			//self.secondsLabel.alpha = 0
+		//}, completion: nil)
 
 		UIApplication.shared.isIdleTimerDisabled = true
 
@@ -390,11 +427,13 @@ class ViewController: UIViewController{
 	@IBAction func pauseTapped(_ sender: Any) {
 
 		pauseButton.isHidden = true
+        pauseButton.isEnabled = false
 		pauseButton.alpha = 0
 		resumeButton.isHidden = false
 		resumeButton.isEnabled = true
 		resumeButton.alpha = 1
 		hideTimeLeft.isHidden = true
+        hideTimeLeft.isEnabled = false
 		stopWatchTimer.invalidate()
 
 	}
@@ -403,9 +442,14 @@ class ViewController: UIViewController{
 	@IBAction func resumeTapped(_ sender: Any) {
 
 		screenButton.isHidden = false
+        screenButton.isEnabled = true
+        hideTimeLeft.isHidden = true
+        hideTimeLeft.isEnabled = false
 		resumeButton.isHidden = true
+        resumeButton.isEnabled = false
 		resumeButton.alpha = 0
 		stopButton.isHidden = true
+        stopButton.isEnabled = false
 		stopButton.alpha = 0
 
 		UIView.animate(withDuration: 2, delay: 1, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
@@ -424,38 +468,47 @@ class ViewController: UIViewController{
 	// Connect and code the stop button action
 	@IBAction func stopTapped(_ sender: Any) {
 
-		let save = UserDefaults.standard
+		/*let save = UserDefaults.standard
 		if save.value(forKey: "Purchase") == nil {
 
 			makePurchaseLabel.isHidden = false
 		}else{
 			makePurchaseLabel.isHidden = true
-		}
+		}*/
 
 		stopWatchTimer.invalidate()
+        
+        take1MinuteLabel.alpha = 1
         
         howToUseLabel.isHidden = false
         howToUseLabel.alpha = 1
 
 		pauseButton.isHidden = true
+        pauseButton.isEnabled = false
 		pauseButton.alpha = 0
 		stopButton.isHidden = true
+        stopButton.isEnabled = false
 		stopButton.alpha = 0
 		resumeButton.isHidden = true
+        resumeButton.isEnabled = false
 		resumeButton.alpha = 0
 		//homeButton.isHidden = false
-        homeButton.isHidden = true
+       // homeButton.alpha = 1
 		screenButton.isHidden = true
+        screenButton.isEnabled = false
 		hideTimeLeft.isHidden = true
+        hideTimeLeft.isEnabled = false
 		startButton.isHidden = false
-		tenMinutes.isHidden = true
+        startButton.isEnabled = true
+        startButton.alpha = 1
+		/*tenMinutes.isHidden = true
 		fifteenMinutes.isHidden = true
 		twentyMinutes.isHidden = true
 		thirtyMinutes.isHidden = true
 		fortyFiveMinutes.isHidden = true
 		sixtyMinutes.isHidden = true
 		ninetyMinutes.isHidden = true
-		hundredTwentyMinutes.isHidden = true
+		hundredTwentyMinutes.isHidden = true*/
         cloudsView.isHidden = false
         cloudsView.alpha = 1
         
@@ -464,10 +517,10 @@ class ViewController: UIViewController{
 		currentTime = 60
 		y = 60
 
-		minutesLabel.text = ""
-        minutesLabel.alpha = 0
-		secondsLabel.text = ""
-        secondsLabel.alpha = 0
+		minutesLabel.text = "01"
+        //minutesLabel.alpha = 0
+		secondsLabel.text = "00"
+       // secondsLabel.alpha = 0
 
 		UIApplication.shared.isIdleTimerDisabled = false
 
@@ -488,9 +541,10 @@ class ViewController: UIViewController{
 
 	// Object C code for timer and code for actions within duration of active timer
 	@objc func updateTime() {
-
-		currentTime -= 1
-		let s: Int = Int(currentTime) % 60
+        
+        currentTime -= 1
+        
+        let s: Int = Int(currentTime) % 60
 		let m: Int = Int(currentTime) / 60
 
 		minutesLabel.text = String(format: "%02d", m)
@@ -499,30 +553,43 @@ class ViewController: UIViewController{
 		let x = y / 7
 
 		if currentTime == 00 {
+                
+            
+            
+			//audioPlayer?.numberOfLoops = 0
+			//audioPlayer?.play()
+            
+            // AudioServices
+                 AudioServicesPlayAlertSound(SystemSoundID(1008))
+                AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
 
-			audioPlayer?.numberOfLoops = 0
-			audioPlayer?.play()
+            // Haptic Feedback
+            //UIImpactFeedbackGenerator(style: .heavy).impactOccurred()
 
 			screenButton.isHidden = true
+            screenButton.isEnabled = false
+            screenButton.alpha = 0
 			hideTimeLeft.isHidden = true
-			homeButton.isHidden = true
-			homeButton.alpha = 0
-			tenMinutes.isHidden = false
+            hideTimeLeft.isEnabled = false
+            hideTimeLeft.alpha = 0
+			//homeButton.isHidden = true
+			//homeButton.alpha = 0
+			/*tenMinutes.isHidden = false
 			fifteenMinutes.isHidden = false
 			twentyMinutes.isHidden = false
 			thirtyMinutes.isHidden = false
 			fortyFiveMinutes.isHidden = false
 			sixtyMinutes.isHidden = false
 			ninetyMinutes.isHidden = false
-			hundredTwentyMinutes.isHidden = false
-			minutesLabel.alpha = 1
-			secondsLabel.alpha = 1
+			hundredTwentyMinutes.isHidden = false*/
+			//minutesLabel.alpha = 1
+			//secondsLabel.alpha = 1
 
             if y == 60 {
                 
                 currentTime = 60
-                minutesLabel.text = "1"
-                secondsLabel.text = ""
+                minutesLabel.text = "01"
+                secondsLabel.text = "00"
                 
             } else if y == 600 {
 
@@ -580,24 +647,39 @@ class ViewController: UIViewController{
 
 			currentTime = 0
 
-			audioPlayer?.numberOfLoops = 0
-			audioPlayer?.play()
-
-			minutesLabel.text = ""
-			secondsLabel.text = ""
+			//audioPlayer?.numberOfLoops = 0
+			//audioPlayer?.play()
             
-            minutesLabel.alpha = 0
-            secondsLabel.alpha = 0
+            // AudioServices
+               
+
+                 // Haptic Feedback
+                // UIImpactFeedbackGenerator(style: .heavy).impactOccurred()
+
+			minutesLabel.text = "00"
+			secondsLabel.text = "00"
+            
+            AudioServicesPlayAlertSound(SystemSoundID(1008))
+                          AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+            
+            //minutesLabel.alpha = 0
+           // minutesLabel.isHidden = true
+            //secondsLabel.alpha = 0
+           // secondsLabel.isHidden = true
             
             
             UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
                 self.cloudsView.alpha = 1
             }, completion: nil)
             
-            
             UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
-                self.warningLabel.alpha = 1
+                self.take1MinuteLabel.alpha = 1
             }, completion: nil)
+            
+            
+            /*UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
+                self.warningLabel.alpha = 1
+            }, completion: nil)*/
             
             UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
                 self.congratulationsLabel.alpha = 1
@@ -605,6 +687,7 @@ class ViewController: UIViewController{
             
             UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
                 self.resetButton.alpha = 1
+             
             }, completion: nil)
             
            
@@ -612,24 +695,36 @@ class ViewController: UIViewController{
             
             
 			screenButton.isHidden = true
+            screenButton.isEnabled = false
+            screenButton.alpha = 0
 			hideTimeLeft.isHidden = true
-			homeButton.isHidden = true
-			homeButton.alpha = 0
+            hideTimeLeft.isEnabled = false
+            hideTimeLeft.alpha = 0
+			//homeButton.isHidden = true
+			//homeButton.alpha = 0
 			pauseButton.isEnabled = false
+            pauseButton.isHidden = true
+            pauseButton.alpha = 0
+
 			stopButton.isEnabled = false
+            stopButton.isHidden = true
+            stopButton.alpha = 0
+
 			resetButton.isHidden = false
-          //  resetButton.alpha = 1
+            resetButton.isEnabled = true
+            //resetButton.alpha = 1
+            
 			startButton.isHidden = true
-			pauseButton.alpha = 0
-			stopButton.alpha = 0
-			tenMinutes.isHidden = true
+            startButton.isEnabled = false
+            startButton.alpha = 0
+			/*tenMinutes.isHidden = true
 			fifteenMinutes.isHidden = true
 			twentyMinutes.isHidden = true
 			thirtyMinutes.isHidden = true
 			fortyFiveMinutes.isHidden = true
 			sixtyMinutes.isHidden = true
 			ninetyMinutes.isHidden = true
-			hundredTwentyMinutes.isHidden = true
+			hundredTwentyMinutes.isHidden = true*/
 
 			UIApplication.shared.isIdleTimerDisabled = false
 
@@ -643,8 +738,16 @@ class ViewController: UIViewController{
         if currentTime == y - x {
 
 			//audioPlayer?.numberOfLoops = 1
-			audioPlayer?.play()
+			//audioPlayer?.play()
+            
+            // AudioServices
+                 AudioServicesPlayAlertSound(SystemSoundID(1008))
+                AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
 
+                 // Haptic Feedback
+                 //UIImpactFeedbackGenerator(style: .heavy).impactOccurred()
+            
+            
 			UIView.animate(withDuration: 3, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
 				self.view.backgroundColor = #colorLiteral(red: 1, green: 0.5763723254, blue: 0, alpha: 1)
 			}, completion: nil)
@@ -653,7 +756,14 @@ class ViewController: UIViewController{
 		if currentTime == y - (x * 2) {
 
 			//audioPlayer?.numberOfLoops = 2
-			audioPlayer?.play()
+			//audioPlayer?.play()
+            
+            // AudioServices
+                 AudioServicesPlayAlertSound(SystemSoundID(1008))
+                AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+
+                 // Haptic Feedback
+                 //UIImpactFeedbackGenerator(style: .heavy).impactOccurred()
 
 			UIView.animate(withDuration: 3, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
 				self.view.backgroundColor = #colorLiteral(red: 0.9994240403, green: 0.9855536819, blue: 0, alpha: 1)
@@ -662,7 +772,14 @@ class ViewController: UIViewController{
 
 		if currentTime == y - (x * 3) {
 			//audioPlayer?.numberOfLoops = 3
-			audioPlayer?.play()
+			//audioPlayer?.play()
+            
+            // AudioServices
+                 AudioServicesPlayAlertSound(SystemSoundID(1008))
+                AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+
+                 // Haptic Feedback
+                 //UIImpactFeedbackGenerator(style: .heavy).impactOccurred()
 
 			UIView.animate(withDuration: 3, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
 				self.view.backgroundColor = #colorLiteral(red: 0, green: 0.9768045545, blue: 0, alpha: 1)
@@ -671,7 +788,16 @@ class ViewController: UIViewController{
 
 		if currentTime == y - (x * 4) {
 			//audioPlayer?.numberOfLoops = 4
-			audioPlayer?.play()
+			//audioPlayer?.play()
+            
+            // AudioServices
+                 AudioServicesPlayAlertSound(SystemSoundID(1008))
+                AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+
+                // Haptic Feedback
+                //UIImpactFeedbackGenerator(style: .heavy).impactOccurred()
+            
+
 
 			UIView.animate(withDuration: 3, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
 				self.view.backgroundColor = #colorLiteral(red: 0, green: 0.9914394021, blue: 1, alpha: 1)
@@ -680,7 +806,14 @@ class ViewController: UIViewController{
 
 		if currentTime == y - (x * 5) {
 			//audioPlayer?.numberOfLoops = 5
-			audioPlayer?.play()
+			//audioPlayer?.play()
+            
+            // AudioServices
+                 AudioServicesPlayAlertSound(SystemSoundID(1008))
+                AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+
+                 // Haptic Feedback
+                 //UIImpactFeedbackGenerator(style: .heavy).impactOccurred()
 
 			UIView.animate(withDuration: 3, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
 				self.view.backgroundColor = #colorLiteral(red: 0.01680417731, green: 0.1983509958, blue: 1, alpha: 1)
@@ -689,16 +822,35 @@ class ViewController: UIViewController{
 
 		if currentTime == y - (x * 6) {
 			//audioPlayer?.numberOfLoops = 6
-			audioPlayer?.play()
+			//audioPlayer?.play()
+            
+            // AudioServices
+                 AudioServicesPlayAlertSound(SystemSoundID(1008))
+                AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
 
-			UIView.animate(withDuration: 3, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
+
+                 // Haptic Feedback
+                 //UIImpactFeedbackGenerator(style: .heavy).impactOccurred()
+            
+            UIView.animate(withDuration: 3, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
                 self.view.backgroundColor = #colorLiteral(red: 0.5791940689, green: 0.1280144453, blue: 0.5726861358, alpha: 1)
 			}, completion: nil)
 		}
+    
         
-        if currentTime == y - (x * 7 ) - 5 {
+       // if currentTime == y - (x * 7 ) /*- 5*/ {
             
-            UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
+          //  audioPlayer?.play()
+            
+            // AudioServices
+                // AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+
+                 // Haptic Feedback
+                 //UIImpactFeedbackGenerator(style: .heavy).impactOccurred()
+           
+
+            
+           /* UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
                 self.resetButton.alpha = 1
             }, completion: nil)
             
@@ -713,7 +865,10 @@ class ViewController: UIViewController{
             minutesLabel.alpha = 0
             secondsLabel.alpha = 0
             
-           /* UIView.animate(withDuration: 2, delay: 1, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
+            resetButton.isHidden = false
+            resetButton.isEnabled = true
+            
+             UIView.animate(withDuration: 2, delay: 1, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
                 self.minutesLabel.alpha = 1
             }, completion: nil)
             
@@ -721,15 +876,25 @@ class ViewController: UIViewController{
                 self.secondsLabel.alpha = 1
             }, completion: nil)*/
  
-        }
-	}
-
+       }
+	//}
+    
+    
+  
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
         
-        minutesLabel.alpha = 0
-        secondsLabel.alpha = 0
+        UIView.animate(withDuration: 1,
+        delay:0.0,
+        options:[.curveEaseInOut, .autoreverse, .repeat],
+        animations: { self.warningLabel.alpha = 1 },
+        completion: nil)
+        
+       // minutesLabel.alpha = 0
+      //  minutesLabel.isHidden = true
+       // secondsLabel.alpha = 0
+       // secondsLabel.isHidden = true
 
 		do {
 			if let fileURL = Bundle.main.path(forResource: "Bell Ting", ofType: "wav") {
@@ -740,6 +905,11 @@ class ViewController: UIViewController{
 		} catch let error {
 			print("Can't play the audio file failed with an error \(error.localizedDescription)")
 		}
+        
+        AudioServicesPlayAlertSound(SystemSoundID(1308))
+
+        AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+
 		// Do any additional setup after loading the view, typically from a nib.
 
 		minutesLabel.font = UIFont.monospacedDigitSystemFont(ofSize: 100, weight: UIFont.Weight.ultraLight)
@@ -747,9 +917,12 @@ class ViewController: UIViewController{
 
 	}
 
-	override func viewWillAppear(_ animated: Bool) {
-
-		/*let save = UserDefaults.standard
+  /* override func viewWillAppear(_ animated: Bool) {
+    
+ 
+    
+            
+		let save = UserDefaults.standard
 		if save.value(forKey: "Purchase") == nil {
 
 			tenMinutes.alpha = 0.5
@@ -800,12 +973,12 @@ class ViewController: UIViewController{
 
 		}*/
 
-		UIView.animate(withDuration: 1,
+		/*UIView.animate(withDuration: 1,
 					   delay:0.0,
 					   options:[.curveEaseInOut, .autoreverse, .repeat],
 					   animations: { self.warningLabel.alpha = 1 },
 					   completion: nil)
-	}
+	}*/
 
 
 
@@ -815,4 +988,5 @@ class ViewController: UIViewController{
 
 
 }
+
 
