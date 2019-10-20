@@ -19,18 +19,18 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Seedling" translatesAutoresizingMaskIntoConstraints="NO" id="BpN-Eo-U9K">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take  a  Minute" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="t5r-Yq-yWS">
-                                <rect key="frame" x="133.66666666666669" y="9.9999999999999982" width="146.66666666666669" height="26.333333333333329"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take  a  Minute" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t5r-Yq-yWS">
+                                <rect key="frame" x="137" y="9.9999999999999982" width="140.33333333333337" height="26.333333333333329"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="91c-DO-ciJ">
-                                <rect key="frame" x="50" y="442.66666666666669" width="314" height="243.33333333333331"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="91c-DO-ciJ">
+                                <rect key="frame" x="50" y="406.66666666666674" width="314" height="279.33333333333326"/>
                                 <string key="text">Press START
 
 Take in the color and breathe in
@@ -43,16 +43,16 @@ breathe normally
 At the bell or vibration open your eyes
 
 Take in the new color and repeat</string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3B3-zc-fm0">
-                                <rect key="frame" x="45.333333333333343" y="94" width="323.33333333333326" height="400"/>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3B3-zc-fm0">
+                                <rect key="frame" x="48.333333333333343" y="94" width="317.66666666666663" height="345"/>
                                 <string key="text">CONGRATULATIONS   You have just completed  1 minute  of focused meditation  thinking only of colors and breathing  while setting aside all other thoughts.  WELL DONE  ENJOY YOUR DAY</string>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -98,7 +98,7 @@ Take in the new color and repeat</string>
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ouU-dz-YNS" userLabel="Thirty Minutes">
-                                <rect key="frame" x="314.33333333333331" y="94.333333333333329" width="33.666666666666686" height="32"/>
+                                <rect key="frame" x="314.33333333333331" y="94.333333333333329" width="34" height="32"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -137,7 +137,7 @@ Take in the new color and repeat</string>
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2XB-Ve-H5y">
-                                <rect key="frame" x="231" y="168" width="34.666666666666686" height="32"/>
+                                <rect key="frame" x="231" y="168" width="35" height="32"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -150,7 +150,7 @@ Take in the new color and repeat</string>
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bvY-aK-der">
-                                <rect key="frame" x="311" y="168" width="40.333333333333314" height="32"/>
+                                <rect key="frame" x="311.33333333333331" y="168" width="40" height="32"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -163,9 +163,9 @@ Take in the new color and repeat</string>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ee-rd-csW">
-                                <rect key="frame" x="157" y="157.66666666666666" width="100" height="53"/>
+                                <rect key="frame" x="159.66666666666666" y="160" width="95" height="48"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="titleShadowOffset" width="0.0" height="2"/>
                                 <state key="normal" title="  Start  ">
@@ -176,18 +176,18 @@ Take in the new color and repeat</string>
                                     <action selector="startTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SIV-Bx-BJM"/>
                                 </connections>
                             </button>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plug in device if battery is less than 20%" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HKd-Sa-FSb" userLabel="Warning Label">
-                                <rect key="frame" x="117.00000000000001" y="666" width="180.33333333333337" height="43.333333333333371"/>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plug in device if battery is less than 20%" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HKd-Sa-FSb" userLabel="Warning Label">
+                                <rect key="frame" x="111.66666666666667" y="611" width="190.66666666666663" height="44"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="shadowOffset" width="1" height="-1"/>
                             </label>
                             <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0AM-7H-uuq">
-                                <rect key="frame" x="146" y="611" width="122" height="29"/>
+                                <rect key="frame" x="146" y="556" width="122" height="29"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -209,9 +209,9 @@ Take in the new color and repeat</string>
                                 <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDR-1g-yoF" userLabel="Reset Button">
-                                <rect key="frame" x="142" y="525.66666666666663" width="130" height="53"/>
+                                <rect key="frame" x="142" y="470.66666666666669" width="130" height="53.000000000000057"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="titleShadowOffset" width="1" height="1"/>
                                 <state key="normal" title="  RESET  ">
@@ -223,20 +223,17 @@ Take in the new color and repeat</string>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="l6u-VD-HBT" userLabel="Time Stack View">
-                                <rect key="frame" x="142" y="319.33333333333331" width="130" height="97.333333333333314"/>
+                                <rect key="frame" x="142" y="135.33333333333334" width="130" height="97.333333333333343"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJJ-wa-3Yp">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="97.333333333333329"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="50" id="jzS-lx-27c"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="80"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <size key="shadowOffset" width="1" height="-1"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="50Y-Tg-OdB">
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="50Y-Tg-OdB">
                                         <rect key="frame" x="80" y="0.0" width="50" height="97.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="80"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -272,13 +269,12 @@ Take in the new color and repeat</string>
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qT4-T4-eXl">
-                                <rect key="frame" x="68" y="466.66666666666669" width="71" height="36"/>
+                                <rect key="frame" x="68" y="411.66666666666669" width="71.666666666666686" height="36"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="Bmw-ao-twv"/>
-                                    <constraint firstAttribute="width" constant="71" id="lh0-Mk-hXp"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="titleShadowOffset" width="1" height="-1"/>
                                 <state key="normal" title="  Pause  ">
@@ -290,9 +286,9 @@ Take in the new color and repeat</string>
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CCv-sH-0sK">
-                                <rect key="frame" x="59" y="466.66666666666669" width="89" height="36"/>
+                                <rect key="frame" x="59.000000000000007" y="411.66666666666669" width="89.666666666666686" height="36"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="titleShadowOffset" width="1" height="-1"/>
                                 <state key="normal" title="  Resume  ">
@@ -304,12 +300,9 @@ Take in the new color and repeat</string>
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8B-w7-y4S">
-                                <rect key="frame" x="271" y="466.66666666666669" width="79" height="36"/>
+                                <rect key="frame" x="270.33333333333331" y="411.66666666666669" width="79.666666666666686" height="36"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="79" id="NGm-6v-wMb"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="titleShadowOffset" width="1" height="-1"/>
                                 <state key="normal" title="  Cancel  ">
@@ -323,17 +316,16 @@ Take in the new color and repeat</string>
                         </subviews>
                         <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="D8B-w7-y4S" firstAttribute="leading" secondItem="vp6-gk-DCA" secondAttribute="trailing" constant="48.333333333333314" id="0TB-iv-Cyc"/>
                             <constraint firstItem="BpN-Eo-U9K" firstAttribute="leading" secondItem="sRe-2j-uJJ" secondAttribute="leading" id="1to-xM-42j"/>
-                            <constraint firstItem="bvY-aK-der" firstAttribute="leading" secondItem="2XB-Ve-H5y" secondAttribute="trailing" constant="45.333333333333314" id="38e-5Y-a70"/>
                             <constraint firstItem="CCv-sH-0sK" firstAttribute="top" secondItem="qT4-T4-eXl" secondAttribute="top" id="4LQ-0H-TJZ"/>
                             <constraint firstItem="qT4-T4-eXl" firstAttribute="baseline" secondItem="D8B-w7-y4S" secondAttribute="baseline" id="67D-bU-uji"/>
                             <constraint firstItem="vp6-gk-DCA" firstAttribute="bottom" secondItem="m82-fp-3QP" secondAttribute="bottom" id="6Fz-G6-Vyv"/>
-                            <constraint firstItem="2XB-Ve-H5y" firstAttribute="leading" secondItem="hnS-4c-bfW" secondAttribute="trailing" constant="48" id="6Mt-m6-nXF"/>
                             <constraint firstItem="HKd-Sa-FSb" firstAttribute="top" secondItem="0AM-7H-uuq" secondAttribute="bottom" constant="26" id="6RG-nR-kTy"/>
                             <constraint firstItem="9Ee-rd-csW" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="0.5" id="6bR-C1-PZw"/>
+                            <constraint firstItem="3B3-zc-fm0" firstAttribute="top" secondItem="t5r-Yq-yWS" secondAttribute="bottom" constant="57.666666666666671" id="6bv-tA-Hpa"/>
                             <constraint firstItem="m82-fp-3QP" firstAttribute="leading" secondItem="Zgq-O0-XgI" secondAttribute="leading" id="8Aa-QR-pC2"/>
                             <constraint firstItem="t5r-Yq-yWS" firstAttribute="top" secondItem="Zgq-O0-XgI" secondAttribute="top" constant="10" id="8MO-x3-hHI"/>
-                            <constraint firstItem="8F3-N3-hq0" firstAttribute="leading" secondItem="wBh-X3-Ha2" secondAttribute="trailing" constant="50.333333333333371" id="9cc-Ig-Z0q"/>
                             <constraint firstItem="0AM-7H-uuq" firstAttribute="top" secondItem="hDR-1g-yoF" secondAttribute="bottom" constant="32.333333333333371" id="BSE-WM-hgx"/>
                             <constraint firstItem="8F3-N3-hq0" firstAttribute="top" secondItem="Zgq-O0-XgI" secondAttribute="top" constant="94.333333333333329" id="Byl-yi-rE5"/>
                             <constraint firstItem="Zgq-O0-XgI" firstAttribute="bottom" secondItem="91c-DO-ciJ" secondAttribute="bottom" constant="50" id="C2l-c1-sDJ"/>
@@ -349,7 +341,6 @@ Take in the new color and repeat</string>
                             <constraint firstItem="CCv-sH-0sK" firstAttribute="baseline" secondItem="qT4-T4-eXl" secondAttribute="baseline" id="O1h-PM-Lqd"/>
                             <constraint firstItem="ffS-d7-flZ" firstAttribute="top" secondItem="wBh-X3-Ha2" secondAttribute="top" id="OUy-6t-wav"/>
                             <constraint firstItem="9Ee-rd-csW" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="Ojq-WO-xzD"/>
-                            <constraint firstItem="l6u-VD-HBT" firstAttribute="trailing" secondItem="hDR-1g-yoF" secondAttribute="trailing" id="PHS-g4-kWQ"/>
                             <constraint firstItem="BpN-Eo-U9K" firstAttribute="top" secondItem="sRe-2j-uJJ" secondAttribute="top" id="PfY-3S-hVK"/>
                             <constraint firstItem="0AM-7H-uuq" firstAttribute="centerX" secondItem="HKd-Sa-FSb" secondAttribute="centerX" id="QX8-ga-A6j"/>
                             <constraint firstItem="ouU-dz-YNS" firstAttribute="centerX" secondItem="bvY-aK-der" secondAttribute="centerX" id="REB-g7-Td1"/>
@@ -360,34 +351,31 @@ Take in the new color and repeat</string>
                             <constraint firstItem="m82-fp-3QP" firstAttribute="trailing" secondItem="Zgq-O0-XgI" secondAttribute="trailing" id="VPh-3R-ITj"/>
                             <constraint firstItem="hDR-1g-yoF" firstAttribute="centerX" secondItem="0AM-7H-uuq" secondAttribute="centerX" id="WeF-yW-2FL"/>
                             <constraint firstItem="J8F-c5-0Jl" firstAttribute="top" secondItem="wBh-X3-Ha2" secondAttribute="bottom" constant="6.0000000000000426" id="WqI-6r-BTz"/>
-                            <constraint firstItem="l6u-VD-HBT" firstAttribute="leading" secondItem="hDR-1g-yoF" secondAttribute="leading" id="Xeu-lo-TrJ"/>
-                            <constraint firstItem="wBh-X3-Ha2" firstAttribute="leading" secondItem="ffS-d7-flZ" secondAttribute="trailing" constant="51.666666666666671" id="XnB-we-rR4"/>
-                            <constraint firstItem="vp6-gk-DCA" firstAttribute="leading" secondItem="hnS-4c-bfW" secondAttribute="trailing" constant="9" id="YRC-Fj-4b2"/>
+                            <constraint firstItem="l6u-VD-HBT" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="XRl-vu-pBZ"/>
                             <constraint firstItem="wBh-X3-Ha2" firstAttribute="top" secondItem="8F3-N3-hq0" secondAttribute="top" id="YRS-JY-Rwo"/>
                             <constraint firstItem="ouU-dz-YNS" firstAttribute="leading" secondItem="8F3-N3-hq0" secondAttribute="trailing" constant="48.999999999999943" id="aiQ-8o-JeZ"/>
                             <constraint firstItem="8F3-N3-hq0" firstAttribute="baseline" secondItem="ouU-dz-YNS" secondAttribute="baseline" id="anu-n1-oHD"/>
                             <constraint firstItem="vp6-gk-DCA" firstAttribute="top" secondItem="m82-fp-3QP" secondAttribute="top" id="b7e-H4-JrX"/>
                             <constraint firstItem="m82-fp-3QP" firstAttribute="firstBaseline" secondItem="vp6-gk-DCA" secondAttribute="firstBaseline" id="bPH-sg-Zo9"/>
-                            <constraint firstItem="vp6-gk-DCA" firstAttribute="centerY" secondItem="l6u-VD-HBT" secondAttribute="centerY" id="bT0-qP-ttI"/>
                             <constraint firstItem="m82-fp-3QP" firstAttribute="top" secondItem="Zgq-O0-XgI" secondAttribute="top" id="boP-V9-RLv"/>
-                            <constraint firstItem="Zgq-O0-XgI" firstAttribute="trailing" secondItem="D8B-w7-y4S" secondAttribute="trailing" constant="64" id="c1I-lQ-8rU"/>
+                            <constraint firstItem="Zgq-O0-XgI" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="D8B-w7-y4S" secondAttribute="trailing" id="c1I-lQ-8rU"/>
                             <constraint firstItem="CCv-sH-0sK" firstAttribute="leading" secondItem="Zgq-O0-XgI" secondAttribute="leading" constant="59" id="cxo-2q-maa"/>
                             <constraint firstItem="CCv-sH-0sK" firstAttribute="centerX" secondItem="qT4-T4-eXl" secondAttribute="centerX" id="dvO-pD-Ot4"/>
                             <constraint firstItem="2XB-Ve-H5y" firstAttribute="baseline" secondItem="bvY-aK-der" secondAttribute="baseline" id="eBa-nn-WDg"/>
                             <constraint firstItem="m82-fp-3QP" firstAttribute="bottom" secondItem="Zgq-O0-XgI" secondAttribute="bottom" id="ea6-5K-OYl"/>
+                            <constraint firstItem="l6u-VD-HBT" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="0.5" id="ehm-G5-vZc"/>
                             <constraint firstItem="hDR-1g-yoF" firstAttribute="top" secondItem="CCv-sH-0sK" secondAttribute="bottom" constant="22.999999999999943" id="ekN-Za-f5a"/>
                             <constraint firstItem="3B3-zc-fm0" firstAttribute="centerX" secondItem="J8F-c5-0Jl" secondAttribute="centerX" id="fKc-os-AHu"/>
                             <constraint firstItem="Zgq-O0-XgI" firstAttribute="trailing" secondItem="bvY-aK-der" secondAttribute="trailing" constant="62.666666666666686" id="fNC-D9-XIz"/>
                             <constraint firstItem="hnS-4c-bfW" firstAttribute="centerY" secondItem="9Ee-rd-csW" secondAttribute="centerY" id="gKH-dY-5dT"/>
                             <constraint firstItem="hDR-1g-yoF" firstAttribute="centerX" secondItem="91c-DO-ciJ" secondAttribute="centerX" id="glJ-Q7-1Lf"/>
+                            <constraint firstItem="vp6-gk-DCA" firstAttribute="leading" secondItem="hnS-4c-bfW" secondAttribute="trailing" constant="9" id="iH7-hk-l6W"/>
+                            <constraint firstItem="hDR-1g-yoF" firstAttribute="leading" secondItem="l6u-VD-HBT" secondAttribute="leading" id="jQy-nc-V66"/>
                             <constraint firstItem="q8G-9w-CO4" firstAttribute="baseline" secondItem="hnS-4c-bfW" secondAttribute="baseline" id="nJI-pc-9q5"/>
-                            <constraint firstItem="2XB-Ve-H5y" firstAttribute="leading" secondItem="vp6-gk-DCA" secondAttribute="trailing" constant="9" id="plU-5T-E65"/>
                             <constraint firstItem="91c-DO-ciJ" firstAttribute="leading" secondItem="Zgq-O0-XgI" secondAttribute="leading" constant="50" id="qo5-mw-bQO"/>
-                            <constraint firstItem="CCv-sH-0sK" firstAttribute="top" secondItem="l6u-VD-HBT" secondAttribute="bottom" constant="50" id="rOb-M7-Pg5"/>
                             <constraint firstItem="J8F-c5-0Jl" firstAttribute="centerX" secondItem="9Ee-rd-csW" secondAttribute="centerX" id="vm9-qI-eri"/>
                             <constraint firstItem="wBh-X3-Ha2" firstAttribute="centerX" secondItem="hnS-4c-bfW" secondAttribute="centerX" id="xXb-3S-Vfz"/>
                             <constraint firstItem="q8G-9w-CO4" firstAttribute="leading" secondItem="Zgq-O0-XgI" secondAttribute="leading" constant="65.333333333333329" id="xeG-yI-mUe"/>
-                            <constraint firstItem="hnS-4c-bfW" firstAttribute="leading" secondItem="q8G-9w-CO4" secondAttribute="trailing" constant="47.666666666666671" id="xir-lz-Lhf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Zgq-O0-XgI"/>
                     </view>
