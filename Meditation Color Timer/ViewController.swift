@@ -253,7 +253,8 @@ class ViewController: UIViewController {
 					   completion: nil)
 
 
-
+        screenButton.alpha = 0
+        screenButton.isEnabled = false
 		/*tenMinutes.isHidden = false
 		fifteenMinutes.isHidden = false
 		twentyMinutes.isHidden = false
@@ -292,10 +293,10 @@ class ViewController: UIViewController {
 	// Connect and code the full screen view button action
 	@IBAction func screenButtonTapped(_ sender: Any) {
 
-		screenButton.isHidden = true
+		screenButton.alpha = 0
         screenButton.isEnabled = false
        // screenButton.alpha = 0
-		hideTimeLeft.isHidden = false
+		hideTimeLeft.alpha = 1
         hideTimeLeft.isEnabled = true
        // hideTimeLeft.alpha = 1
 		pauseButton.isHidden = false
@@ -325,10 +326,10 @@ class ViewController: UIViewController {
 	// Connect and code the full screen hide button action
 	@IBAction func hideTapped(_ sender: Any) {
 
-		hideTimeLeft.isHidden = true
+		hideTimeLeft.alpha = 0
         hideTimeLeft.isEnabled = false
        // hideTimeLeft.alpha = 0
-		screenButton.isHidden = false
+		screenButton.alpha = 1
         screenButton.isEnabled = true
        // screenButton.alpha = 1
 		//pauseButton.isHidden = true
@@ -373,7 +374,7 @@ class ViewController: UIViewController {
             }, completion: nil)
         
 
-		screenButton.isHidden = false
+		screenButton.alpha = 1
         screenButton.isEnabled = true
        // screenButton.alpha = 1
 		//resetButton.isHidden = true
@@ -432,7 +433,7 @@ class ViewController: UIViewController {
 		resumeButton.isHidden = false
 		resumeButton.isEnabled = true
 		resumeButton.alpha = 1
-		hideTimeLeft.isHidden = true
+		hideTimeLeft.alpha = 0
         hideTimeLeft.isEnabled = false
 		stopWatchTimer.invalidate()
 
@@ -441,9 +442,9 @@ class ViewController: UIViewController {
 	// Connect and code the resume button action
 	@IBAction func resumeTapped(_ sender: Any) {
 
-		screenButton.isHidden = false
+		screenButton.alpha = 1
         screenButton.isEnabled = true
-        hideTimeLeft.isHidden = true
+        hideTimeLeft.alpha = 0
         hideTimeLeft.isEnabled = false
 		resumeButton.isHidden = true
         resumeButton.isEnabled = false
@@ -478,6 +479,9 @@ class ViewController: UIViewController {
 
 		stopWatchTimer.invalidate()
         
+        minutesLabel.alpha = 0
+        secondsLabel.alpha = 0
+        
         take1MinuteLabel.alpha = 1
         
         howToUseLabel.isHidden = false
@@ -494,9 +498,9 @@ class ViewController: UIViewController {
 		resumeButton.alpha = 0
 		//homeButton.isHidden = false
        // homeButton.alpha = 1
-		screenButton.isHidden = true
+		screenButton.alpha = 0
         screenButton.isEnabled = false
-		hideTimeLeft.isHidden = true
+		hideTimeLeft.alpha = 0
         hideTimeLeft.isEnabled = false
 		startButton.isHidden = false
         startButton.isEnabled = true
@@ -566,10 +570,8 @@ class ViewController: UIViewController {
             // Haptic Feedback
             //UIImpactFeedbackGenerator(style: .heavy).impactOccurred()
 
-			screenButton.isHidden = true
             screenButton.isEnabled = false
             screenButton.alpha = 0
-			hideTimeLeft.isHidden = true
             hideTimeLeft.isEnabled = false
             hideTimeLeft.alpha = 0
 			//homeButton.isHidden = true
@@ -660,7 +662,7 @@ class ViewController: UIViewController {
 			secondsLabel.text = "00"
             
             AudioServicesPlayAlertSound(SystemSoundID(1008))
-                          AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+            AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
             
             //minutesLabel.alpha = 0
            // minutesLabel.isHidden = true
@@ -694,10 +696,8 @@ class ViewController: UIViewController {
 
             
             
-			screenButton.isHidden = true
             screenButton.isEnabled = false
             screenButton.alpha = 0
-			hideTimeLeft.isHidden = true
             hideTimeLeft.isEnabled = false
             hideTimeLeft.alpha = 0
 			//homeButton.isHidden = true
@@ -712,7 +712,7 @@ class ViewController: UIViewController {
 
 			resetButton.isHidden = false
             resetButton.isEnabled = true
-            //resetButton.alpha = 1
+            resetButton.alpha = 1
             
 			startButton.isHidden = true
             startButton.isEnabled = false
