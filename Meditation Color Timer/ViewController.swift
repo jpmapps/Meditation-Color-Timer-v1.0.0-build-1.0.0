@@ -513,7 +513,7 @@ class ViewController: UIViewController {
 		sixtyMinutes.isHidden = true
 		ninetyMinutes.isHidden = true
 		hundredTwentyMinutes.isHidden = true*/
-        cloudsView.isHidden = false
+       // cloudsView.isHidden = false
         cloudsView.alpha = 1
         
 
@@ -529,8 +529,8 @@ class ViewController: UIViewController {
 		UIApplication.shared.isIdleTimerDisabled = false
 
 	//	view.backgroundColor = #colorLiteral(red: 0.6679978967, green: 0.4751212597, blue: 0.2586010993, alpha: 0.5)
-        cloudsView.isHidden = false
-        cloudsView.alpha = 1
+        //cloudsView.isHidden = false
+       // cloudsView.alpha = 1
 
 		warningLabel.isHidden = false
 		warningLabel.alpha = 0.4

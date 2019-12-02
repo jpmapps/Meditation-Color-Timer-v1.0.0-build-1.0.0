@@ -15,14 +15,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tranquil for take a minute (1)" translatesAutoresizingMaskIntoConstraints="NO" id="hEg-p4-zcq">
+                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Seedling" translatesAutoresizingMaskIntoConstraints="NO" id="hEg-p4-zcq">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take a minute" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lzx-XX-zuZ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take a minute" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzx-XX-zuZ">
                                 <rect key="frame" x="122" y="44" width="131" height="27.333333333333329"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="shadowOffset" width="-1" height="-1"/>
@@ -30,11 +30,11 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="hEg-p4-zcq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="8CN-F1-WMV"/>
+                            <constraint firstItem="hEg-p4-zcq" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="8CN-F1-WMV"/>
                             <constraint firstItem="lzx-XX-zuZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="b1b-dH-rMG"/>
                             <constraint firstAttribute="bottom" secondItem="hEg-p4-zcq" secondAttribute="bottom" id="bOk-eh-DDN"/>
                             <constraint firstItem="lzx-XX-zuZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="lEE-3c-0JQ"/>
-                            <constraint firstItem="hEg-p4-zcq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lae-DH-bDE"/>
+                            <constraint firstItem="hEg-p4-zcq" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="lae-DH-bDE"/>
                             <constraint firstItem="hEg-p4-zcq" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="q3e-YA-AUP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -46,6 +46,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="tranquil for take a minute (1)" width="752" height="1337"/>
+        <image name="Seedling" width="2848" height="4272"/>
     </resources>
 </document>
