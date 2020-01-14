@@ -20,7 +20,8 @@ class ViewController: UIViewController {
 
 	var audioPlayer: AVAudioPlayer?
 
-	let fileURL = Bundle.main.path(forResource: "Bell Ting", ofType: "wav")
+	//let fileURL = Bundle.main.path(forResource: "Bell Ting", ofType: "wav")
+    let getStarted = Bundle.main.path(forResource: "lets get thus started", ofType: "m4a")
     
 	
 	override var prefersHomeIndicatorAutoHidden: Bool {
@@ -108,9 +109,9 @@ class ViewController: UIViewController {
 	
     @IBAction func startTapped(_ sender: Any) {
 
-		
-            AudioServicesPlayAlertSound(SystemSoundID(1008))
-            AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+        audioPlayer?.play()
+           /// AudioServicesPlayAlertSound(SystemSoundID(1008))
+          //  AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
         
         UIView.animate(withDuration: 3, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve,
             animations: {
@@ -423,7 +424,12 @@ class ViewController: UIViewController {
 		super.viewDidLoad()
 
 		do {
-			if let fileURL = Bundle.main.path(forResource: "Bell Ting", ofType: "wav") {
+            
+            if let fileURL = Bundle.main.path(forResource: "lets get thus started", ofType: "m4a") {
+
+            
+            
+		//	if let fileURL = Bundle.main.path(forResource: "Bell Ting", ofType: "wav") {
 				audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: fileURL))
 			} else {
 				print("No file with specified name exists")
