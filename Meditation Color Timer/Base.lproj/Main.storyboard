@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment version="4864" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,41 +11,41 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Take_a_minute" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="sRe-2j-uJJ">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="take_a_minute" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" clipsSubviews="YES" contentMode="top" id="sRe-2j-uJJ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Seedling" translatesAutoresizingMaskIntoConstraints="NO" id="BpN-Eo-U9K">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Seedling" translatesAutoresizingMaskIntoConstraints="NO" id="BpN-Eo-U9K">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take  a  Minute" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t5r-Yq-yWS">
-                                <rect key="frame" x="90" y="29.5" width="140.5" height="26.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="take a minute" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t5r-Yq-yWS">
+                                <rect key="frame" x="74" y="19.5" width="172" height="74.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="22"/>
+                                <color key="textColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="l6u-VD-HBT" userLabel="Time Stack View">
-                                <rect key="frame" x="95" y="93.5" width="130" height="97"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="l6u-VD-HBT" userLabel="Time Stack View">
+                                <rect key="frame" x="95" y="235.5" width="130" height="97"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJJ-wa-3Yp">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="97"/>
                                         <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="80"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                        <color key="shadowColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <size key="shadowOffset" width="1" height="-1"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="50Y-Tg-OdB">
                                         <rect key="frame" x="80" y="0.0" width="50" height="97"/>
                                         <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="80"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                        <color key="shadowColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <size key="shadowOffset" width="1" height="-1"/>
                                     </label>
                                 </subviews>
@@ -77,59 +77,85 @@
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qT4-T4-eXl">
-                                <rect key="frame" x="44.5" y="408" width="71" height="36"/>
+                                <rect key="frame" x="31" y="386" width="98" height="80"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="titleShadowOffset" width="1" height="-1"/>
-                                <state key="normal" title="  Pause  ">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="titleShadowColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="  pause  ">
+                                    <color key="titleColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="pauseTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2QS-fw-OYO"/>
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CCv-sH-0sK">
-                                <rect key="frame" x="35.5" y="408" width="89" height="36"/>
+                                <rect key="frame" x="34" y="386" width="92" height="80"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="titleShadowOffset" width="1" height="-1"/>
-                                <state key="normal" title="  Resume  ">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="titleShadowColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="continue">
+                                    <color key="titleColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="resumeTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q4j-Gb-c96"/>
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8B-w7-y4S">
-                                <rect key="frame" x="200.5" y="408" width="79" height="36"/>
+                                <rect key="frame" x="208.5" y="386" width="63" height="80"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="titleShadowOffset" width="1" height="-1"/>
-                                <state key="normal" title="  Cancel  ">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="titleShadowColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="finish">
+                                    <color key="titleColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="stopTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GZ8-Mt-YtX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ee-rd-csW">
-                                <rect key="frame" x="112.5" y="89.5" width="95" height="48"/>
+                                <rect key="frame" x="114" y="130.5" width="92" height="80"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="titleShadowOffset" width="0.0" height="2"/>
-                                <state key="normal" title="  Start  ">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="begin...">
+                                    <color key="titleColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="startTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SIV-Bx-BJM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xnT-qQ-eQ1">
+                                <rect key="frame" x="100" y="471" width="120" height="80"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
+                                <state key="normal" title="how to use">
+                                    <color key="titleColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Qv5-Ji-CSd" kind="presentation" id="8Ov-qv-1bQ"/>
+                                </connections>
+                            </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="how do you feel..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RgM-xt-aeB">
+                                <rect key="frame" x="21.5" y="240" width="277" height="88"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="26"/>
+                                <color key="textColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qbE-fQ-XlO">
+                                <rect key="frame" x="134" y="471" width="52" height="80"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
+                                <state key="normal" title="reset">
+                                    <color key="titleColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AGY-FI-vhn"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -137,25 +163,33 @@
                         <constraints>
                             <constraint firstItem="CCv-sH-0sK" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" multiplier="0.5" id="1ag-0b-m8M"/>
                             <constraint firstItem="vp6-gk-DCA" firstAttribute="leading" secondItem="Zgq-O0-XgI" secondAttribute="leading" id="7C9-qx-fOq"/>
+                            <constraint firstItem="qbE-fQ-XlO" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="9QX-rL-cvD"/>
+                            <constraint firstItem="l6u-VD-HBT" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" id="AJ7-uh-fda"/>
                             <constraint firstItem="m82-fp-3QP" firstAttribute="leading" secondItem="Zgq-O0-XgI" secondAttribute="leading" id="Bak-3C-e05"/>
                             <constraint firstAttribute="bottom" secondItem="BpN-Eo-U9K" secondAttribute="bottom" id="CMn-1P-rcb"/>
                             <constraint firstItem="BpN-Eo-U9K" firstAttribute="leading" secondItem="sRe-2j-uJJ" secondAttribute="leading" id="FM0-LK-EJX"/>
                             <constraint firstItem="m82-fp-3QP" firstAttribute="top" secondItem="Zgq-O0-XgI" secondAttribute="top" id="FOm-ny-uh4"/>
                             <constraint firstItem="CCv-sH-0sK" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="1.5" id="Kch-g3-CMK"/>
+                            <constraint firstItem="RgM-xt-aeB" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" id="Nyf-Hl-pal"/>
+                            <constraint firstItem="qbE-fQ-XlO" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="1.8" id="Ucv-2T-Kyd"/>
                             <constraint firstItem="t5r-Yq-yWS" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="WRa-aq-9uk"/>
                             <constraint firstItem="vp6-gk-DCA" firstAttribute="trailing" secondItem="Zgq-O0-XgI" secondAttribute="trailing" id="bhl-YW-6cc"/>
-                            <constraint firstItem="9Ee-rd-csW" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="0.4" id="d0C-w9-IgU"/>
+                            <constraint firstItem="l6u-VD-HBT" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="bw2-Wa-ceg"/>
+                            <constraint firstItem="xnT-qQ-eQ1" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="cYT-hc-I4I"/>
+                            <constraint firstItem="9Ee-rd-csW" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="0.6" id="d0C-w9-IgU"/>
+                            <constraint firstItem="xnT-qQ-eQ1" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="1.8" id="fCA-Og-Zn2"/>
                             <constraint firstItem="qT4-T4-eXl" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="1.5" id="hUn-ED-iuw"/>
                             <constraint firstItem="BpN-Eo-U9K" firstAttribute="top" secondItem="sRe-2j-uJJ" secondAttribute="top" id="huL-4J-XcK"/>
                             <constraint firstItem="D8B-w7-y4S" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="1.5" id="jAM-WU-ou2"/>
                             <constraint firstItem="vp6-gk-DCA" firstAttribute="bottom" secondItem="Zgq-O0-XgI" secondAttribute="bottom" id="jVy-B5-ia6"/>
                             <constraint firstItem="m82-fp-3QP" firstAttribute="trailing" secondItem="Zgq-O0-XgI" secondAttribute="trailing" id="nEy-WV-ylQ"/>
+                            <constraint firstItem="RgM-xt-aeB" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="nZS-D0-pmO"/>
                             <constraint firstItem="vp6-gk-DCA" firstAttribute="top" secondItem="Zgq-O0-XgI" secondAttribute="top" id="nbV-FV-PZo"/>
                             <constraint firstItem="D8B-w7-y4S" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" multiplier="1.5" id="pwG-5B-08Y"/>
                             <constraint firstItem="9Ee-rd-csW" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="tqj-Vz-64P"/>
                             <constraint firstAttribute="trailing" secondItem="BpN-Eo-U9K" secondAttribute="trailing" id="wPF-L1-yHF"/>
                             <constraint firstItem="m82-fp-3QP" firstAttribute="bottom" secondItem="Zgq-O0-XgI" secondAttribute="bottom" id="wtA-Gn-5ju"/>
-                            <constraint firstItem="t5r-Yq-yWS" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="0.15" id="yfG-p8-OQp"/>
+                            <constraint firstItem="t5r-Yq-yWS" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="0.2" id="yfG-p8-OQp"/>
                             <constraint firstItem="qT4-T4-eXl" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" multiplier="0.5" id="zD4-iv-G7r"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Zgq-O0-XgI"/>
@@ -163,8 +197,11 @@
                     <connections>
                         <outlet property="cloudsView" destination="BpN-Eo-U9K" id="Lid-Wb-Av0"/>
                         <outlet property="hideTimeLeft" destination="vp6-gk-DCA" id="Hi6-xR-rOZ"/>
+                        <outlet property="howDoYouFeel" destination="RgM-xt-aeB" id="Kad-wY-pbB"/>
+                        <outlet property="howToUseButton" destination="xnT-qQ-eQ1" id="nuk-nL-Mlm"/>
                         <outlet property="minutesLabel" destination="IJJ-wa-3Yp" id="TeD-m2-kkJ"/>
                         <outlet property="pauseButton" destination="qT4-T4-eXl" id="N7U-gq-oXt"/>
+                        <outlet property="resetButton" destination="qbE-fQ-XlO" id="4R9-1g-EAU"/>
                         <outlet property="resumeButton" destination="CCv-sH-0sK" id="10Y-fi-u1g"/>
                         <outlet property="screenButton" destination="m82-fp-3QP" id="9fL-y4-MfK"/>
                         <outlet property="secondsLabel" destination="50Y-Tg-OdB" id="8kf-iw-vm0"/>
@@ -176,6 +213,78 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1048.125" y="-20.070422535211268"/>
+        </scene>
+        <!--How To Use View Controller-->
+        <scene sceneID="SJX-mA-jwH">
+            <objects>
+                <viewController id="Qv5-Ji-CSd" customClass="HowToUseViewController" customModule="take_a_minute" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xQw-bM-0ju">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Seedling" translatesAutoresizingMaskIntoConstraints="NO" id="ADw-gQ-NGU">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="take a minute" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dow-jI-6IV">
+                                <rect key="frame" x="74" y="4" width="172" height="74"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="22"/>
+                                <color key="textColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Znz-oj-mcz">
+                                <rect key="frame" x="40" y="78" width="240" height="400"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="N7B-Ja-XMa"/>
+                                </constraints>
+                                <string key="text">Press START  You will hear a ting and your phone will vibrate.   Take a deep breath as the color changes then close your eyes and breathe out keeping the new color in mind.   After a short time you will hear another ting and your phone will vibrate.  Again, take a deep breath as the color changes then close your eyes and breathe out keeping the new color in mind.  Continue this routine until it ends a minute later.</string>
+                                <color key="textColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7n-HQ-hbL">
+                                <rect key="frame" x="138.5" y="459.5" width="43" height="67"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="16"/>
+                                <state key="normal" title="back">
+                                    <color key="titleColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="Qv5-Ji-CSd" eventType="touchUpInside" id="hcw-1n-N1c"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ADw-gQ-NGU" firstAttribute="leading" secondItem="xQw-bM-0ju" secondAttribute="leading" id="0qk-rI-zcO"/>
+                            <constraint firstItem="ADw-gQ-NGU" firstAttribute="top" secondItem="xQw-bM-0ju" secondAttribute="top" id="JG6-uf-7KH"/>
+                            <constraint firstItem="d7n-HQ-hbL" firstAttribute="centerX" secondItem="xQw-bM-0ju" secondAttribute="centerX" id="KQi-p5-hxm"/>
+                            <constraint firstItem="ADw-gQ-NGU" firstAttribute="trailing" secondItem="xQw-bM-0ju" secondAttribute="trailing" id="Shw-Sp-Lyi"/>
+                            <constraint firstItem="ADw-gQ-NGU" firstAttribute="bottom" secondItem="xQw-bM-0ju" secondAttribute="bottom" id="T1G-1k-QAg"/>
+                            <constraint firstItem="Qjo-A3-mbp" firstAttribute="trailing" secondItem="Znz-oj-mcz" secondAttribute="trailing" constant="40" id="UAm-re-yF7"/>
+                            <constraint firstItem="d7n-HQ-hbL" firstAttribute="centerY" secondItem="xQw-bM-0ju" secondAttribute="centerY" multiplier="1.8" id="b6P-ou-3Cq"/>
+                            <constraint firstItem="Znz-oj-mcz" firstAttribute="centerX" secondItem="xQw-bM-0ju" secondAttribute="centerX" id="cV6-ru-WyN"/>
+                            <constraint firstItem="dow-jI-6IV" firstAttribute="centerY" secondItem="xQw-bM-0ju" secondAttribute="centerY" multiplier="0.15" id="hiV-WS-XKk"/>
+                            <constraint firstItem="Znz-oj-mcz" firstAttribute="top" secondItem="dow-jI-6IV" secondAttribute="bottom" id="jTB-Fj-Sga"/>
+                            <constraint firstItem="dow-jI-6IV" firstAttribute="centerX" secondItem="xQw-bM-0ju" secondAttribute="centerX" id="mlI-ZB-eHo"/>
+                            <constraint firstItem="Znz-oj-mcz" firstAttribute="leading" secondItem="Qjo-A3-mbp" secondAttribute="leading" constant="40" id="sRH-NZ-RMM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Qjo-A3-mbp"/>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="d7n-HQ-hbL" id="AG8-JQ-2oh"/>
+                        <outlet property="howToUseTextView" destination="Znz-oj-mcz" id="LYS-Dj-uO2"/>
+                        <outlet property="takeAMinuteLabel" destination="dow-jI-6IV" id="MTC-oK-sAd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UzA-fN-t6z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-247.5" y="-23.239436619718312"/>
         </scene>
     </scenes>
     <resources>

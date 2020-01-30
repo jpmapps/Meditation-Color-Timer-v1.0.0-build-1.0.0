@@ -18,10 +18,10 @@ class ViewController: UIViewController {
     
     
 
-	var audioPlayer: AVAudioPlayer?
+	//var audioPlayer: AVAudioPlayer?
 
 	//let fileURL = Bundle.main.path(forResource: "Bell Ting", ofType: "wav")
-    let getStarted = Bundle.main.path(forResource: "lets get thus started", ofType: "m4a")
+    //let getStarted = Bundle.main.path(forResource: "lets get thus started", ofType: "m4a")
     
 	
 	override var prefersHomeIndicatorAutoHidden: Bool {
@@ -47,8 +47,10 @@ class ViewController: UIViewController {
 	@IBOutlet weak var resumeButton: UIButton!
     @IBOutlet weak var cloudsView: UIImageView!
     @IBOutlet weak var take1MinuteLabel: UILabel!
+    @IBOutlet weak var howToUseButton: UIButton!
+    @IBOutlet weak var howDoYouFeel: UILabel!
+    @IBOutlet weak var resetButton: UIButton!
     
-
 	// Connect and code the full screen view button action
 	@IBAction func screenButtonTapped(_ sender: Any) {
 
@@ -62,19 +64,19 @@ class ViewController: UIViewController {
 		stopButton.isEnabled = true
 
 		UIView.animate(withDuration: 0.5, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
-			self.pauseButton.alpha = 1
+            self.pauseButton.alpha = 0.8
 		}, completion: nil)
 
 		UIView.animate(withDuration: 0.5, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
-			self.stopButton.alpha = 1
+            self.stopButton.alpha = 0.8
 		}, completion: nil)
 
 		UIView.animate(withDuration: 0.5, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
-			self.minutesLabel.alpha = 1
+            self.minutesLabel.alpha = 0.6
 		}, completion: nil)
 
 		UIView.animate(withDuration: 0.5, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
-			self.secondsLabel.alpha = 1
+            self.secondsLabel.alpha = 0.6
 		}, completion: nil)
 	}
 
@@ -109,13 +111,13 @@ class ViewController: UIViewController {
 	
     @IBAction func startTapped(_ sender: Any) {
 
-        audioPlayer?.play()
-           /// AudioServicesPlayAlertSound(SystemSoundID(1008))
-          //  AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+       // audioPlayer?.play()
+           AudioServicesPlayAlertSound(SystemSoundID(1008))
+          AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
         
         UIView.animate(withDuration: 3, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve,
             animations: {
-            self.view.backgroundColor = #colorLiteral(red: 1, green: 0.1491314173, blue: 0, alpha: 1)
+            self.view.backgroundColor = #colorLiteral(red: 0.5807225108, green: 0.066734083, blue: 0, alpha: 1)
             }, completion: nil)
         
 
@@ -123,10 +125,12 @@ class ViewController: UIViewController {
         screenButton.isEnabled = true
 		startButton.isEnabled = false
         startButton.alpha = 0
+        howToUseButton.alpha = 0
+        howToUseButton.isEnabled = false
         
-        UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
-                   self.take1MinuteLabel.alpha = 0.3
-            }, completion: nil)
+        /*UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
+                   self.take1MinuteLabel.alpha = 0.7
+            }, completion: nil)*/
 
         UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
             self.cloudsView.alpha = 0.3
@@ -189,7 +193,7 @@ class ViewController: UIViewController {
         minutesLabel.alpha = 0
         secondsLabel.alpha = 0
         
-        take1MinuteLabel.alpha = 1
+        take1MinuteLabel.alpha = 0.9
 
 		pauseButton.isHidden = true
         pauseButton.isEnabled = false
@@ -206,7 +210,9 @@ class ViewController: UIViewController {
         hideTimeLeft.isEnabled = false
 		//startButton.isHidden = false
         startButton.isEnabled = true
-        startButton.alpha = 1
+        startButton.alpha = 0.8
+        howToUseButton.isEnabled = true
+        howToUseButton.alpha = 0.8
         cloudsView.alpha = 1
         
 
@@ -222,6 +228,83 @@ class ViewController: UIViewController {
 		UIApplication.shared.isIdleTimerDisabled = false
 
 	}
+    
+    @IBAction func resetButtonTapped(_ sender: Any) {
+        
+        UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
+                     self.cloudsView.alpha = 1
+                 }, completion: nil)
+                 
+                 UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
+                    self.take1MinuteLabel.alpha = 0.9
+                 }, completion: nil)
+                 
+                 UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
+                    self.startButton.alpha = 0.8
+                            }, completion: nil)
+                 
+                 UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
+                    self.howToUseButton.alpha = 0.8
+                 }, completion: nil)
+                 
+                 
+                 screenButton.isEnabled = false
+                 screenButton.alpha = 0
+                 hideTimeLeft.isEnabled = false
+                 hideTimeLeft.alpha = 0
+             
+                 pauseButton.isEnabled = false
+                 pauseButton.isHidden = true
+                 pauseButton.alpha = 0
+
+                 stopButton.isEnabled = false
+                 stopButton.isHidden = true
+                 stopButton.alpha = 0
+                 
+                 //startButton.isHidden = false
+                 startButton.isEnabled = true
+                 startButton.isHidden = false
+                 
+                 resetButton.isEnabled = false
+                 resetButton.isHidden = true
+                 resetButton.alpha = 0
+        
+        howDoYouFeel.isHidden = true
+        howDoYouFeel.alpha = 0
+        
+        howToUseButton.isHidden = false
+        howToUseButton.isEnabled = true
+                 
+
+                 UIApplication.shared.isIdleTimerDisabled = false
+
+                 
+                 cloudsView.isHidden = false
+                 stopWatchTimer.invalidate()
+        
+
+            
+            minutesLabel.alpha = 0
+            secondsLabel.alpha = 0
+            
+
+     
+            
+
+
+            currentTime = 60
+            y = 60
+
+            minutesLabel.text = "01"
+            //minutesLabel.alpha = 0
+            secondsLabel.text = "00"
+           // secondsLabel.alpha = 0
+
+            UIApplication.shared.isIdleTimerDisabled = false
+
+        }
+    
+    
 
 	// Object C code for timer and code for actions within duration of active timer
 	@objc func updateTime() {
@@ -238,7 +321,13 @@ class ViewController: UIViewController {
 
 		if currentTime == 00 {
                 
-            
+            stopWatchTimer.invalidate()
+            minutesLabel.alpha = 0
+            secondsLabel.alpha = 0
+            pauseButton.alpha = 0
+            resumeButton.alpha = 0
+            stopButton.alpha = 0
+
             
                 AudioServicesPlayAlertSound(SystemSoundID(1008))
                 AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
@@ -317,44 +406,31 @@ class ViewController: UIViewController {
             AudioServicesPlayAlertSound(SystemSoundID(1008))
             AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
             
+            resetButton.isEnabled = true
+            //resetButton.isHidden = false
+            //resetButton.alpha = 0.8
+            
+            howDoYouFeel.isHidden = false
             
             UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
-                self.cloudsView.alpha = 1
-            }, completion: nil)
-            
-            UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
-                self.take1MinuteLabel.alpha = 1
-            }, completion: nil)
-            
-            UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
-                           self.startButton.alpha = 1
-                       }, completion: nil)
-            
-            
-            screenButton.isEnabled = false
-            screenButton.alpha = 0
-            hideTimeLeft.isEnabled = false
-            hideTimeLeft.alpha = 0
+                              self.howDoYouFeel.alpha = 0.8
+                           }, completion: nil)
+         
 		
-			pauseButton.isEnabled = false
-            pauseButton.isHidden = true
-            pauseButton.alpha = 0
+        
+            UIView.animate(withDuration: 2, delay: 2, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
+                                     self.resetButton.alpha = 0.8
+                                  }, completion: nil)
+        
+        }
+    
+        
 
-			stopButton.isEnabled = false
-            stopButton.isHidden = true
-            stopButton.alpha = 0
-            
-			//startButton.isHidden = false
-            startButton.isEnabled = true
-			
 
-			UIApplication.shared.isIdleTimerDisabled = false
 
-			
-            cloudsView.isHidden = false
-            cloudsView.alpha = 1
-			stopWatchTimer.invalidate()
-		}
+/*  UIView.animate(withDuration: 2, delay: 2, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
+                          self.resetButton.alpha = 0.8
+                       }, completion: nil)*/
         
         if currentTime == y - x {
 
@@ -364,7 +440,7 @@ class ViewController: UIViewController {
             
             
 			UIView.animate(withDuration: 3, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
-				self.view.backgroundColor = #colorLiteral(red: 1, green: 0.5763723254, blue: 0, alpha: 1)
+				self.view.backgroundColor = #colorLiteral(red: 1, green: 0.1491314173, blue: 0, alpha: 1)
 			}, completion: nil)
 		}
 
@@ -375,7 +451,7 @@ class ViewController: UIViewController {
 
 
 			UIView.animate(withDuration: 3, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
-				self.view.backgroundColor = #colorLiteral(red: 0.9994240403, green: 0.9855536819, blue: 0, alpha: 1)
+				self.view.backgroundColor = #colorLiteral(red: 1, green: 0.5763723254, blue: 0, alpha: 1)
 			}, completion: nil)
 		}
 
@@ -385,7 +461,7 @@ class ViewController: UIViewController {
 
 
 			UIView.animate(withDuration: 3, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
-				self.view.backgroundColor = #colorLiteral(red: 0, green: 0.9768045545, blue: 0, alpha: 1)
+				self.view.backgroundColor = #colorLiteral(red: 0.3084011078, green: 0.5618229508, blue: 0, alpha: 1)
 			}, completion: nil)
 		}
 
@@ -423,25 +499,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
 		super.viewDidLoad()
 
-		do {
-            
-            if let fileURL = Bundle.main.path(forResource: "lets get thus started", ofType: "m4a") {
-
-            
-            
-		//	if let fileURL = Bundle.main.path(forResource: "Bell Ting", ofType: "wav") {
-				audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: fileURL))
-			} else {
-				print("No file with specified name exists")
-			}
-		} catch let error {
-			print("Can't play the audio file failed with an error \(error.localizedDescription)")
-		}
-
-		minutesLabel.font = UIFont.monospacedDigitSystemFont(ofSize: 100, weight: UIFont.Weight.ultraLight)
-		secondsLabel.font = UIFont.monospacedDigitSystemFont(ofSize: 100, weight: UIFont.Weight.ultraLight)
-
 	}
+    
+    override func viewWillAppear(_ animated: Bool) {
+        resetButton.alpha = 0
+    }
 
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
