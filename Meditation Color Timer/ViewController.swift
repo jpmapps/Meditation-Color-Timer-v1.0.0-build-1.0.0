@@ -13,22 +13,16 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
-  
-
-    
-    
-
-	//var audioPlayer: AVAudioPlayer?
-
-	//let fileURL = Bundle.main.path(forResource: "Bell Ting", ofType: "wav")
-    //let getStarted = Bundle.main.path(forResource: "lets get thus started", ofType: "m4a")
-    
 	
 	override var prefersHomeIndicatorAutoHidden: Bool {
 		return true
 	}
 
-	//let save = UserDefaults.standard
+    override var prefersStatusBarHidden: Bool {
+        return true
+        
+    }
+  //  [[UIApplication sharedApplication] unregisterForRemoteNotifications];
 
 	// Set timer variables
 	var stopWatchTimer = Timer()
@@ -50,8 +44,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var howToUseButton: UIButton!
     @IBOutlet weak var howDoYouFeel: UILabel!
     @IBOutlet weak var resetButton: UIButton!
+    @IBOutlet weak var birdImageView: UIImageView!
+    @IBOutlet weak var privacyPolicyButton: UIButton!
+    
+    
     
 	// Connect and code the full screen view button action
+    
+    
+    
+    
 	@IBAction func screenButtonTapped(_ sender: Any) {
 
 		screenButton.alpha = 0
@@ -117,7 +119,7 @@ class ViewController: UIViewController {
         
         UIView.animate(withDuration: 3, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve,
             animations: {
-            self.view.backgroundColor = #colorLiteral(red: 0.5807225108, green: 0.066734083, blue: 0, alpha: 1)
+            self.view.backgroundColor = #colorLiteral(red: 0.5792486072, green: 0.0651801452, blue: 0, alpha: 1)
             }, completion: nil)
         
 
@@ -127,6 +129,8 @@ class ViewController: UIViewController {
         startButton.alpha = 0
         howToUseButton.alpha = 0
         howToUseButton.isEnabled = false
+        privacyPolicyButton.alpha = 0
+        privacyPolicyButton.isEnabled = false
         
         /*UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
                    self.take1MinuteLabel.alpha = 0.7
@@ -135,6 +139,12 @@ class ViewController: UIViewController {
         UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
             self.cloudsView.alpha = 0.3
             }, completion: nil)
+        
+        UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
+        self.birdImageView.alpha = 0.6
+        }, completion: nil)
+        
+        
         
 
 		UIApplication.shared.isIdleTimerDisabled = true
@@ -214,6 +224,11 @@ class ViewController: UIViewController {
         howToUseButton.isEnabled = true
         howToUseButton.alpha = 0.8
         cloudsView.alpha = 1
+        birdImageView.alpha = 1
+        privacyPolicyButton.alpha = 0.8
+        privacyPolicyButton.isEnabled = true
+        
+        
         
 
 
@@ -245,7 +260,17 @@ class ViewController: UIViewController {
                  
                  UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
                     self.howToUseButton.alpha = 0.8
-                 }, completion: nil)
+                    }, completion: nil)
+        
+                UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
+                    self.birdImageView.alpha = 0.8
+                    }, completion: nil)
+        
+                UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
+                    self.privacyPolicyButton.alpha = 0.8
+                    }, completion: nil)
+        
+        
                  
                  
                  screenButton.isEnabled = false
@@ -274,6 +299,8 @@ class ViewController: UIViewController {
         
         howToUseButton.isHidden = false
         howToUseButton.isEnabled = true
+        
+        privacyPolicyButton.isEnabled = true
                  
 
                  UIApplication.shared.isIdleTimerDisabled = false
@@ -407,6 +434,7 @@ class ViewController: UIViewController {
             AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
             
             resetButton.isEnabled = true
+            resetButton.isHidden = false
             //resetButton.isHidden = false
             //resetButton.alpha = 0.8
             
@@ -440,7 +468,7 @@ class ViewController: UIViewController {
             
             
 			UIView.animate(withDuration: 3, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
-				self.view.backgroundColor = #colorLiteral(red: 1, green: 0.1491314173, blue: 0, alpha: 1)
+				self.view.backgroundColor = #colorLiteral(red: 0.9993608594, green: 0.1497559547, blue: 0, alpha: 1)
 			}, completion: nil)
 		}
 
@@ -498,12 +526,32 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
 		super.viewDidLoad()
+        
+        
+       
+                        
+                        UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
+                           self.take1MinuteLabel.alpha = 0.9
+                        }, completion: nil)
+                        
+                        UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
+                           self.startButton.alpha = 0.8
+                                   }, completion: nil)
+                        
+                        UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
+                           self.howToUseButton.alpha = 0.8
+                           }, completion: nil)
+               
+                       UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
+                           self.birdImageView.alpha = 1
+                           }, completion: nil)
+        
+                        UIView.animate(withDuration: 2, delay: 0, options: UIView.AnimationOptions.transitionCrossDissolve, animations: {
+                            self.privacyPolicyButton.alpha = 0.8
+                            }, completion: nil)
+        
 
 	}
-    
-    override func viewWillAppear(_ animated: Bool) {
-        resetButton.alpha = 0
-    }
 
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()

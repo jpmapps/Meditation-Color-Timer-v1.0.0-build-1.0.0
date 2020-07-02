@@ -1,15 +1,14 @@
 //
-//  How To Use ViewController.swift
+//  Privacy Policy ViewController.swift
 //  Take a Minute
 //
-//  Created by Joe Martin on 29/01/2020.
+//  Created by Joe Martin on 16/02/2020.
 //  Copyright © 2020 Joe Martin. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
-class HowToUseViewController: UIViewController {
+class privacyPolicyViewController: UIViewController {
     
     override var prefersHomeIndicatorAutoHidden: Bool {
         return true
@@ -20,15 +19,19 @@ class HowToUseViewController: UIViewController {
         
     }
     
-    @IBOutlet weak var takeAMinuteLabel: UILabel!
+    @IBOutlet weak var seedlingView: UIImageView!
     
-    @IBOutlet weak var howToUseTextView: UITextView!
+    @IBOutlet weak var privacyPolicyLabel: UILabel!
+    
+    @IBOutlet weak var privacyPolicyTextView: UITextView!
     
     @IBOutlet weak var backButton: UIButton!
     
     @IBAction func backButtonTapped(_ sender: Any) {
+        
         self.dismiss(animated: true, completion: nil)
 
     }
+    
     
 }

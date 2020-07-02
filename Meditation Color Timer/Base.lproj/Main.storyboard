@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment version="4864" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
@@ -13,14 +13,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="take_a_minute" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" clipsSubviews="YES" contentMode="top" id="sRe-2j-uJJ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Seedling" translatesAutoresizingMaskIntoConstraints="NO" id="BpN-Eo-U9K">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="take a minute" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t5r-Yq-yWS">
-                                <rect key="frame" x="74" y="19.5" width="172" height="74.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="take a minute" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t5r-Yq-yWS">
+                                <rect key="frame" x="121" y="52.333333333333336" width="172" height="74.333333333333314"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="22"/>
@@ -29,8 +29,16 @@
                                 <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bird.png" translatesAutoresizingMaskIntoConstraints="NO" id="qMk-gw-WZ5">
+                                <rect key="frame" x="157" y="174" width="100" height="100"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="2js-c8-ciI"/>
+                                    <constraint firstAttribute="height" constant="100" id="LY0-Ql-pjz"/>
+                                </constraints>
+                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="l6u-VD-HBT" userLabel="Time Stack View">
-                                <rect key="frame" x="95" y="235.5" width="130" height="97"/>
+                                <rect key="frame" x="142" y="399.66666666666669" width="130" height="97"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJJ-wa-3Yp">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="97"/>
@@ -52,7 +60,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </stackView>
                             <button opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m82-fp-3QP" userLabel="Time Left">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="718"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal">
@@ -64,7 +72,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.0" contentMode="scaleToFill" verticalHuggingPriority="249" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vp6-gk-DCA" userLabel="Hide Time Left">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="718"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -77,7 +85,7 @@
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qT4-T4-eXl">
-                                <rect key="frame" x="31" y="386" width="98" height="80"/>
+                                <rect key="frame" x="54.666666666666657" y="632" width="98" height="80"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -91,7 +99,7 @@
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CCv-sH-0sK">
-                                <rect key="frame" x="34" y="386" width="92" height="80"/>
+                                <rect key="frame" x="57.666666666666657" y="632" width="92" height="80"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -105,7 +113,7 @@
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8B-w7-y4S">
-                                <rect key="frame" x="208.5" y="386" width="63" height="80"/>
+                                <rect key="frame" x="279" y="632" width="63" height="80"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -118,8 +126,8 @@
                                     <action selector="stopTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GZ8-Mt-YtX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ee-rd-csW">
-                                <rect key="frame" x="114" y="130.5" width="92" height="80"/>
+                            <button opaque="NO" alpha="0.0" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ee-rd-csW">
+                                <rect key="frame" x="161" y="408" width="92" height="80"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -132,8 +140,8 @@
                                     <action selector="startTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SIV-Bx-BJM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xnT-qQ-eQ1">
-                                <rect key="frame" x="100" y="471" width="120" height="80"/>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xnT-qQ-eQ1">
+                                <rect key="frame" x="147" y="721.66666666666663" width="120" height="80"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
                                 <state key="normal" title="how to use">
                                     <color key="titleColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -143,13 +151,13 @@
                                 </connections>
                             </button>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="how do you feel..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RgM-xt-aeB">
-                                <rect key="frame" x="21.5" y="240" width="277" height="88"/>
+                                <rect key="frame" x="68.666666666666657" y="404" width="276.66666666666674" height="88"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="26"/>
                                 <color key="textColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qbE-fQ-XlO">
-                                <rect key="frame" x="134" y="471" width="52" height="80"/>
+                                <rect key="frame" x="181" y="766.33333333333337" width="52" height="80"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
                                 <state key="normal" title="reset">
                                     <color key="titleColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -158,15 +166,26 @@
                                     <action selector="resetButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AGY-FI-vhn"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aWj-1Y-ZUU">
+                                <rect key="frame" x="159.66666666666666" y="836.33333333333337" width="95" height="30"/>
+                                <state key="normal" title="Privacy Policy">
+                                    <color key="titleColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="eE5-H9-d7e" kind="presentation" id="Aw5-Fn-5RX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="qMk-gw-WZ5" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="0.5" id="0Vm-KJ-FC7"/>
                             <constraint firstItem="CCv-sH-0sK" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" multiplier="0.5" id="1ag-0b-m8M"/>
                             <constraint firstItem="vp6-gk-DCA" firstAttribute="leading" secondItem="Zgq-O0-XgI" secondAttribute="leading" id="7C9-qx-fOq"/>
                             <constraint firstItem="qbE-fQ-XlO" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="9QX-rL-cvD"/>
                             <constraint firstItem="l6u-VD-HBT" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" id="AJ7-uh-fda"/>
                             <constraint firstItem="m82-fp-3QP" firstAttribute="leading" secondItem="Zgq-O0-XgI" secondAttribute="leading" id="Bak-3C-e05"/>
                             <constraint firstAttribute="bottom" secondItem="BpN-Eo-U9K" secondAttribute="bottom" id="CMn-1P-rcb"/>
+                            <constraint firstItem="qMk-gw-WZ5" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="EH6-hX-udL"/>
                             <constraint firstItem="BpN-Eo-U9K" firstAttribute="leading" secondItem="sRe-2j-uJJ" secondAttribute="leading" id="FM0-LK-EJX"/>
                             <constraint firstItem="m82-fp-3QP" firstAttribute="top" secondItem="Zgq-O0-XgI" secondAttribute="top" id="FOm-ny-uh4"/>
                             <constraint firstItem="CCv-sH-0sK" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="1.5" id="Kch-g3-CMK"/>
@@ -176,31 +195,35 @@
                             <constraint firstItem="vp6-gk-DCA" firstAttribute="trailing" secondItem="Zgq-O0-XgI" secondAttribute="trailing" id="bhl-YW-6cc"/>
                             <constraint firstItem="l6u-VD-HBT" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="bw2-Wa-ceg"/>
                             <constraint firstItem="xnT-qQ-eQ1" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="cYT-hc-I4I"/>
-                            <constraint firstItem="9Ee-rd-csW" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="0.6" id="d0C-w9-IgU"/>
-                            <constraint firstItem="xnT-qQ-eQ1" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="1.8" id="fCA-Og-Zn2"/>
+                            <constraint firstItem="9Ee-rd-csW" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" id="d0C-w9-IgU"/>
+                            <constraint firstItem="xnT-qQ-eQ1" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="1.7" id="fCA-Og-Zn2"/>
                             <constraint firstItem="qT4-T4-eXl" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="1.5" id="hUn-ED-iuw"/>
                             <constraint firstItem="BpN-Eo-U9K" firstAttribute="top" secondItem="sRe-2j-uJJ" secondAttribute="top" id="huL-4J-XcK"/>
                             <constraint firstItem="D8B-w7-y4S" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="1.5" id="jAM-WU-ou2"/>
-                            <constraint firstItem="vp6-gk-DCA" firstAttribute="bottom" secondItem="Zgq-O0-XgI" secondAttribute="bottom" id="jVy-B5-ia6"/>
+                            <constraint firstItem="vp6-gk-DCA" firstAttribute="bottom" secondItem="Zgq-O0-XgI" secondAttribute="bottom" constant="-100" id="jVy-B5-ia6"/>
                             <constraint firstItem="m82-fp-3QP" firstAttribute="trailing" secondItem="Zgq-O0-XgI" secondAttribute="trailing" id="nEy-WV-ylQ"/>
                             <constraint firstItem="RgM-xt-aeB" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="nZS-D0-pmO"/>
                             <constraint firstItem="vp6-gk-DCA" firstAttribute="top" secondItem="Zgq-O0-XgI" secondAttribute="top" id="nbV-FV-PZo"/>
                             <constraint firstItem="D8B-w7-y4S" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" multiplier="1.5" id="pwG-5B-08Y"/>
                             <constraint firstItem="9Ee-rd-csW" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="tqj-Vz-64P"/>
                             <constraint firstAttribute="trailing" secondItem="BpN-Eo-U9K" secondAttribute="trailing" id="wPF-L1-yHF"/>
-                            <constraint firstItem="m82-fp-3QP" firstAttribute="bottom" secondItem="Zgq-O0-XgI" secondAttribute="bottom" id="wtA-Gn-5ju"/>
+                            <constraint firstItem="aWj-1Y-ZUU" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="1.9" id="wXe-jh-2gK"/>
+                            <constraint firstItem="m82-fp-3QP" firstAttribute="bottom" secondItem="Zgq-O0-XgI" secondAttribute="bottom" constant="-100" id="wtA-Gn-5ju"/>
                             <constraint firstItem="t5r-Yq-yWS" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="0.2" id="yfG-p8-OQp"/>
+                            <constraint firstItem="aWj-1Y-ZUU" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="z7g-ib-Pyi"/>
                             <constraint firstItem="qT4-T4-eXl" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" multiplier="0.5" id="zD4-iv-G7r"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Zgq-O0-XgI"/>
                     </view>
                     <connections>
+                        <outlet property="birdImageView" destination="qMk-gw-WZ5" id="JKy-VG-uWe"/>
                         <outlet property="cloudsView" destination="BpN-Eo-U9K" id="Lid-Wb-Av0"/>
                         <outlet property="hideTimeLeft" destination="vp6-gk-DCA" id="Hi6-xR-rOZ"/>
                         <outlet property="howDoYouFeel" destination="RgM-xt-aeB" id="Kad-wY-pbB"/>
                         <outlet property="howToUseButton" destination="xnT-qQ-eQ1" id="nuk-nL-Mlm"/>
                         <outlet property="minutesLabel" destination="IJJ-wa-3Yp" id="TeD-m2-kkJ"/>
                         <outlet property="pauseButton" destination="qT4-T4-eXl" id="N7U-gq-oXt"/>
+                        <outlet property="privacyPolicyButton" destination="aWj-1Y-ZUU" id="OBy-Q3-Eor"/>
                         <outlet property="resetButton" destination="qbE-fQ-XlO" id="4R9-1g-EAU"/>
                         <outlet property="resumeButton" destination="CCv-sH-0sK" id="10Y-fi-u1g"/>
                         <outlet property="screenButton" destination="m82-fp-3QP" id="9fL-y4-MfK"/>
@@ -214,19 +237,137 @@
             </objects>
             <point key="canvasLocation" x="-1048.125" y="-20.070422535211268"/>
         </scene>
+        <!--Privacy Policy View Controller-->
+        <scene sceneID="KgW-pm-EwA">
+            <objects>
+                <viewController id="eE5-H9-d7e" customClass="privacyPolicyViewController" customModule="take_a_minute" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PUD-UG-dxa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Seedling" translatesAutoresizingMaskIntoConstraints="NO" id="OE1-gg-q0C">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="privacy policy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t6g-C3-qV0">
+                                <rect key="frame" x="151.66666666666666" y="52.333333333333336" width="110.99999999999997" height="21.666666666666664"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZMQ-U5-r2r">
+                                <rect key="frame" x="20" y="82" width="374" height="676"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Privacy Policy
+Effective date: February 1, 2020
+
+take a minute ("us", "we", or "our") operates the https://kentishtownnw5.wixsite.com/takeaminute website and the take a minute mobile application (hereinafter referred to as the "Service").
+
+This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. Our Privacy Policy for take a minute is managed with the help of "Privacy Policies".
+
+By using the Service, you agree to the collection and use of information in accordance with this policy.
+
+Information Collection And Use
+We collect several different types of information for various purposes to provide and improve our Service to you.
+
+Types of Data Collected
+
+Personal Data
+While using our Service, we do not ask you to provide us with any personally identifiable information that can be used to identify you ("Personal Data"). If you contact the developer by tapping the email link in the tale a minute website your email address will be recorded and securely stored by the developer. This email address may be used by the developer to send you emails regarding the service, such as tips or update alerts. You can choose to have your email address removed from the developer's records, at any time, by emailing a request to the developer
+
+Usage Data
+We may collect information that your browser sends whenever you visit our Service or when you access the Service by or through a mobile device ("Usage Data").
+
+This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
+
+When you access the Service with a mobile device, this Usage Data may include information such as the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data.
+
+Use of Data
+take a minute uses the collected data for various purposes:
+
+To provide and maintain the Service
+
+To provide analysis or valuable information so that we can improve the Service
+
+To monitor the usage of the Service
+
+To detect, prevent and address technical issues
+
+Transfer Of Data
+Your information may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ from those from within your jurisdiction.
+
+If you are located outside United Kingdom please note that we transfer the data to United States and process it there.
+
+take a minute will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Data will take place to an organisation or a country unless there are adequate controls in place to secure your data.
+
+Service Providers
+We employ third party companies to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analysing how our Service is used.
+These third parties have access to your Usage Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.
+
+Website
+The website is created on and hosted by Wix.com
+Please visit their website to view their privacy policy at: https://www.wix.com/about/privacy 
+
+Links To Other Sites
+Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.
+We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
+
+Changes To This Privacy Policy
+We may update our Privacy Policy from time to time. Any changes will be posted on this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</mutableString>
+                                <color key="textColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPT-Oc-AMh">
+                                <rect key="frame" x="190" y="785" width="34" height="30"/>
+                                <state key="normal" title="back">
+                                    <color key="titleColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="eE5-H9-d7e" eventType="touchUpInside" id="oNv-1I-UpN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="wPT-Oc-AMh" firstAttribute="centerY" secondItem="PUD-UG-dxa" secondAttribute="centerY" multiplier="1.9" id="3Mb-VH-Jhe"/>
+                            <constraint firstItem="ZMQ-U5-r2r" firstAttribute="top" secondItem="t6g-C3-qV0" secondAttribute="bottom" constant="8" symbolic="YES" id="8Vl-cQ-dvs"/>
+                            <constraint firstItem="wPT-Oc-AMh" firstAttribute="bottom" secondItem="ZMQ-U5-r2r" secondAttribute="bottom" constant="57" id="BFL-5d-rqz"/>
+                            <constraint firstItem="ZMQ-U5-r2r" firstAttribute="leading" secondItem="Huo-X3-Vce" secondAttribute="leading" constant="20" id="Dfk-Ql-1Xl"/>
+                            <constraint firstItem="OE1-gg-q0C" firstAttribute="trailing" secondItem="Huo-X3-Vce" secondAttribute="trailing" id="Q6e-bv-lgb"/>
+                            <constraint firstItem="t6g-C3-qV0" firstAttribute="centerX" secondItem="PUD-UG-dxa" secondAttribute="centerX" id="RRo-OG-K8s"/>
+                            <constraint firstAttribute="bottom" secondItem="OE1-gg-q0C" secondAttribute="bottom" id="T0M-2n-STV"/>
+                            <constraint firstItem="OE1-gg-q0C" firstAttribute="leading" secondItem="Huo-X3-Vce" secondAttribute="leading" id="TX6-m4-kxi"/>
+                            <constraint firstItem="ZMQ-U5-r2r" firstAttribute="centerX" secondItem="PUD-UG-dxa" secondAttribute="centerX" id="acT-WD-hBL"/>
+                            <constraint firstItem="wPT-Oc-AMh" firstAttribute="centerX" secondItem="PUD-UG-dxa" secondAttribute="centerX" id="bvP-52-PEN"/>
+                            <constraint firstItem="OE1-gg-q0C" firstAttribute="top" secondItem="PUD-UG-dxa" secondAttribute="top" id="d44-My-ZHM"/>
+                            <constraint firstItem="t6g-C3-qV0" firstAttribute="centerY" secondItem="PUD-UG-dxa" secondAttribute="centerY" multiplier="0.15" id="zNx-R5-ZhM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Huo-X3-Vce"/>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="wPT-Oc-AMh" id="Bqz-Zo-Qg4"/>
+                        <outlet property="privacyPolicyLabel" destination="t6g-C3-qV0" id="lSL-Qo-DYw"/>
+                        <outlet property="privacyPolicyTextView" destination="ZMQ-U5-r2r" id="k8R-BK-bWh"/>
+                        <outlet property="seedlingView" destination="OE1-gg-q0C" id="2Eh-4w-bwz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ztX-nE-3Pe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1049.2753623188407" y="689.73214285714278"/>
+        </scene>
         <!--How To Use View Controller-->
         <scene sceneID="SJX-mA-jwH">
             <objects>
                 <viewController id="Qv5-Ji-CSd" customClass="HowToUseViewController" customModule="take_a_minute" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xQw-bM-0ju">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Seedling" translatesAutoresizingMaskIntoConstraints="NO" id="ADw-gQ-NGU">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="take a minute" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dow-jI-6IV">
-                                <rect key="frame" x="74" y="4" width="172" height="74"/>
+                                <rect key="frame" x="121" y="26" width="172" height="74"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="22"/>
@@ -235,20 +376,20 @@
                                 <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Znz-oj-mcz">
-                                <rect key="frame" x="40" y="78" width="240" height="400"/>
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Znz-oj-mcz">
+                                <rect key="frame" x="40" y="100" width="334" height="400"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="400" id="N7B-Ja-XMa"/>
                                 </constraints>
-                                <string key="text">Press START  You will hear a ting and your phone will vibrate.   Take a deep breath as the color changes then close your eyes and breathe out keeping the new color in mind.   After a short time you will hear another ting and your phone will vibrate.  Again, take a deep breath as the color changes then close your eyes and breathe out keeping the new color in mind.  Continue this routine until it ends a minute later.</string>
+                                <string key="text">Press 'begin'  You will hear a ting and your phone will vibrate.   Take a deep breath as the color changes then close your eyes and breathe out keeping the new color in mind.   After a short time you will hear another ting and your phone will vibrate.  Again, take a deep breath as the color changes then close your eyes and breathe out keeping the new color in mind.  Continue this procedure until the app concludes (1 minute)</string>
                                 <color key="textColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7n-HQ-hbL">
-                                <rect key="frame" x="138.5" y="459.5" width="43" height="67"/>
+                                <rect key="frame" x="185.66666666666666" y="682.33333333333337" width="43" height="67"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="16"/>
                                 <state key="normal" title="back">
                                     <color key="titleColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -267,7 +408,7 @@
                             <constraint firstItem="ADw-gQ-NGU" firstAttribute="trailing" secondItem="xQw-bM-0ju" secondAttribute="trailing" id="Shw-Sp-Lyi"/>
                             <constraint firstItem="ADw-gQ-NGU" firstAttribute="bottom" secondItem="xQw-bM-0ju" secondAttribute="bottom" id="T1G-1k-QAg"/>
                             <constraint firstItem="Qjo-A3-mbp" firstAttribute="trailing" secondItem="Znz-oj-mcz" secondAttribute="trailing" constant="40" id="UAm-re-yF7"/>
-                            <constraint firstItem="d7n-HQ-hbL" firstAttribute="centerY" secondItem="xQw-bM-0ju" secondAttribute="centerY" multiplier="1.8" id="b6P-ou-3Cq"/>
+                            <constraint firstItem="d7n-HQ-hbL" firstAttribute="centerY" secondItem="xQw-bM-0ju" secondAttribute="centerY" multiplier="1.7" id="b6P-ou-3Cq"/>
                             <constraint firstItem="Znz-oj-mcz" firstAttribute="centerX" secondItem="xQw-bM-0ju" secondAttribute="centerX" id="cV6-ru-WyN"/>
                             <constraint firstItem="dow-jI-6IV" firstAttribute="centerY" secondItem="xQw-bM-0ju" secondAttribute="centerY" multiplier="0.15" id="hiV-WS-XKk"/>
                             <constraint firstItem="Znz-oj-mcz" firstAttribute="top" secondItem="dow-jI-6IV" secondAttribute="bottom" id="jTB-Fj-Sga"/>
@@ -288,6 +429,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Bird.png" width="452" height="204"/>
         <image name="Seedling" width="2848" height="4272"/>
     </resources>
 </document>
