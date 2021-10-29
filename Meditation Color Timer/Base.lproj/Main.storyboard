@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19528" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment version="4864" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -84,7 +85,7 @@
                                     <action selector="hideTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7uC-A1-Fkz"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qT4-T4-eXl">
+                            <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qT4-T4-eXl">
                                 <rect key="frame" x="54.666666666666657" y="632" width="98" height="80"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
@@ -98,7 +99,7 @@
                                     <action selector="pauseTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2QS-fw-OYO"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CCv-sH-0sK">
+                            <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CCv-sH-0sK">
                                 <rect key="frame" x="57.666666666666657" y="632" width="92" height="80"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
@@ -112,7 +113,7 @@
                                     <action selector="resumeTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q4j-Gb-c96"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8B-w7-y4S">
+                            <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8B-w7-y4S">
                                 <rect key="frame" x="279" y="632" width="63" height="80"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
@@ -126,7 +127,7 @@
                                     <action selector="stopTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GZ8-Mt-YtX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.0" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ee-rd-csW">
+                            <button opaque="NO" alpha="0.0" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ee-rd-csW">
                                 <rect key="frame" x="161" y="408" width="92" height="80"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
@@ -140,7 +141,7 @@
                                     <action selector="startTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SIV-Bx-BJM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xnT-qQ-eQ1">
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xnT-qQ-eQ1">
                                 <rect key="frame" x="147" y="721.66666666666663" width="120" height="80"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
                                 <state key="normal" title="how to use">
@@ -156,7 +157,7 @@
                                 <color key="textColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qbE-fQ-XlO">
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qbE-fQ-XlO">
                                 <rect key="frame" x="181" y="766.33333333333337" width="52" height="80"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
                                 <state key="normal" title="reset">
@@ -166,7 +167,7 @@
                                     <action selector="resetButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AGY-FI-vhn"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aWj-1Y-ZUU">
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aWj-1Y-ZUU">
                                 <rect key="frame" x="159.66666666666666" y="836.33333333333337" width="95" height="30"/>
                                 <state key="normal" title="Privacy Policy">
                                     <color key="titleColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -176,6 +177,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="Zgq-O0-XgI"/>
                         <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="qMk-gw-WZ5" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="0.5" id="0Vm-KJ-FC7"/>
@@ -213,7 +215,6 @@
                             <constraint firstItem="aWj-1Y-ZUU" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="z7g-ib-Pyi"/>
                             <constraint firstItem="qT4-T4-eXl" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" multiplier="0.5" id="zD4-iv-G7r"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Zgq-O0-XgI"/>
                     </view>
                     <connections>
                         <outlet property="birdImageView" destination="qMk-gw-WZ5" id="JKy-VG-uWe"/>
@@ -257,7 +258,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZMQ-U5-r2r">
                                 <rect key="frame" x="20" y="82" width="374" height="676"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Privacy Policy
+                                <string key="text">Privacy Policy
 Effective date: February 1, 2020
 
 take a minute ("us", "we", or "our") operates the https://kentishtownnw5.wixsite.com/takeaminute website and the take a minute mobile application (hereinafter referred to as the "Service").
@@ -312,12 +313,12 @@ Our Service may contain links to other sites that are not operated by us. If you
 We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
 
 Changes To This Privacy Policy
-We may update our Privacy Policy from time to time. Any changes will be posted on this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</mutableString>
+We may update our Privacy Policy from time to time. Any changes will be posted on this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</string>
                                 <color key="textColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPT-Oc-AMh">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPT-Oc-AMh">
                                 <rect key="frame" x="190" y="785" width="34" height="30"/>
                                 <state key="normal" title="back">
                                     <color key="titleColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -327,7 +328,8 @@ We may update our Privacy Policy from time to time. Any changes will be posted o
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Huo-X3-Vce"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="wPT-Oc-AMh" firstAttribute="centerY" secondItem="PUD-UG-dxa" secondAttribute="centerY" multiplier="1.9" id="3Mb-VH-Jhe"/>
                             <constraint firstItem="ZMQ-U5-r2r" firstAttribute="top" secondItem="t6g-C3-qV0" secondAttribute="bottom" constant="8" symbolic="YES" id="8Vl-cQ-dvs"/>
@@ -342,7 +344,6 @@ We may update our Privacy Policy from time to time. Any changes will be posted o
                             <constraint firstItem="OE1-gg-q0C" firstAttribute="top" secondItem="PUD-UG-dxa" secondAttribute="top" id="d44-My-ZHM"/>
                             <constraint firstItem="t6g-C3-qV0" firstAttribute="centerY" secondItem="PUD-UG-dxa" secondAttribute="centerY" multiplier="0.15" id="zNx-R5-ZhM"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Huo-X3-Vce"/>
                     </view>
                     <connections>
                         <outlet property="backButton" destination="wPT-Oc-AMh" id="Bqz-Zo-Qg4"/>
@@ -388,7 +389,7 @@ We may update our Privacy Policy from time to time. Any changes will be posted o
                                 <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7n-HQ-hbL">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7n-HQ-hbL">
                                 <rect key="frame" x="185.66666666666666" y="682.33333333333337" width="43" height="67"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="16"/>
                                 <state key="normal" title="back">
@@ -400,7 +401,8 @@ We may update our Privacy Policy from time to time. Any changes will be posted o
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Qjo-A3-mbp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ADw-gQ-NGU" firstAttribute="leading" secondItem="xQw-bM-0ju" secondAttribute="leading" id="0qk-rI-zcO"/>
                             <constraint firstItem="ADw-gQ-NGU" firstAttribute="top" secondItem="xQw-bM-0ju" secondAttribute="top" id="JG6-uf-7KH"/>
@@ -415,7 +417,6 @@ We may update our Privacy Policy from time to time. Any changes will be posted o
                             <constraint firstItem="dow-jI-6IV" firstAttribute="centerX" secondItem="xQw-bM-0ju" secondAttribute="centerX" id="mlI-ZB-eHo"/>
                             <constraint firstItem="Znz-oj-mcz" firstAttribute="leading" secondItem="Qjo-A3-mbp" secondAttribute="leading" constant="40" id="sRH-NZ-RMM"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Qjo-A3-mbp"/>
                     </view>
                     <connections>
                         <outlet property="backButton" destination="d7n-HQ-hbL" id="AG8-JQ-2oh"/>
@@ -431,5 +432,8 @@ We may update our Privacy Policy from time to time. Any changes will be posted o
     <resources>
         <image name="Bird.png" width="452" height="204"/>
         <image name="Seedling" width="2848" height="4272"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

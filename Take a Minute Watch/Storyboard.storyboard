@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="19528" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="IGi-cB-aGO">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="19514"/>
+    </dependencies>
+    <scenes>
+        <!--Seedling-->
+        <scene sceneID="fRD-1l-P1O">
+            <objects>
+                <controller backgroundImage="Seedling" id="IGi-cB-aGO">
+                    <items>
+                        <button width="1" alignment="center" title="Begin" id="tLH-lF-EEn"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="116" y="-44"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Seedling" width="2848" height="4272"/>
+    </resources>
+</document>
