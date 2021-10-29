@@ -7,41 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		752D7BCE23CB61020051D16F /* lets get thus started.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 752D7BCD23CB61020051D16F /* lets get thus started.m4a */; };
-		7550FB7221F72F19001D9AC2 /* Bell Ting.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7550FB7121F72F19001D9AC2 /* Bell Ting.wav */; };
+		7537884A21DFB312009CA551 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7537884921DFB312009CA551 /* StoreViewController.swift */; };
+		7537884C21DFB32A009CA551 /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7537884B21DFB32A009CA551 /* PrivacyPolicyViewController.swift */; };
 		755A9DED21A9B68E009A7209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755A9DEC21A9B68E009A7209 /* AppDelegate.swift */; };
+		755A9DEF21A9B68E009A7209 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755A9DEE21A9B68E009A7209 /* ViewController.swift */; };
 		755A9DF221A9B68E009A7209 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 755A9DF021A9B68E009A7209 /* Main.storyboard */; };
 		755A9DF421A9B68E009A7209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 755A9DF321A9B68E009A7209 /* Assets.xcassets */; };
 		755A9DF721A9B68E009A7209 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 755A9DF521A9B68E009A7209 /* LaunchScreen.storyboard */; };
-		75DE9A1F21F51375004274A9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75DE9A1E21F51375004274A9 /* AVFoundation.framework */; };
-		75E54512234C98E100C0876C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E54511234C98E100C0876C /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		7559D530233F1697000B93CA /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		752D7BCD23CB61020051D16F /* lets get thus started.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lets get thus started.m4a"; sourceTree = "<group>"; };
-		7550FB7121F72F19001D9AC2 /* Bell Ting.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bell Ting.wav"; sourceTree = "<group>"; };
-		755A9DE921A9B68E009A7209 /* Take a minute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Take a minute.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7537884921DFB312009CA551 /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		7537884B21DFB32A009CA551 /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
+		755A9DE921A9B68E009A7209 /* Meditation Color Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meditation Color Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		755A9DEC21A9B68E009A7209 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		755A9DEE21A9B68E009A7209 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		755A9DF121A9B68E009A7209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		755A9DF321A9B68E009A7209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		755A9DF621A9B68E009A7209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		755A9DF821A9B68E009A7209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		75BB2CBF233F839600CC292F /* Take a Minute.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "Take a Minute.entitlements"; sourceTree = "<group>"; };
-		75DE9A1E21F51375004274A9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		75E54511234C98E100C0876C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +33,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75DE9A1F21F51375004274A9 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,14 +44,13 @@
 			children = (
 				755A9DEB21A9B68E009A7209 /* Meditation Color Timer */,
 				755A9DEA21A9B68E009A7209 /* Products */,
-				75DE9A1D21F51375004274A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		755A9DEA21A9B68E009A7209 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				755A9DE921A9B68E009A7209 /* Take a minute.app */,
+				755A9DE921A9B68E009A7209 /* Meditation Color Timer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,25 +58,16 @@
 		755A9DEB21A9B68E009A7209 /* Meditation Color Timer */ = {
 			isa = PBXGroup;
 			children = (
-				75BB2CBF233F839600CC292F /* Take a Minute.entitlements */,
 				755A9DEC21A9B68E009A7209 /* AppDelegate.swift */,
+				755A9DEE21A9B68E009A7209 /* ViewController.swift */,
+				7537884921DFB312009CA551 /* StoreViewController.swift */,
+				7537884B21DFB32A009CA551 /* PrivacyPolicyViewController.swift */,
 				755A9DF021A9B68E009A7209 /* Main.storyboard */,
 				755A9DF321A9B68E009A7209 /* Assets.xcassets */,
-				7550FB7121F72F19001D9AC2 /* Bell Ting.wav */,
-				75E54511234C98E100C0876C /* ViewController.swift */,
-				752D7BCD23CB61020051D16F /* lets get thus started.m4a */,
 				755A9DF521A9B68E009A7209 /* LaunchScreen.storyboard */,
 				755A9DF821A9B68E009A7209 /* Info.plist */,
 			);
 			path = "Meditation Color Timer";
-			sourceTree = "<group>";
-		};
-		75DE9A1D21F51375004274A9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				75DE9A1E21F51375004274A9 /* AVFoundation.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,7 +80,6 @@
 				755A9DE521A9B68E009A7209 /* Sources */,
 				755A9DE621A9B68E009A7209 /* Frameworks */,
 				755A9DE721A9B68E009A7209 /* Resources */,
-				7559D530233F1697000B93CA /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
@@ -115,7 +87,7 @@
 			);
 			name = "Meditation Color Timer";
 			productName = "Meditation Color Timer";
-			productReference = 755A9DE921A9B68E009A7209 /* Take a minute.app */;
+			productReference = 755A9DE921A9B68E009A7209 /* Meditation Color Timer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -124,13 +96,12 @@
 		755A9DE121A9B68E009A7209 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Joe Martin";
 				TargetAttributes = {
 					755A9DE821A9B68E009A7209 = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1030;
 					};
 				};
 			};
@@ -157,10 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				752D7BCE23CB61020051D16F /* lets get thus started.m4a in Resources */,
 				755A9DF721A9B68E009A7209 /* LaunchScreen.storyboard in Resources */,
 				755A9DF421A9B68E009A7209 /* Assets.xcassets in Resources */,
-				7550FB7221F72F19001D9AC2 /* Bell Ting.wav in Resources */,
 				755A9DF221A9B68E009A7209 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75E54512234C98E100C0876C /* ViewController.swift in Sources */,
+				755A9DEF21A9B68E009A7209 /* ViewController.swift in Sources */,
 				755A9DED21A9B68E009A7209 /* AppDelegate.swift in Sources */,
+				7537884A21DFB312009CA551 /* StoreViewController.swift in Sources */,
+				7537884C21DFB32A009CA551 /* PrivacyPolicyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +221,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -305,7 +276,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -319,18 +290,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Meditation Color Timer/Take a Minute.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6BTKUBUD89;
 				INFOPLIST_FILE = "Meditation Color Timer/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.joemartin.take-a-minute";
-				PRODUCT_NAME = "Take a minute";
-				SWIFT_VERSION = 5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joemartin.Meditation-Color-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -339,18 +309,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Meditation Color Timer/Take a Minute.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6BTKUBUD89;
 				INFOPLIST_FILE = "Meditation Color Timer/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.joemartin.take-a-minute";
-				PRODUCT_NAME = "Take a minute";
-				SWIFT_VERSION = 5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joemartin.Meditation-Color-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

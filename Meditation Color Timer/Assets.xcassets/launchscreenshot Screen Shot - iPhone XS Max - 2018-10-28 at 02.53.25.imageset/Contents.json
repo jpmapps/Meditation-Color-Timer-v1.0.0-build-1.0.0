@@ -2,10 +2,10 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "launchscreenshot Screen Shot - iPhone XS Max - 2018-10-28 at 02.53.25.png",
       "scale" : "1x"
     },
     {
-      "filename" : "Default-568h@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
@@ -15,7 +15,7 @@
     }
   ],
   "info" : {
-    "author" : "xcode",
-    "version" : 1
+    "version" : 1,
+    "author" : "xcode"
   }
 }
