@@ -109,6 +109,12 @@ class ViewController: UIViewController {
 			self.secondsLabel.alpha = 0
 		}, completion: nil)
 	}
+    
+    // Connect and code the How To Use button action
+    
+        
+    
+    
 
 	// Connect and code the start button action
 	

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19528" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment version="4864" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -12,16 +11,17 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="take_a_minute" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Meditation_Color_Timer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" clipsSubviews="YES" contentMode="top" id="sRe-2j-uJJ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Seedling" translatesAutoresizingMaskIntoConstraints="NO" id="BpN-Eo-U9K">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seedlingping.png" id="BpN-Eo-U9K">
+                                <rect key="frame" x="0.0" y="-113" width="414" height="955"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="take a minute" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t5r-Yq-yWS">
-                                <rect key="frame" x="121" y="52.333333333333336" width="172" height="74.333333333333314"/>
+                                <rect key="frame" x="121" y="46.999999999999993" width="172" height="74.333333333333314"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="22"/>
@@ -31,7 +31,7 @@
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bird.png" translatesAutoresizingMaskIntoConstraints="NO" id="qMk-gw-WZ5">
-                                <rect key="frame" x="157" y="174" width="100" height="100"/>
+                                <rect key="frame" x="157" y="160.66666666666666" width="100" height="99.999999999999972"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="2js-c8-ciI"/>
@@ -39,7 +39,7 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="l6u-VD-HBT" userLabel="Time Stack View">
-                                <rect key="frame" x="142" y="399.66666666666669" width="130" height="97"/>
+                                <rect key="frame" x="142" y="372.66666666666669" width="130" height="97"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJJ-wa-3Yp">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="97"/>
@@ -61,7 +61,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </stackView>
                             <button opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m82-fp-3QP" userLabel="Time Left">
-                                <rect key="frame" x="0.0" y="44" width="414" height="718"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="698"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal">
@@ -72,21 +72,8 @@
                                     <action selector="screenButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w8n-ZO-Zif"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" verticalHuggingPriority="249" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vp6-gk-DCA" userLabel="Hide Time Left">
-                                <rect key="frame" x="0.0" y="44" width="414" height="718"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="hideTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7uC-A1-Fkz"/>
-                                </connections>
-                            </button>
                             <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qT4-T4-eXl">
-                                <rect key="frame" x="54.666666666666657" y="632" width="98" height="80"/>
+                                <rect key="frame" x="54.666666666666657" y="591.66666666666663" width="98" height="80"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -100,7 +87,7 @@
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CCv-sH-0sK">
-                                <rect key="frame" x="57.666666666666657" y="632" width="92" height="80"/>
+                                <rect key="frame" x="57.666666666666657" y="591.66666666666663" width="92" height="80"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -114,7 +101,7 @@
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8B-w7-y4S">
-                                <rect key="frame" x="279" y="632" width="63" height="80"/>
+                                <rect key="frame" x="279" y="591.66666666666663" width="63" height="80"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -128,7 +115,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.0" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ee-rd-csW">
-                                <rect key="frame" x="161" y="408" width="92" height="80"/>
+                                <rect key="frame" x="161" y="381" width="92" height="80"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -142,23 +129,25 @@
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xnT-qQ-eQ1">
-                                <rect key="frame" x="147" y="721.66666666666663" width="120" height="80"/>
+                                <rect key="frame" x="147" y="675.66666666666663" width="120" height="80"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
                                 <state key="normal" title="how to use">
                                     <color key="titleColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Qv5-Ji-CSd" kind="presentation" id="8Ov-qv-1bQ"/>
+                                    <segue destination="Qv5-Ji-CSd" kind="popoverPresentation" popoverAnchorView="xnT-qQ-eQ1" id="tyi-oU-vaB">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
                                 </connections>
                             </button>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="how do you feel..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RgM-xt-aeB">
-                                <rect key="frame" x="68.666666666666657" y="404" width="276.66666666666674" height="88"/>
+                                <rect key="frame" x="68.666666666666657" y="377" width="276.66666666666674" height="88"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="26"/>
                                 <color key="textColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" alpha="0.0" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qbE-fQ-XlO">
-                                <rect key="frame" x="181" y="766.33333333333337" width="52" height="80"/>
+                                <rect key="frame" x="181" y="717.66666666666663" width="52" height="80"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
                                 <state key="normal" title="reset">
                                     <color key="titleColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -168,12 +157,25 @@
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aWj-1Y-ZUU">
-                                <rect key="frame" x="159.66666666666666" y="836.33333333333337" width="95" height="30"/>
+                                <rect key="frame" x="159.66666666666666" y="785" width="95" height="30"/>
                                 <state key="normal" title="Privacy Policy">
                                     <color key="titleColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="eE5-H9-d7e" kind="presentation" id="Aw5-Fn-5RX"/>
+                                    <segue destination="eE5-H9-d7e" kind="presentation" id="qSQ-RD-dNN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" verticalHuggingPriority="249" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vp6-gk-DCA" userLabel="Hide Time Left">
+                                <rect key="frame" x="0.0" y="-2" width="414" height="744"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="hideTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7uC-A1-Fkz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -186,9 +188,7 @@
                             <constraint firstItem="qbE-fQ-XlO" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="9QX-rL-cvD"/>
                             <constraint firstItem="l6u-VD-HBT" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" id="AJ7-uh-fda"/>
                             <constraint firstItem="m82-fp-3QP" firstAttribute="leading" secondItem="Zgq-O0-XgI" secondAttribute="leading" id="Bak-3C-e05"/>
-                            <constraint firstAttribute="bottom" secondItem="BpN-Eo-U9K" secondAttribute="bottom" id="CMn-1P-rcb"/>
                             <constraint firstItem="qMk-gw-WZ5" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="EH6-hX-udL"/>
-                            <constraint firstItem="BpN-Eo-U9K" firstAttribute="leading" secondItem="sRe-2j-uJJ" secondAttribute="leading" id="FM0-LK-EJX"/>
                             <constraint firstItem="m82-fp-3QP" firstAttribute="top" secondItem="Zgq-O0-XgI" secondAttribute="top" id="FOm-ny-uh4"/>
                             <constraint firstItem="CCv-sH-0sK" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="1.5" id="Kch-g3-CMK"/>
                             <constraint firstItem="RgM-xt-aeB" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" id="Nyf-Hl-pal"/>
@@ -200,15 +200,13 @@
                             <constraint firstItem="9Ee-rd-csW" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" id="d0C-w9-IgU"/>
                             <constraint firstItem="xnT-qQ-eQ1" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="1.7" id="fCA-Og-Zn2"/>
                             <constraint firstItem="qT4-T4-eXl" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="1.5" id="hUn-ED-iuw"/>
-                            <constraint firstItem="BpN-Eo-U9K" firstAttribute="top" secondItem="sRe-2j-uJJ" secondAttribute="top" id="huL-4J-XcK"/>
                             <constraint firstItem="D8B-w7-y4S" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="1.5" id="jAM-WU-ou2"/>
                             <constraint firstItem="vp6-gk-DCA" firstAttribute="bottom" secondItem="Zgq-O0-XgI" secondAttribute="bottom" constant="-100" id="jVy-B5-ia6"/>
                             <constraint firstItem="m82-fp-3QP" firstAttribute="trailing" secondItem="Zgq-O0-XgI" secondAttribute="trailing" id="nEy-WV-ylQ"/>
                             <constraint firstItem="RgM-xt-aeB" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="nZS-D0-pmO"/>
-                            <constraint firstItem="vp6-gk-DCA" firstAttribute="top" secondItem="Zgq-O0-XgI" secondAttribute="top" id="nbV-FV-PZo"/>
+                            <constraint firstItem="vp6-gk-DCA" firstAttribute="top" secondItem="Zgq-O0-XgI" secondAttribute="top" constant="-46" id="nbV-FV-PZo"/>
                             <constraint firstItem="D8B-w7-y4S" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" multiplier="1.5" id="pwG-5B-08Y"/>
                             <constraint firstItem="9Ee-rd-csW" firstAttribute="centerX" secondItem="sRe-2j-uJJ" secondAttribute="centerX" id="tqj-Vz-64P"/>
-                            <constraint firstAttribute="trailing" secondItem="BpN-Eo-U9K" secondAttribute="trailing" id="wPF-L1-yHF"/>
                             <constraint firstItem="aWj-1Y-ZUU" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="1.9" id="wXe-jh-2gK"/>
                             <constraint firstItem="m82-fp-3QP" firstAttribute="bottom" secondItem="Zgq-O0-XgI" secondAttribute="bottom" constant="-100" id="wtA-Gn-5ju"/>
                             <constraint firstItem="t5r-Yq-yWS" firstAttribute="centerY" secondItem="sRe-2j-uJJ" secondAttribute="centerY" multiplier="0.2" id="yfG-p8-OQp"/>
@@ -218,10 +216,10 @@
                     </view>
                     <connections>
                         <outlet property="birdImageView" destination="qMk-gw-WZ5" id="JKy-VG-uWe"/>
-                        <outlet property="cloudsView" destination="BpN-Eo-U9K" id="Lid-Wb-Av0"/>
+                        <outlet property="cloudsView" destination="BpN-Eo-U9K" id="QwH-BQ-brO"/>
                         <outlet property="hideTimeLeft" destination="vp6-gk-DCA" id="Hi6-xR-rOZ"/>
                         <outlet property="howDoYouFeel" destination="RgM-xt-aeB" id="Kad-wY-pbB"/>
-                        <outlet property="howToUseButton" destination="xnT-qQ-eQ1" id="nuk-nL-Mlm"/>
+                        <outlet property="howToUseButton" destination="xnT-qQ-eQ1" id="5JE-hv-XcM"/>
                         <outlet property="minutesLabel" destination="IJJ-wa-3Yp" id="TeD-m2-kkJ"/>
                         <outlet property="pauseButton" destination="qT4-T4-eXl" id="N7U-gq-oXt"/>
                         <outlet property="privacyPolicyButton" destination="aWj-1Y-ZUU" id="OBy-Q3-Eor"/>
@@ -236,18 +234,19 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1048.125" y="-20.070422535211268"/>
+            <point key="canvasLocation" x="-1049.2753623188407" y="-20.089285714285712"/>
         </scene>
         <!--Privacy Policy View Controller-->
         <scene sceneID="KgW-pm-EwA">
             <objects>
-                <viewController id="eE5-H9-d7e" customClass="privacyPolicyViewController" customModule="take_a_minute" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="eE5-H9-d7e" customClass="privacyPolicyViewController" customModule="Meditation_Color_Timer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PUD-UG-dxa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Seedling" translatesAutoresizingMaskIntoConstraints="NO" id="OE1-gg-q0C">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seedlingping.png" id="OE1-gg-q0C">
+                                <rect key="frame" x="0.0" y="-82" width="414" height="924"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="privacy policy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t6g-C3-qV0">
                                 <rect key="frame" x="151.66666666666666" y="52.333333333333336" width="110.99999999999997" height="21.666666666666664"/>
@@ -324,7 +323,7 @@ We may update our Privacy Policy from time to time. Any changes will be posted o
                                     <color key="titleColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="backButtonTapped:" destination="eE5-H9-d7e" eventType="touchUpInside" id="oNv-1I-UpN"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="vHB-x5-ii4"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -335,13 +334,9 @@ We may update our Privacy Policy from time to time. Any changes will be posted o
                             <constraint firstItem="ZMQ-U5-r2r" firstAttribute="top" secondItem="t6g-C3-qV0" secondAttribute="bottom" constant="8" symbolic="YES" id="8Vl-cQ-dvs"/>
                             <constraint firstItem="wPT-Oc-AMh" firstAttribute="bottom" secondItem="ZMQ-U5-r2r" secondAttribute="bottom" constant="57" id="BFL-5d-rqz"/>
                             <constraint firstItem="ZMQ-U5-r2r" firstAttribute="leading" secondItem="Huo-X3-Vce" secondAttribute="leading" constant="20" id="Dfk-Ql-1Xl"/>
-                            <constraint firstItem="OE1-gg-q0C" firstAttribute="trailing" secondItem="Huo-X3-Vce" secondAttribute="trailing" id="Q6e-bv-lgb"/>
                             <constraint firstItem="t6g-C3-qV0" firstAttribute="centerX" secondItem="PUD-UG-dxa" secondAttribute="centerX" id="RRo-OG-K8s"/>
-                            <constraint firstAttribute="bottom" secondItem="OE1-gg-q0C" secondAttribute="bottom" id="T0M-2n-STV"/>
-                            <constraint firstItem="OE1-gg-q0C" firstAttribute="leading" secondItem="Huo-X3-Vce" secondAttribute="leading" id="TX6-m4-kxi"/>
                             <constraint firstItem="ZMQ-U5-r2r" firstAttribute="centerX" secondItem="PUD-UG-dxa" secondAttribute="centerX" id="acT-WD-hBL"/>
                             <constraint firstItem="wPT-Oc-AMh" firstAttribute="centerX" secondItem="PUD-UG-dxa" secondAttribute="centerX" id="bvP-52-PEN"/>
-                            <constraint firstItem="OE1-gg-q0C" firstAttribute="top" secondItem="PUD-UG-dxa" secondAttribute="top" id="d44-My-ZHM"/>
                             <constraint firstItem="t6g-C3-qV0" firstAttribute="centerY" secondItem="PUD-UG-dxa" secondAttribute="centerY" multiplier="0.15" id="zNx-R5-ZhM"/>
                         </constraints>
                     </view>
@@ -349,7 +344,6 @@ We may update our Privacy Policy from time to time. Any changes will be posted o
                         <outlet property="backButton" destination="wPT-Oc-AMh" id="Bqz-Zo-Qg4"/>
                         <outlet property="privacyPolicyLabel" destination="t6g-C3-qV0" id="lSL-Qo-DYw"/>
                         <outlet property="privacyPolicyTextView" destination="ZMQ-U5-r2r" id="k8R-BK-bWh"/>
-                        <outlet property="seedlingView" destination="OE1-gg-q0C" id="2Eh-4w-bwz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ztX-nE-3Pe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -359,16 +353,17 @@ We may update our Privacy Policy from time to time. Any changes will be posted o
         <!--How To Use View Controller-->
         <scene sceneID="SJX-mA-jwH">
             <objects>
-                <viewController id="Qv5-Ji-CSd" customClass="HowToUseViewController" customModule="take_a_minute" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Qv5-Ji-CSd" customClass="HowToUseViewController" customModule="Meditation_Color_Timer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xQw-bM-0ju">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Seedling" translatesAutoresizingMaskIntoConstraints="NO" id="ADw-gQ-NGU">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seedlingping.png" id="ADw-gQ-NGU">
+                                <rect key="frame" x="0.0" y="-28" width="414" height="924"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="take a minute" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dow-jI-6IV">
-                                <rect key="frame" x="121" y="26" width="172" height="74"/>
+                                <rect key="frame" x="121.33333333333333" y="30.333333333333329" width="171.33333333333337" height="74"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="22"/>
@@ -378,11 +373,11 @@ We may update our Privacy Policy from time to time. Any changes will be posted o
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
                             <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Znz-oj-mcz">
-                                <rect key="frame" x="40" y="100" width="334" height="400"/>
+                                <rect key="frame" x="0.0" y="104.33333333333331" width="414" height="400"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="400" id="N7B-Ja-XMa"/>
+                                    <constraint firstAttribute="height" constant="400" id="YAK-w9-daM"/>
                                 </constraints>
                                 <string key="text">Press 'begin'  You will hear a ting and your phone will vibrate.   Take a deep breath as the color changes then close your eyes and breathe out keeping the new color in mind.   After a short time you will hear another ting and your phone will vibrate.  Again, take a deep breath as the color changes then close your eyes and breathe out keeping the new color in mind.  Continue this procedure until the app concludes (1 minute)</string>
                                 <color key="textColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -390,48 +385,49 @@ We may update our Privacy Policy from time to time. Any changes will be posted o
                                 <textInputTraits key="textInputTraits"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7n-HQ-hbL">
-                                <rect key="frame" x="185.66666666666666" y="682.33333333333337" width="43" height="67"/>
+                                <rect key="frame" x="185.66666666666666" y="708" width="42.666666666666657" height="67"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="16"/>
                                 <state key="normal" title="back">
                                     <color key="titleColor" red="0.93537485600000003" green="0.8694469333" blue="0.66791820530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="backButtonTapped:" destination="Qv5-Ji-CSd" eventType="touchUpInside" id="hcw-1n-N1c"/>
+                                    <action selector="backButtonTapped:" destination="Qv5-Ji-CSd" eventType="touchUpInside" id="39B-PT-hFy"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="NWi-ap-2Hk"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Qjo-A3-mbp"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="ADw-gQ-NGU" firstAttribute="leading" secondItem="xQw-bM-0ju" secondAttribute="leading" id="0qk-rI-zcO"/>
-                            <constraint firstItem="ADw-gQ-NGU" firstAttribute="top" secondItem="xQw-bM-0ju" secondAttribute="top" id="JG6-uf-7KH"/>
-                            <constraint firstItem="d7n-HQ-hbL" firstAttribute="centerX" secondItem="xQw-bM-0ju" secondAttribute="centerX" id="KQi-p5-hxm"/>
-                            <constraint firstItem="ADw-gQ-NGU" firstAttribute="trailing" secondItem="xQw-bM-0ju" secondAttribute="trailing" id="Shw-Sp-Lyi"/>
-                            <constraint firstItem="ADw-gQ-NGU" firstAttribute="bottom" secondItem="xQw-bM-0ju" secondAttribute="bottom" id="T1G-1k-QAg"/>
-                            <constraint firstItem="Qjo-A3-mbp" firstAttribute="trailing" secondItem="Znz-oj-mcz" secondAttribute="trailing" constant="40" id="UAm-re-yF7"/>
-                            <constraint firstItem="d7n-HQ-hbL" firstAttribute="centerY" secondItem="xQw-bM-0ju" secondAttribute="centerY" multiplier="1.7" id="b6P-ou-3Cq"/>
-                            <constraint firstItem="Znz-oj-mcz" firstAttribute="centerX" secondItem="xQw-bM-0ju" secondAttribute="centerX" id="cV6-ru-WyN"/>
-                            <constraint firstItem="dow-jI-6IV" firstAttribute="centerY" secondItem="xQw-bM-0ju" secondAttribute="centerY" multiplier="0.15" id="hiV-WS-XKk"/>
-                            <constraint firstItem="Znz-oj-mcz" firstAttribute="top" secondItem="dow-jI-6IV" secondAttribute="bottom" id="jTB-Fj-Sga"/>
-                            <constraint firstItem="dow-jI-6IV" firstAttribute="centerX" secondItem="xQw-bM-0ju" secondAttribute="centerX" id="mlI-ZB-eHo"/>
-                            <constraint firstItem="Znz-oj-mcz" firstAttribute="leading" secondItem="Qjo-A3-mbp" secondAttribute="leading" constant="40" id="sRH-NZ-RMM"/>
+                            <constraint firstItem="dow-jI-6IV" firstAttribute="top" secondItem="xQw-bM-0ju" secondAttribute="topMargin" constant="-13.666666666666671" id="CDh-71-Hpw"/>
+                            <constraint firstItem="Znz-oj-mcz" firstAttribute="leading" secondItem="ADw-gQ-NGU" secondAttribute="leading" id="D74-Av-KHy"/>
+                            <constraint firstItem="Znz-oj-mcz" firstAttribute="centerX" secondItem="d7n-HQ-hbL" secondAttribute="centerX" id="PCG-Gg-b2R"/>
+                            <constraint firstItem="dow-jI-6IV" firstAttribute="leading" secondItem="Qjo-A3-mbp" secondAttribute="leading" constant="121.33333333333331" id="R3h-5W-OL5"/>
+                            <constraint firstItem="Qjo-A3-mbp" firstAttribute="bottom" secondItem="d7n-HQ-hbL" secondAttribute="bottom" constant="67" id="VTi-jN-CM3"/>
+                            <constraint firstItem="d7n-HQ-hbL" firstAttribute="leading" secondItem="Qjo-A3-mbp" secondAttribute="leading" constant="185.66666666666666" id="akF-JY-9lG"/>
+                            <constraint firstItem="Znz-oj-mcz" firstAttribute="trailing" secondItem="ADw-gQ-NGU" secondAttribute="trailing" id="fv4-90-7Ig"/>
+                            <constraint firstItem="Znz-oj-mcz" firstAttribute="top" secondItem="Qjo-A3-mbp" secondAttribute="top" constant="60.333333333333314" id="jA4-U1-Q2M"/>
+                            <constraint firstItem="dow-jI-6IV" firstAttribute="centerX" secondItem="Znz-oj-mcz" secondAttribute="centerX" id="pa6-nK-fLh"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="backButton" destination="d7n-HQ-hbL" id="AG8-JQ-2oh"/>
-                        <outlet property="howToUseTextView" destination="Znz-oj-mcz" id="LYS-Dj-uO2"/>
+                        <outlet property="howToUseTextView" destination="Znz-oj-mcz" id="Zro-vb-mAU"/>
                         <outlet property="takeAMinuteLabel" destination="dow-jI-6IV" id="MTC-oK-sAd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UzA-fN-t6z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-247.5" y="-23.239436619718312"/>
+            <point key="canvasLocation" x="-247.82608695652175" y="-23.4375"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="NWi-ap-2Hk"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Bird.png" width="452" height="204"/>
-        <image name="Seedling" width="2848" height="4272"/>
+        <image name="seedlingping.png" width="375" height="793"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
